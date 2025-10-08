@@ -17,8 +17,8 @@ access_grant: access_test {
 persist_with: template_looker_default_datagroup
 
 explore: order_items {
-  access_filter: {
-    field: order_id
-    user_attribute: status_filter
-  }
+  # access_filter: {
+  #   field: order_id
+  #   user_attribute: status_filter
+  # }
 }
