@@ -1,7 +1,7 @@
 view: order_items {
   # You can specify the table name if it's different from the view name:
   sql_table_name: sheila-gallardo-sandbox-01.looker_example.order_items ;;
-  # NOW EVERYTHING WORKS -> DEPLOY TO pruebas_looker_sheila_prod (PRDUCTON PROJECT)
+  # NOW EVERYTHING WORKS -> DEPLOY TO PRDUCTON PROJECT
 
   dimension: pk_order_item_id {
     description: "PK"
@@ -17,6 +17,8 @@ view: order_items {
     description: "user"
     type: number
     sql: ${TABLE}.user_id ;;
+    #access grant
+    # required_access_grants: [access_test]
   }
 
   dimension: order_id {
