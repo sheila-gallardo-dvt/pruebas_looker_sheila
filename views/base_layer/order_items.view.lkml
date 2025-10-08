@@ -17,6 +17,8 @@ view: order_items {
     description: "user"
     type: number
     sql: ${TABLE}.user_id ;;
+    #access grant
+    required_access_grants: [access_test]
   }
 
   dimension: order_id {
