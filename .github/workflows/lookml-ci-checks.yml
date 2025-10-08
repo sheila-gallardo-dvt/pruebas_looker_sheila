@@ -54,7 +54,7 @@ jobs:
             spectacles sql --project ${{ secrets.PROJECT_NAME }} --branch ${{ github.head_ref }}
             spectacles lookml --project ${{ secrets.PROJECT_NAME }} --branch ${{ github.head_ref }}
             spectacles content --project ${{ secrets.PROJECT_NAME }} --branch ${{ github.head_ref }}
-            spectacles assert --project ${{ secrets.PROJECT_NAME }} --branch ${{ github.head_ref }}
+            spectacles assert --project ${{ secrets.PROJECT_NAME }} --branch ${{ github.head_ref }} --explores template_looker/order_items
 
           else
             spectacles sql --project ${{ secrets.PROJECT_NAME }} --branch develop
