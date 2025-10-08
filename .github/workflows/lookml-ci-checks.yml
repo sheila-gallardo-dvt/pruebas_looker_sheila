@@ -51,10 +51,10 @@ jobs:
         run: |
           pip install spectacles
           if [ "${{ github.event_name }}" == "pull_request" ]; then
-            spectacles sql --project ${{ secrets.PROJECT_NAME }} --branch ${{ github.base_ref }}
+            spectacles sql --project ${{ secrets.PROJECT_NAME }} --branch ${{ github.head_ref }}
             spectacles lookml --project ${{ secrets.PROJECT_NAME }} --branch ${{ github.head_ref }}
-            spectacles content --project ${{ secrets.PROJECT_NAME }} --branch ${{ github.base_ref }}
-            spectacles assert --project ${{ secrets.PROJECT_NAME }} --branch ${{ github.base_ref }} --explores template_looker/order_items
+            spectacles content --project ${{ secrets.PROJECT_NAME }} --branch ${{ github.head_ref }}
+            spectacles assert --project ${{ secrets.PROJECT_NAME }} --branch ${{ github.head_ref }}
 
           else
             spectacles sql --project ${{ secrets.PROJECT_NAME }} --branch develop
