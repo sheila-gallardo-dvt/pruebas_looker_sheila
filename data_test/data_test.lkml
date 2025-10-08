@@ -1,4 +1,4 @@
-test: user_id_is_not_null {
+test: pk_order_item_id_not_null {
   explore_source: order_items {
     column: pk_order_item_id {
       field: order_items.pk_order_item_id
