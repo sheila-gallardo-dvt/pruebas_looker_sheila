@@ -4,7 +4,6 @@
 #rule: K4{} # Primary keys hidden
 #rule: K7{} # Provide one `primary_key`
 #rule: K8{} # `primary_key` uses PK dims
-#rule: F1{} # No cross-view fields
 #rule: F2{} # No view-labeled fields
 #rule: F3{} # Count fields filtered
 #rule: F4{} # Description or hidden

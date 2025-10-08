@@ -10,7 +10,7 @@ view: parameters {
       label: "Value 2"
       value: "value_2"
   }
-    default_value: "value_1"
+  default_value: "value_1"
 
   }
 }

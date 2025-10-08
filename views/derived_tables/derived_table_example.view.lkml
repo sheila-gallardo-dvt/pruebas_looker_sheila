@@ -10,16 +10,16 @@ view: derived_table_example {
           2 ;;
   }
 
-  dimension: name {
-    type: string
-    description: "name"
-    sql: ${TABLE}.name ;;
-  }
-
   dimension: pk_id {
     type: string
     primary_key: yes
     hidden: yes
     sql: ${TABLE}.di ;;
+  }
+
+  dimension: name {
+    type: string
+    description: "name"
+    sql: ${TABLE}.name ;;
   }
 }
