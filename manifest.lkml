@@ -22,5 +22,5 @@
 #rule: prod_connection {
 #  description: "Force sql_table_name in refinemet views"
 #  match: "$.model.*.view[?(@.$name =~ /\\+.*/)]"
-#  expr_rule: ($exists ::match:sql_table_name)
+#  expr_rule: ($exists ::match:sql_table_name);;
 #}
