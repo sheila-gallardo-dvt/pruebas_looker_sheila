@@ -1,5 +1,5 @@
 view: parameters {
-
+  #LAMS exempt: force_sql_table_name
   parameter: filtro_medida {
     type: unquoted
     description: "parameter example"
