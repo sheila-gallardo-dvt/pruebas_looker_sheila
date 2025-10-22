@@ -21,6 +21,6 @@
 #rule: W1{} # Block indentation
 #rule: prod_connection {
 #  description: "Force sql_table_name in refinemet views"
-#  match: "$.model.*.view[?(@.$name=~/\\+.*/)]"
-#  expr_rule: ($exists ::match:sql_table_name);;
+#  match: "$.model.*.view.*"
+#  expr_rule: ($any ($exists ::match:sql_table_name) ($exists ::match:derived_table));;
 #}
