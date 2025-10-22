@@ -19,10 +19,8 @@
 #rule: H5{} # Hoist main view
 #rule: H6{} # Sort-group views
 #rule: W1{} # Block indentation
-#LAMS
-#rule: refinement_must_have_sql_table_name {
-#   description: "All view refinements (views starting with '+') must include the 'sql_table_name' parameter."
-#   match: "$.model.*.view[?(@.$name =~ /\\+.*/)]"
-#   expr_rule: ($exists ::match:sql_table_name)
-#   error: "View refinement '::match:$name' must define 'sql_table_name' to ensure the source table is explicitly specified."
+# rule: prod_connection {
+#  description: "Force sql_table_name in refinemet views"
+#  match: "$.model.*.view[?(@.$name =~ /\\+.*/)]"
+#  expr_rule: ($exists ::match:sql_table_name) ;;
 # }
