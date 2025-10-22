@@ -19,8 +19,8 @@
 #rule: H5{} # Hoist main view
 #rule: H6{} # Sort-group views
 #rule: W1{} # Block indentation
-#rule: prod_connection {
+#rule: force_sql_table_name {
 #  description: "Force sql_table_name in refinemet views"
 #  match: "$.model.*.view.*"
-#  expr_rule: ($!== ::match:sql_table_name undefined);;
+#  expr_rule: (!== ::match:sql_table_name undefined);;
 #}
