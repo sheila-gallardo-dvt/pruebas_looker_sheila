@@ -1,8 +1,5 @@
 view: parameters {
-  derived_table: {
-    sql: select true;;
-  }
-  #LAMS exempt: force_sql_table_name
+#LAMS exempt: force_sql_table_name {why: "parameters view"}
   parameter: filtro_medida {
     type: unquoted
     description: "parameter example"
