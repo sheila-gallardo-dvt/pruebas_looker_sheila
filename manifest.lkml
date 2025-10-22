@@ -22,7 +22,5 @@
 #rule: prod_connection {
 #  description: "Force sql_table_name in refinemet views"
 #  match: "$.model.*.view.*"
-#  expr_rule: ($any
-#   ($!== ::match:sql_table_name undefined)
-#   ($!== ::match:derived_table undefined));;
+#  expr_rule: ($!== ::match:sql_table_name undefined);;
 #}
