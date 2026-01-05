@@ -1,0 +1,62 @@
+name: Daily Backup - Shared Folder
+
+# Se ejecuta automáticamente cada día a las 05:00 UTC
+# También permite ejecución manual (botón "Run workflow")
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  backup_looker_content:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # IMPORTANTE: Permiso necesario para hacer push al repo
+
+    steps:
+      # 1. Bajamos el código actual del repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Preparamos el entorno Ruby para Gazer
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+
+      # 3. Instalamos la herramienta Gazer
+      - name: Install Gazer
+        run: gem install gazer
+
+      # 4. Exportamos el contenido de la carpeta Shared (ID 1)
+      - name: Export Shared Folder (ID 1)
+        env:
+          # Usamos las credenciales guardadas en los Secretos del Repo
+          LOOKERSDK_BASE_URL: ${{ secrets.LOOKERSDK_BASE_URL }}
+          LOOKERSDK_CLIENT_ID: ${{ secrets.LOOKERSDK_CLIENT_ID }}
+          LOOKERSDK_CLIENT_SECRET: ${{ secrets.LOOKERSDK_CLIENT_SECRET }}
+        run: |
+          # --dir: guarda los archivos en la carpeta content/dashboards
+          # --tarball=false: descarga los JSON sueltos, no comprimidos (mejor para ver diferencias en git)
+          # --force: sobreescribe los archivos existentes
+          
+          echo "Iniciando exportación de la carpeta 1..."
+          gzr space export 1 --dir content/dashboards --tarball=false --force
+
+      # 5. Detectamos si hubo cambios y los subimos a GitHub
+      - name: Commit and Push changes
+        run: |
+          git config user.name "Looker Backup Bot"
+          git config user.email "actions@github.com"
+          
+          # Añadimos todo lo que haya cambiado en la carpeta content
+          git add content/dashboards
+          
+          # Verificamos si hay cambios reales antes de intentar hacer commit
+          if git diff --staged --quiet; then
+            echo "No changes detected. Skipping push."
+          else
+            echo "Changes detected. Committing and pushing..."
+            git commit -m "chore(backup): daily update of shared folder content [skip ci]"
+            git push
+          fi
