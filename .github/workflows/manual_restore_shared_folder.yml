@@ -26,15 +26,30 @@ jobs:
           LOOKERSDK_CLIENT_SECRET: ${{ secrets.LOOKER_CLIENT_SECRET }}
           ROOT_SPACE_ID: "182" # Carpeta Shared principal
         run: |
-          # 1. ENTRAR EN LA CARPETA DE BACKUP
-          # Asumimos que el backup se guardó en content/dashboards/
+          # 1. Entramos en la carpeta donde está el backup
           cd content
-          
-          echo "Iniciando importación recursiva en la carpeta $ROOT_SPACE_ID..."
-          
-          # 2. IMPORTACIÓN RECURSIVA
-          # Usamos 'space import' (o 'folder import' si falla) 
-          # El punto '.' indica que importe todo lo que hay en la carpeta actual
-          # --force sobrescribe dashboards/looks si ya existen con el mismo nombre
-          gzr space import . $ROOT_SPACE_ID --force --port 443
 
+          # 2. Buscamos todos los JSON y los procesamos
+          # Usamos -print0 y read -d para que los nombres con espacios no den error
+          find . -name "*.json" -type f -print0 | while IFS= read -r -d '' file; do
+            
+            # Obtener el nombre de la carpeta donde está el archivo
+            folder_path=$(dirname "$file" | sed 's|^\./||')
+            
+            # Si el archivo está en una subcarpeta, la creamos/buscamos
+            dest_folder=$ROOT_SPACE_ID
+            if [ "$folder_path" != "." ]; then
+                # Creamos la subcarpeta y obtenemos su ID (Gazer suele devolver el ID si ya existe o la crea)
+                # Nota: gzr folder create es más estable que space create
+                dest_folder=$(gzr folder create "$folder_path" $ROOT_SPACE_ID --fields id | jq -r '.id' 2>/dev/null || gzr folder ls $ROOT_SPACE_ID --fields id,name | jq -r ".[] | select(.name==\"$folder_path\") | .id")
+            fi
+
+            echo "Restaurando $file en carpeta $dest_folder..."
+            
+            # Importación directa según el tipo
+            if [[ "$file" == *"Look_"* ]]; then
+              gzr look import "$file" "$dest_folder" --force --port 443
+            else
+              gzr dashboard import "$file" "$dest_folder" --force --port 443
+            fi
+          done
