@@ -1,0 +1,393 @@
+{
+  "content_metadata_id": "858",
+  "id": "88",
+  "title": "Business Pulse",
+  "user_id": "166",
+  "created_at": "2025-09-12 10:40:02 UTC",
+  "deleted_at": null,
+  "deleter_id": null,
+  "description": "",
+  "favorite_count": 0,
+  "is_run_on_load": true,
+  "last_accessed_at": "2026-01-02 12:10:08 UTC",
+  "last_updater_id": "166",
+  "short_url": "/looks/88",
+  "updated_at": "2025-09-12 10:40:18 UTC",
+  "view_count": 3,
+  "query": {
+    "view": "order_items",
+    "fields": [
+      "products.category",
+      "order_items.count",
+      "order_items.created_date"
+    ],
+    "pivots": [
+      "products.category"
+    ],
+    "fill_fields": [
+      "order_items.created_date"
+    ],
+    "filters": {
+      "products.category": "Blazers & Jackets,Sweaters,Pants,Shorts,Fashion Hoodies & Sweatshirts,Accessories",
+      "users.state": "",
+      "users.city": "",
+      "users.traffic_source": "",
+      "users.gender": "",
+      "order_items.created_date": "90 days",
+      "distribution_centers.location": "",
+      "users.country": ""
+    },
+    "filter_expression": null,
+    "sorts": [
+      "products.category",
+      "order_items.created_date desc"
+    ],
+    "total": null,
+    "row_total": null,
+    "subtotals": null,
+    "vis_config": {
+      "x_axis_gridlines": false,
+      "y_axis_gridlines": false,
+      "show_view_names": true,
+      "show_y_axis_labels": true,
+      "show_y_axis_ticks": true,
+      "y_axis_tick_density": "default",
+      "y_axis_tick_density_custom": 5,
+      "show_x_axis_label": false,
+      "show_x_axis_ticks": true,
+      "y_axis_scale_mode": "linear",
+      "x_axis_reversed": false,
+      "y_axis_reversed": false,
+      "plot_size_by_field": false,
+      "trellis": "",
+      "stacking": "normal",
+      "limit_displayed_rows": false,
+      "legend_position": "center",
+      "point_style": "none",
+      "show_value_labels": false,
+      "label_density": 25,
+      "x_axis_scale": "auto",
+      "y_axis_combined": true,
+      "show_null_points": true,
+      "interpolation": "monotone",
+      "show_totals_labels": false,
+      "show_silhouette": false,
+      "totals_color": "#808080",
+      "type": "looker_area",
+      "color_application": {
+        "collection_id": "google",
+        "palette_id": "google-categorical-0",
+        "options": {
+          "steps": 5,
+          "__FILE": "looker_partner_demo/dashboards/business_pulse.dashboard.lookml",
+          "__LINE_NUM": 195
+        },
+        "collection_default": false
+      },
+      "y_axes": [
+        {
+          "label": "Number of Orders",
+          "orientation": "left",
+          "series": [
+            {
+              "id": "Accessories - order_items.count",
+              "name": "Accessories",
+              "axisId": "order_items.count",
+              "__FILE": "looker_partner_demo/dashboards/business_pulse.dashboard.lookml",
+              "__LINE_NUM": 196
+            },
+            {
+              "id": "Blazers & Jackets - order_items.count",
+              "name": "Blazers &amp; Jackets",
+              "axisId": "order_items.count",
+              "__FILE": "looker_partner_demo/dashboards/business_pulse.dashboard.lookml",
+              "__LINE_NUM": 198
+            },
+            {
+              "id": "Fashion Hoodies & Sweatshirts - order_items.count",
+              "name": "Fashion Hoodies &amp; Sweatshirts",
+              "axisId": "order_items.count",
+              "__FILE": "looker_partner_demo/dashboards/business_pulse.dashboard.lookml",
+              "__LINE_NUM": 199
+            },
+            {
+              "id": "Pants - order_items.count",
+              "name": "Pants",
+              "axisId": "order_items.count",
+              "__FILE": "looker_partner_demo/dashboards/business_pulse.dashboard.lookml",
+              "__LINE_NUM": 201
+            },
+            {
+              "id": "Shorts - order_items.count",
+              "name": "Shorts",
+              "axisId": "order_items.count",
+              "__FILE": "looker_partner_demo/dashboards/business_pulse.dashboard.lookml",
+              "__LINE_NUM": 202
+            },
+            {
+              "id": "Sweaters - order_items.count",
+              "name": "Sweaters",
+              "axisId": "order_items.count",
+              "__FILE": "looker_partner_demo/dashboards/business_pulse.dashboard.lookml",
+              "__LINE_NUM": 203
+            }
+          ],
+          "showLabels": true,
+          "showValues": true,
+          "unpinAxis": false,
+          "tickDensity": "default",
+          "type": "linear",
+          "__FILE": "looker_partner_demo/dashboards/business_pulse.dashboard.lookml",
+          "__LINE_NUM": 196
+        }
+      ],
+      "y_axis_labels": [
+        "# Order Items"
+      ],
+      "hide_legend": false,
+      "colors": [
+        "#64518A",
+        "#8D7FB9",
+        "#EA8A2F",
+        "#F2B431",
+        "#2DA5DE",
+        "#57BEBE",
+        "#7F7977",
+        "#B2A898",
+        "#494C52"
+      ],
+      "series_colors": {
+      },
+      "x_axis_datetime_tick_count": 4,
+      "x_axis_datetime": true,
+      "hide_points": true,
+      "hidden_fields": [
+
+      ],
+      "defaults_version": 1,
+      "note_state": "collapsed",
+      "note_display": "hover",
+      "note_text": ""
+    },
+    "filter_config": {
+      "products.category": [
+        {
+          "type": "=",
+          "values": [
+            {
+              "constant": "Blazers & Jackets,Sweaters,Pants,Shorts,Fashion Hoodies & Sweatshirts,Accessories"
+            },
+            {
+            }
+          ],
+          "id": 0,
+          "error": false
+        }
+      ],
+      "users.state": [
+        {
+          "type": "=",
+          "values": [
+            {
+              "constant": ""
+            },
+            {
+            }
+          ],
+          "id": 1,
+          "error": false
+        }
+      ],
+      "users.city": [
+        {
+          "type": "=",
+          "values": [
+            {
+              "constant": ""
+            },
+            {
+            }
+          ],
+          "id": 2,
+          "error": false
+        }
+      ],
+      "users.traffic_source": [
+        {
+          "type": "=",
+          "values": [
+            {
+              "constant": ""
+            },
+            {
+            }
+          ],
+          "id": 3,
+          "error": false
+        }
+      ],
+      "users.gender": [
+        {
+          "type": "=",
+          "values": [
+            {
+              "constant": ""
+            },
+            {
+            }
+          ],
+          "id": 4,
+          "error": false
+        }
+      ],
+      "order_items.created_date": [
+        {
+          "type": "past",
+          "values": [
+            {
+              "constant": "90",
+              "unit": "day"
+            },
+            {
+            }
+          ],
+          "id": 5,
+          "error": false
+        }
+      ],
+      "distribution_centers.location": [
+        {
+          "type": "advanced",
+          "values": [
+            {
+              "constant": ""
+            },
+            {
+            }
+          ],
+          "id": 6,
+          "error": false
+        }
+      ],
+      "users.country": [
+        {
+          "type": "=",
+          "values": [
+            {
+              "constant": ""
+            },
+            {
+            }
+          ],
+          "id": 7,
+          "error": false
+        }
+      ]
+    },
+    "visible_ui_sections": null,
+    "slug": "H7Yfd24",
+    "client_id": "zNcXpDDwVxJQHrwnerf96q",
+    "share_url": "https://nubalia.cloud.looker.com/x/zNcXpDDwVxJQHrwnerf96q",
+    "expanded_share_url": "https://nubalia.cloud.looker.com/explore/thelook_partner/order_items?fields=products.category,order_items.count,order_items.created_date&pivots=products.category&fill_fields=order_items.created_date&f[products.category]=Blazers+%26+Jackets%2CSweaters%2CPants%2CShorts%2CFashion+Hoodies+%26+Sweatshirts%2CAccessories&f[users.state]=&f[users.city]=&f[users.traffic_source]=&f[users.gender]=&f[order_items.created_date]=90+days&f[distribution_centers.location]=&f[users.country]=&sorts=products.category,order_items.created_date+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Afalse%2C%22show_view_names%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22normal%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22monotone%22%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_area%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22google%22%2C%22palette_id%22%3A%22google-categorical-0%22%2C%22options%22%3A%7B%22steps%22%3A5%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A195%7D%7D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22Number+of+Orders%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22Accessories+-+order_items.count%22%2C%22name%22%3A%22Accessories%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A196%7D%2C%7B%22id%22%3A%22Blazers+%5Cu0026+Jackets+-+order_items.count%22%2C%22name%22%3A%22Blazers+%5Cu0026amp%3B+Jackets%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A198%7D%2C%7B%22id%22%3A%22Fashion+Hoodies+%5Cu0026+Sweatshirts+-+order_items.count%22%2C%22name%22%3A%22Fashion+Hoodies+%5Cu0026amp%3B+Sweatshirts%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A199%7D%2C%7B%22id%22%3A%22Pants+-+order_items.count%22%2C%22name%22%3A%22Pants%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A201%7D%2C%7B%22id%22%3A%22Shorts+-+order_items.count%22%2C%22name%22%3A%22Shorts%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A202%7D%2C%7B%22id%22%3A%22Sweaters+-+order_items.count%22%2C%22name%22%3A%22Sweaters%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A203%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A196%7D%5D%2C%22y_axis_labels%22%3A%5B%22%23+Order+Items%22%5D%2C%22hide_legend%22%3Afalse%2C%22colors%22%3A%5B%22%2364518A%22%2C%22%238D7FB9%22%2C%22%23EA8A2F%22%2C%22%23F2B431%22%2C%22%232DA5DE%22%2C%22%2357BEBE%22%2C%22%237F7977%22%2C%22%23B2A898%22%2C%22%23494C52%22%5D%2C%22series_colors%22%3A%7B%7D%2C%22x_axis_datetime_tick_count%22%3A4%2C%22x_axis_datetime%22%3Atrue%2C%22hide_points%22%3Atrue%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22note_state%22%3A%22collapsed%22%2C%22note_display%22%3A%22hover%22%2C%22note_text%22%3A%22%22%7D&filter_config=%7B%22products.category%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Blazers+%5Cu0026+Jackets%2CSweaters%2CPants%2CShorts%2CFashion+Hoodies+%5Cu0026+Sweatshirts%2CAccessories%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22users.state%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%2C%22users.city%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%2C%22error%22%3Afalse%7D%5D%2C%22users.traffic_source%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%2C%22users.gender%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A4%2C%22error%22%3Afalse%7D%5D%2C%22order_items.created_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%2290%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A5%2C%22error%22%3Afalse%7D%5D%2C%22distribution_centers.location%22%3A%5B%7B%22type%22%3A%22advanced%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A6%2C%22error%22%3Afalse%7D%5D%2C%22users.country%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A7%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
+    "url": "/explore/thelook_partner/order_items?fields=products.category,order_items.count,order_items.created_date&pivots=products.category&fill_fields=order_items.created_date&f[products.category]=Blazers+%26+Jackets%2CSweaters%2CPants%2CShorts%2CFashion+Hoodies+%26+Sweatshirts%2CAccessories&f[users.state]=&f[users.city]=&f[users.traffic_source]=&f[users.gender]=&f[order_items.created_date]=90+days&f[distribution_centers.location]=&f[users.country]=&sorts=products.category,order_items.created_date+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Afalse%2C%22show_view_names%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22normal%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22monotone%22%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_area%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22google%22%2C%22palette_id%22%3A%22google-categorical-0%22%2C%22options%22%3A%7B%22steps%22%3A5%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A195%7D%7D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22Number+of+Orders%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22Accessories+-+order_items.count%22%2C%22name%22%3A%22Accessories%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A196%7D%2C%7B%22id%22%3A%22Blazers+%5Cu0026+Jackets+-+order_items.count%22%2C%22name%22%3A%22Blazers+%5Cu0026amp%3B+Jackets%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A198%7D%2C%7B%22id%22%3A%22Fashion+Hoodies+%5Cu0026+Sweatshirts+-+order_items.count%22%2C%22name%22%3A%22Fashion+Hoodies+%5Cu0026amp%3B+Sweatshirts%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A199%7D%2C%7B%22id%22%3A%22Pants+-+order_items.count%22%2C%22name%22%3A%22Pants%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A201%7D%2C%7B%22id%22%3A%22Shorts+-+order_items.count%22%2C%22name%22%3A%22Shorts%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A202%7D%2C%7B%22id%22%3A%22Sweaters+-+order_items.count%22%2C%22name%22%3A%22Sweaters%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A203%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A196%7D%5D%2C%22y_axis_labels%22%3A%5B%22%23+Order+Items%22%5D%2C%22hide_legend%22%3Afalse%2C%22colors%22%3A%5B%22%2364518A%22%2C%22%238D7FB9%22%2C%22%23EA8A2F%22%2C%22%23F2B431%22%2C%22%232DA5DE%22%2C%22%2357BEBE%22%2C%22%237F7977%22%2C%22%23B2A898%22%2C%22%23494C52%22%5D%2C%22series_colors%22%3A%7B%7D%2C%22x_axis_datetime_tick_count%22%3A4%2C%22x_axis_datetime%22%3Atrue%2C%22hide_points%22%3Atrue%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22note_state%22%3A%22collapsed%22%2C%22note_display%22%3A%22hover%22%2C%22note_text%22%3A%22%22%7D&filter_config=%7B%22products.category%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Blazers+%5Cu0026+Jackets%2CSweaters%2CPants%2CShorts%2CFashion+Hoodies+%5Cu0026+Sweatshirts%2CAccessories%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22users.state%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%2C%22users.city%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%2C%22error%22%3Afalse%7D%5D%2C%22users.traffic_source%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%2C%22users.gender%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A4%2C%22error%22%3Afalse%7D%5D%2C%22order_items.created_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%2290%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A5%2C%22error%22%3Afalse%7D%5D%2C%22distribution_centers.location%22%3A%5B%7B%22type%22%3A%22advanced%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A6%2C%22error%22%3Afalse%7D%5D%2C%22users.country%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A7%2C%22error%22%3Afalse%7D%5D%7D",
+    "has_table_calculations": false,
+    "id": "H7Yfd24",
+    "model": "thelook_partner",
+    "limit": "500",
+    "column_limit": "50",
+    "dynamic_fields": null,
+    "query_timezone": null,
+    "quick_calcs": null,
+    "analysis_config": null,
+    "can": {
+      "can_clear_cache": true,
+      "cost_estimate": true,
+      "create": true,
+      "index": true,
+      "show": true,
+      "download": true,
+      "download_unlimited": true,
+      "edit_custom_fields": true,
+      "edit_table_calculations": true,
+      "explore": true,
+      "generate_drill_links": true,
+      "render": true,
+      "run": true,
+      "see_results": true,
+      "save": true,
+      "schedule": true,
+      "see_aggregate_table_lookml": true,
+      "see_derived_table_lookml": true,
+      "see_lookml": true,
+      "see_sql": true,
+      "use_custom_fields": true
+    }
+  },
+  "url": "/explore/thelook_partner/order_items?fields=products.category,order_items.count,order_items.created_date&pivots=products.category&fill_fields=order_items.created_date&f[products.category]=Blazers+%26+Jackets%2CSweaters%2CPants%2CShorts%2CFashion+Hoodies+%26+Sweatshirts%2CAccessories&f[users.state]=&f[users.city]=&f[users.traffic_source]=&f[users.gender]=&f[order_items.created_date]=90+days&f[distribution_centers.location]=&f[users.country]=&sorts=products.category,order_items.created_date+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Afalse%2C%22show_view_names%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22normal%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22monotone%22%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_area%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22google%22%2C%22palette_id%22%3A%22google-categorical-0%22%2C%22options%22%3A%7B%22steps%22%3A5%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A195%7D%7D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22Number+of+Orders%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22Accessories+-+order_items.count%22%2C%22name%22%3A%22Accessories%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A196%7D%2C%7B%22id%22%3A%22Blazers+%5Cu0026+Jackets+-+order_items.count%22%2C%22name%22%3A%22Blazers+%5Cu0026amp%3B+Jackets%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A198%7D%2C%7B%22id%22%3A%22Fashion+Hoodies+%5Cu0026+Sweatshirts+-+order_items.count%22%2C%22name%22%3A%22Fashion+Hoodies+%5Cu0026amp%3B+Sweatshirts%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A199%7D%2C%7B%22id%22%3A%22Pants+-+order_items.count%22%2C%22name%22%3A%22Pants%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A201%7D%2C%7B%22id%22%3A%22Shorts+-+order_items.count%22%2C%22name%22%3A%22Shorts%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A202%7D%2C%7B%22id%22%3A%22Sweaters+-+order_items.count%22%2C%22name%22%3A%22Sweaters%22%2C%22axisId%22%3A%22order_items.count%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A203%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%2C%22__FILE%22%3A%22looker_partner_demo%2Fdashboards%2Fbusiness_pulse.dashboard.lookml%22%2C%22__LINE_NUM%22%3A196%7D%5D%2C%22y_axis_labels%22%3A%5B%22%23+Order+Items%22%5D%2C%22hide_legend%22%3Afalse%2C%22colors%22%3A%5B%22%2364518A%22%2C%22%238D7FB9%22%2C%22%23EA8A2F%22%2C%22%23F2B431%22%2C%22%232DA5DE%22%2C%22%2357BEBE%22%2C%22%237F7977%22%2C%22%23B2A898%22%2C%22%23494C52%22%5D%2C%22series_colors%22%3A%7B%7D%2C%22x_axis_datetime_tick_count%22%3A4%2C%22x_axis_datetime%22%3Atrue%2C%22hide_points%22%3Atrue%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22note_state%22%3A%22collapsed%22%2C%22note_display%22%3A%22hover%22%2C%22note_text%22%3A%22%22%7D&filter_config=%7B%22products.category%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Blazers+%5Cu0026+Jackets%2CSweaters%2CPants%2CShorts%2CFashion+Hoodies+%5Cu0026+Sweatshirts%2CAccessories%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22users.state%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%2C%22users.city%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%2C%22error%22%3Afalse%7D%5D%2C%22users.traffic_source%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%2C%22users.gender%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A4%2C%22error%22%3Afalse%7D%5D%2C%22order_items.created_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%2290%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A5%2C%22error%22%3Afalse%7D%5D%2C%22distribution_centers.location%22%3A%5B%7B%22type%22%3A%22advanced%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A6%2C%22error%22%3Afalse%7D%5D%2C%22users.country%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A7%2C%22error%22%3Afalse%7D%5D%7D&title=Business+Pulse&look_id=88",
+  "folder": {
+    "name": "Sheila Gallardo Redondo",
+    "parent_id": "2",
+    "id": "182",
+    "content_metadata_id": "713",
+    "created_at": "2024-09-03 15:11:29 UTC",
+    "creator_id": "166",
+    "external_id": "",
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": true,
+    "is_personal_descendant": false,
+    "is_shared_root": false,
+    "is_users_root": false,
+    "can": {
+      "browse_spaces_as_embed_user": false,
+      "create": true,
+      "destroy": false,
+      "edit_content": true,
+      "index": true,
+      "show": true,
+      "move_content": true,
+      "save_shared_space_as_embed_user": true,
+      "see_admin_spaces": true,
+      "update": false
+    }
+  },
+  "folder_id": "182",
+  "certification_metadata": null,
+  "content_favorite_id": null,
+  "deleted": false,
+  "embed_url": "https://nubalia.cloud.looker.com/embed/public/FSqKMdXGMnSQ44FjHbzt3Wz7nTVqPyQ3",
+  "excel_file_url": "https://nubalia.cloud.looker.com/looks/FSqKMdXGMnSQ44FjHbzt3Wz7nTVqPyQ3.iqy?apply_formatting=true&apply_vis=true&filename=Business+Pulse",
+  "google_spreadsheet_formula": "=ImportXML(\"https://nubalia.cloud.looker.com/looks/FSqKMdXGMnSQ44FjHbzt3Wz7nTVqPyQ3.gsxml?apply_formatting=true&apply_vis=true\", \"//row\")",
+  "image_embed_url": "https://nubalia.cloud.looker.com/looks/FSqKMdXGMnSQ44FjHbzt3Wz7nTVqPyQ3.png",
+  "last_viewed_at": "2026-01-02 12:10:32 UTC",
+  "model": {
+    "id": "thelook_partner",
+    "label": " eCommerce"
+  },
+  "public": true,
+  "public_slug": "FSqKMdXGMnSQ44FjHbzt3Wz7nTVqPyQ3",
+  "public_url": "https://nubalia.cloud.looker.com/looks/FSqKMdXGMnSQ44FjHbzt3Wz7nTVqPyQ3.txt?apply_formatting=true&apply_vis=true",
+  "query_id": "H7Yfd24",
+  "user_name": "Sheila Gallardo Redondo",
+  "can": {
+    "certify": true,
+    "copy": true,
+    "index": true,
+    "show": true,
+    "create": true,
+    "destroy": true,
+    "move": true,
+    "recover": true,
+    "update": true,
+    "download": true,
+    "download_unlimited": true,
+    "explore": true,
+    "find_and_replace": true,
+    "show_errors": true,
+    "render": true,
+    "run": true,
+    "schedule": true,
+    "update_publicity": true
+  }
+}
