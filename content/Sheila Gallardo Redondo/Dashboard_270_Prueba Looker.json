@@ -1,0 +1,982 @@
+{
+  "content_metadata_id": "738",
+  "description": "",
+  "hidden": false,
+  "query_timezone": null,
+  "readonly": false,
+  "refresh_interval": null,
+  "refresh_interval_to_i": null,
+  "title": "Prueba Looker",
+  "user_id": "166",
+  "slug": "4OohbvLmCMk77FKoddxgYe",
+  "preferred_viewer": "dashboards-next",
+  "alert_sync_with_dashboard_filter_enabled": false,
+  "background_color": null,
+  "created_at": "2025-01-16 09:10:50 UTC",
+  "crossfilter_enabled": false,
+  "dashboard_elements": [
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "270",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "896",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "order_items",
+        "fields": [
+          "order_items.created_date",
+          "order_items.average_days_to_process"
+        ],
+        "pivots": null,
+        "fill_fields": [
+          "order_items.created_date"
+        ],
+        "filters": {
+          "order_items.date_filter_type": "interanual"
+        },
+        "filter_expression": null,
+        "sorts": [
+          "order_items.created_date desc"
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "x_axis_gridlines": false,
+          "y_axis_gridlines": true,
+          "show_view_names": false,
+          "show_y_axis_labels": true,
+          "show_y_axis_ticks": true,
+          "y_axis_tick_density": "default",
+          "y_axis_tick_density_custom": 5,
+          "show_x_axis_label": true,
+          "show_x_axis_ticks": true,
+          "y_axis_scale_mode": "linear",
+          "x_axis_reversed": false,
+          "y_axis_reversed": false,
+          "plot_size_by_field": false,
+          "trellis": "",
+          "stacking": "",
+          "limit_displayed_rows": false,
+          "legend_position": "center",
+          "point_style": "none",
+          "show_value_labels": false,
+          "label_density": 25,
+          "x_axis_scale": "auto",
+          "y_axis_combined": true,
+          "show_null_points": true,
+          "interpolation": "linear",
+          "type": "looker_line",
+          "defaults_version": 1
+        },
+        "filter_config": {
+          "order_items.date_filter_type": [
+            {
+              "type": "is",
+              "values": [
+                {
+                  "constant": "interanual"
+                },
+                {
+                }
+              ],
+              "id": 5
+            }
+          ]
+        },
+        "visible_ui_sections": null,
+        "slug": "pRwxZCztSGd7rV9DKzZx7Mkfb9WwDXXB",
+        "client_id": "PgYLPOLebRetj8gbUzzXyN",
+        "share_url": "https://nubalia.cloud.looker.com/x/PgYLPOLebRetj8gbUzzXyN",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/thelook_partner/order_items?fields=order_items.created_date,order_items.average_days_to_process&fill_fields=order_items.created_date&f[order_items.date_filter_type]=interanual&sorts=order_items.created_date+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_line%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22order_items.date_filter_type%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22interanual%22%7D%2C%7B%7D%5D%2C%22id%22%3A5%7D%5D%7D&origin=share-expanded",
+        "url": "/explore/thelook_partner/order_items?fields=order_items.created_date,order_items.average_days_to_process&fill_fields=order_items.created_date&f[order_items.date_filter_type]=interanual&sorts=order_items.created_date+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_line%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22order_items.date_filter_type%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22interanual%22%7D%2C%7B%7D%5D%2C%22id%22%3A5%7D%5D%7D",
+        "has_table_calculations": false,
+        "id": "pRwxZCztSGd7rV9DKzZx7Mkfb9WwDXXB",
+        "model": "thelook_partner",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "2329",
+      "subtitle_text": null,
+      "title": "Untitled",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "pRwxZCztSGd7rV9DKzZx7Mkfb9WwDXXB",
+      "result_maker": {
+        "id": "2329",
+        "dynamic_fields": null,
+        "sorts": [
+          "order_items.created_date desc"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "order_items",
+          "fields": [
+            "order_items.created_date",
+            "order_items.average_days_to_process"
+          ],
+          "pivots": null,
+          "fill_fields": [
+            "order_items.created_date"
+          ],
+          "filters": {
+            "order_items.date_filter_type": "interanual"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "order_items.created_date desc"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "x_axis_gridlines": false,
+            "y_axis_gridlines": true,
+            "show_view_names": false,
+            "show_y_axis_labels": true,
+            "show_y_axis_ticks": true,
+            "y_axis_tick_density": "default",
+            "y_axis_tick_density_custom": 5,
+            "show_x_axis_label": true,
+            "show_x_axis_ticks": true,
+            "y_axis_scale_mode": "linear",
+            "x_axis_reversed": false,
+            "y_axis_reversed": false,
+            "plot_size_by_field": false,
+            "trellis": "",
+            "stacking": "",
+            "limit_displayed_rows": false,
+            "legend_position": "center",
+            "point_style": "none",
+            "show_value_labels": false,
+            "label_density": 25,
+            "x_axis_scale": "auto",
+            "y_axis_combined": true,
+            "show_null_points": true,
+            "interpolation": "linear",
+            "type": "looker_line",
+            "defaults_version": 1
+          },
+          "filter_config": {
+            "order_items.date_filter_type": [
+              {
+                "type": "is",
+                "values": [
+                  {
+                    "constant": "interanual"
+                  },
+                  {
+                  }
+                ],
+                "id": 5
+              }
+            ]
+          },
+          "visible_ui_sections": null,
+          "slug": "pRwxZCztSGd7rV9DKzZx7Mkfb9WwDXXB",
+          "client_id": "PgYLPOLebRetj8gbUzzXyN",
+          "share_url": "https://nubalia.cloud.looker.com/x/PgYLPOLebRetj8gbUzzXyN",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/thelook_partner/order_items?fields=order_items.created_date,order_items.average_days_to_process&fill_fields=order_items.created_date&f[order_items.date_filter_type]=interanual&sorts=order_items.created_date+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_line%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22order_items.date_filter_type%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22interanual%22%7D%2C%7B%7D%5D%2C%22id%22%3A5%7D%5D%7D&origin=share-expanded",
+          "url": "/explore/thelook_partner/order_items?fields=order_items.created_date,order_items.average_days_to_process&fill_fields=order_items.created_date&f[order_items.date_filter_type]=interanual&sorts=order_items.created_date+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_line%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22order_items.date_filter_type%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22interanual%22%7D%2C%7B%7D%5D%2C%22id%22%3A5%7D%5D%7D",
+          "has_table_calculations": false,
+          "id": "pRwxZCztSGd7rV9DKzZx7Mkfb9WwDXXB",
+          "model": "thelook_partner",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "x_axis_gridlines": false,
+          "y_axis_gridlines": true,
+          "show_view_names": false,
+          "show_y_axis_labels": true,
+          "show_y_axis_ticks": true,
+          "y_axis_tick_density": "default",
+          "y_axis_tick_density_custom": 5,
+          "show_x_axis_label": true,
+          "show_x_axis_ticks": true,
+          "y_axis_scale_mode": "linear",
+          "x_axis_reversed": false,
+          "y_axis_reversed": false,
+          "plot_size_by_field": false,
+          "trellis": "",
+          "stacking": "",
+          "limit_displayed_rows": false,
+          "legend_position": "center",
+          "point_style": "none",
+          "show_value_labels": false,
+          "label_density": 25,
+          "x_axis_scale": "auto",
+          "y_axis_combined": true,
+          "show_null_points": true,
+          "interpolation": "linear",
+          "type": "looker_line",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "thelook_partner",
+            "view": "order_items",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Date Filter Type",
+                "field": "order_items.date_filter_type"
+              },
+              {
+                "dashboard_filter_name": "Fecha",
+                "field": "order_items.date_param"
+              },
+              {
+                "dashboard_filter_name": "Status",
+                "field": "order_items.status"
+              }
+            ]
+          }
+        ],
+        "query_id": "pRwxZCztSGd7rV9DKzZx7Mkfb9WwDXXB"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "270",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "897",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "order_items",
+        "fields": [
+          "order_items.status",
+          "order_items.average_gross_margin"
+        ],
+        "pivots": null,
+        "fill_fields": null,
+        "filters": {
+          "order_items.date_param": "2025/01/16",
+          "order_items.date_filter_type": "interanual"
+        },
+        "filter_expression": null,
+        "sorts": [
+          "order_items.average_gross_margin desc 0"
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "x_axis_gridlines": false,
+          "y_axis_gridlines": true,
+          "show_view_names": false,
+          "show_y_axis_labels": true,
+          "show_y_axis_ticks": true,
+          "y_axis_tick_density": "default",
+          "y_axis_tick_density_custom": 5,
+          "show_x_axis_label": true,
+          "show_x_axis_ticks": true,
+          "y_axis_scale_mode": "linear",
+          "x_axis_reversed": false,
+          "y_axis_reversed": false,
+          "plot_size_by_field": false,
+          "trellis": "",
+          "stacking": "",
+          "limit_displayed_rows": false,
+          "legend_position": "center",
+          "point_style": "none",
+          "show_value_labels": false,
+          "label_density": 25,
+          "x_axis_scale": "auto",
+          "y_axis_combined": true,
+          "ordering": "none",
+          "show_null_labels": false,
+          "show_totals_labels": false,
+          "show_silhouette": false,
+          "totals_color": "#808080",
+          "type": "looker_column",
+          "defaults_version": 1
+        },
+        "filter_config": {
+          "order_items.date_param": [
+            {
+              "type": "on",
+              "values": [
+                {
+                  "date": "2025-01-16 00:00:00 UTC",
+                  "tz": true
+                },
+                {
+                }
+              ],
+              "id": 7
+            }
+          ],
+          "order_items.date_filter_type": [
+            {
+              "type": "is",
+              "values": [
+                {
+                  "constant": "interanual"
+                },
+                {
+                }
+              ],
+              "id": 8
+            }
+          ]
+        },
+        "visible_ui_sections": null,
+        "slug": "MNB42hysyYdHZw7B6k2PJx2WDqDqNbhy",
+        "client_id": "zKdLrBiiZg2jGq69Ip1XPo",
+        "share_url": "https://nubalia.cloud.looker.com/x/zKdLrBiiZg2jGq69Ip1XPo",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/thelook_partner/order_items?fields=order_items.status,order_items.average_gross_margin&f[order_items.date_param]=2025%2F01%2F16&f[order_items.date_filter_type]=interanual&sorts=order_items.average_gross_margin+desc+0&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22order_items.date_param%22%3A%5B%7B%22type%22%3A%22on%22%2C%22values%22%3A%5B%7B%22date%22%3A%222025-01-16T00%3A00%3A00.000Z%22%2C%22tz%22%3Atrue%7D%2C%7B%7D%5D%2C%22id%22%3A7%7D%5D%2C%22order_items.date_filter_type%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22interanual%22%7D%2C%7B%7D%5D%2C%22id%22%3A8%7D%5D%7D&origin=share-expanded",
+        "url": "/explore/thelook_partner/order_items?fields=order_items.status,order_items.average_gross_margin&f[order_items.date_param]=2025%2F01%2F16&f[order_items.date_filter_type]=interanual&sorts=order_items.average_gross_margin+desc+0&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22order_items.date_param%22%3A%5B%7B%22type%22%3A%22on%22%2C%22values%22%3A%5B%7B%22date%22%3A%222025-01-16T00%3A00%3A00.000Z%22%2C%22tz%22%3Atrue%7D%2C%7B%7D%5D%2C%22id%22%3A7%7D%5D%2C%22order_items.date_filter_type%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22interanual%22%7D%2C%7B%7D%5D%2C%22id%22%3A8%7D%5D%7D",
+        "has_table_calculations": false,
+        "id": "MNB42hysyYdHZw7B6k2PJx2WDqDqNbhy",
+        "model": "thelook_partner",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "2330",
+      "subtitle_text": null,
+      "title": "Untitled",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "MNB42hysyYdHZw7B6k2PJx2WDqDqNbhy",
+      "result_maker": {
+        "id": "2330",
+        "dynamic_fields": null,
+        "sorts": [
+          "order_items.average_gross_margin desc 0"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "order_items",
+          "fields": [
+            "order_items.status",
+            "order_items.average_gross_margin"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": {
+            "order_items.date_param": "2025/01/16",
+            "order_items.date_filter_type": "interanual"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "order_items.average_gross_margin desc 0"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "x_axis_gridlines": false,
+            "y_axis_gridlines": true,
+            "show_view_names": false,
+            "show_y_axis_labels": true,
+            "show_y_axis_ticks": true,
+            "y_axis_tick_density": "default",
+            "y_axis_tick_density_custom": 5,
+            "show_x_axis_label": true,
+            "show_x_axis_ticks": true,
+            "y_axis_scale_mode": "linear",
+            "x_axis_reversed": false,
+            "y_axis_reversed": false,
+            "plot_size_by_field": false,
+            "trellis": "",
+            "stacking": "",
+            "limit_displayed_rows": false,
+            "legend_position": "center",
+            "point_style": "none",
+            "show_value_labels": false,
+            "label_density": 25,
+            "x_axis_scale": "auto",
+            "y_axis_combined": true,
+            "ordering": "none",
+            "show_null_labels": false,
+            "show_totals_labels": false,
+            "show_silhouette": false,
+            "totals_color": "#808080",
+            "type": "looker_column",
+            "defaults_version": 1
+          },
+          "filter_config": {
+            "order_items.date_param": [
+              {
+                "type": "on",
+                "values": [
+                  {
+                    "date": "2025-01-16 00:00:00 UTC",
+                    "tz": true
+                  },
+                  {
+                  }
+                ],
+                "id": 7
+              }
+            ],
+            "order_items.date_filter_type": [
+              {
+                "type": "is",
+                "values": [
+                  {
+                    "constant": "interanual"
+                  },
+                  {
+                  }
+                ],
+                "id": 8
+              }
+            ]
+          },
+          "visible_ui_sections": null,
+          "slug": "MNB42hysyYdHZw7B6k2PJx2WDqDqNbhy",
+          "client_id": "zKdLrBiiZg2jGq69Ip1XPo",
+          "share_url": "https://nubalia.cloud.looker.com/x/zKdLrBiiZg2jGq69Ip1XPo",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/thelook_partner/order_items?fields=order_items.status,order_items.average_gross_margin&f[order_items.date_param]=2025%2F01%2F16&f[order_items.date_filter_type]=interanual&sorts=order_items.average_gross_margin+desc+0&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22order_items.date_param%22%3A%5B%7B%22type%22%3A%22on%22%2C%22values%22%3A%5B%7B%22date%22%3A%222025-01-16T00%3A00%3A00.000Z%22%2C%22tz%22%3Atrue%7D%2C%7B%7D%5D%2C%22id%22%3A7%7D%5D%2C%22order_items.date_filter_type%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22interanual%22%7D%2C%7B%7D%5D%2C%22id%22%3A8%7D%5D%7D&origin=share-expanded",
+          "url": "/explore/thelook_partner/order_items?fields=order_items.status,order_items.average_gross_margin&f[order_items.date_param]=2025%2F01%2F16&f[order_items.date_filter_type]=interanual&sorts=order_items.average_gross_margin+desc+0&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22order_items.date_param%22%3A%5B%7B%22type%22%3A%22on%22%2C%22values%22%3A%5B%7B%22date%22%3A%222025-01-16T00%3A00%3A00.000Z%22%2C%22tz%22%3Atrue%7D%2C%7B%7D%5D%2C%22id%22%3A7%7D%5D%2C%22order_items.date_filter_type%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22interanual%22%7D%2C%7B%7D%5D%2C%22id%22%3A8%7D%5D%7D",
+          "has_table_calculations": false,
+          "id": "MNB42hysyYdHZw7B6k2PJx2WDqDqNbhy",
+          "model": "thelook_partner",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "x_axis_gridlines": false,
+          "y_axis_gridlines": true,
+          "show_view_names": false,
+          "show_y_axis_labels": true,
+          "show_y_axis_ticks": true,
+          "y_axis_tick_density": "default",
+          "y_axis_tick_density_custom": 5,
+          "show_x_axis_label": true,
+          "show_x_axis_ticks": true,
+          "y_axis_scale_mode": "linear",
+          "x_axis_reversed": false,
+          "y_axis_reversed": false,
+          "plot_size_by_field": false,
+          "trellis": "",
+          "stacking": "",
+          "limit_displayed_rows": false,
+          "legend_position": "center",
+          "point_style": "none",
+          "show_value_labels": false,
+          "label_density": 25,
+          "x_axis_scale": "auto",
+          "y_axis_combined": true,
+          "ordering": "none",
+          "show_null_labels": false,
+          "show_totals_labels": false,
+          "show_silhouette": false,
+          "totals_color": "#808080",
+          "type": "looker_column",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "thelook_partner",
+            "view": "order_items",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Date Filter Type",
+                "field": "order_items.date_filter_type"
+              },
+              {
+                "dashboard_filter_name": "Fecha",
+                "field": "order_items.date_param"
+              },
+              {
+                "dashboard_filter_name": "Status",
+                "field": "order_items.status"
+              }
+            ]
+          }
+        ],
+        "query_id": "MNB42hysyYdHZw7B6k2PJx2WDqDqNbhy"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    }
+  ],
+  "dashboard_filters": [
+    {
+      "id": "290",
+      "dashboard_id": "270",
+      "name": "Date Filter Type",
+      "title": "Date Filter Type",
+      "type": "field_filter",
+      "explore": "order_items",
+      "dimension": "order_items.date_filter_type",
+      "row": 0,
+      "allow_multiple_values": true,
+      "required": true,
+      "ui_config": {
+        "type": "dropdown_menu",
+        "display": "inline"
+      },
+      "model": "thelook_partner",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "mensual",
+      "field": null,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    },
+    {
+      "id": "292",
+      "dashboard_id": "270",
+      "name": "Fecha",
+      "title": "Fecha",
+      "type": "field_filter",
+      "explore": "order_items",
+      "dimension": "order_items.date_param",
+      "row": 1,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "type": "advanced",
+        "display": "popover",
+        "options": [
+
+        ]
+      },
+      "model": "thelook_partner",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "2025/01/16",
+      "field": null,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    },
+    {
+      "id": "293",
+      "dashboard_id": "270",
+      "name": "Status",
+      "title": "Status",
+      "type": "field_filter",
+      "explore": "order_items",
+      "dimension": "order_items.status",
+      "row": 2,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "type": "checkboxes",
+        "display": "popover"
+      },
+      "model": "thelook_partner",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "",
+      "field": {
+        "align": "left",
+        "can_filter": true,
+        "category": "dimension",
+        "default_filter_value": null,
+        "description": "",
+        "enumerations": null,
+        "field_group_label": null,
+        "fill_style": null,
+        "fiscal_month_offset": 0,
+        "has_allowed_values": false,
+        "hidden": false,
+        "is_filter": false,
+        "is_numeric": false,
+        "label": "Order Items Status",
+        "label_from_parameter": null,
+        "label_short": "Status",
+        "map_layer": null,
+        "name": "order_items.status",
+        "strict_value_format": false,
+        "requires_refresh_on_sort": false,
+        "sortable": true,
+        "suggestions": null,
+        "synonyms": [
+
+        ],
+        "tags": [
+
+        ],
+        "type": "string",
+        "user_attribute_filter_types": [
+          "string",
+          "advanced_filter_string"
+        ],
+        "value_format": null,
+        "value_format_name": null,
+        "view": "order_items",
+        "view_label": "Order Items",
+        "dynamic": false,
+        "week_start_day": "monday",
+        "original_view": "order_items",
+        "datatype": "TIMESTAMP",
+        "convert_tz": true,
+        "dimension_group": null,
+        "error": null,
+        "field_group_variant": "Status",
+        "measure": false,
+        "parameter": false,
+        "primary_key": false,
+        "project_name": "looker_partner_demo",
+        "scope": "order_items",
+        "suggest_dimension": "order_items.status",
+        "suggest_explore": "order_items",
+        "suggestable": true,
+        "lookml_expression": null,
+        "is_fiscal": false,
+        "is_timeframe": false,
+        "can_time_filter": false,
+        "time_interval": null,
+        "lookml_link": "/projects/looker_partner_demo/files/views%2F01_order_items.view.lkml?line=217",
+        "period_over_period_params": null,
+        "permanent": null,
+        "source_file": "views/01_order_items.view.lkml",
+        "source_file_path": "looker_partner_demo/views/01_order_items.view.lkml",
+        "sql": "${TABLE}.status ",
+        "sql_case": null,
+        "filters": null,
+        "times_used": 0
+      },
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    }
+  ],
+  "dashboard_layouts": [
+    {
+      "id": "270",
+      "dashboard_id": "270",
+      "type": "newspaper",
+      "active": true,
+      "column_width": null,
+      "width": null,
+      "deleted": false,
+      "dashboard_title": "Prueba Looker",
+      "dashboard_layout_components": [
+        {
+          "id": "896",
+          "dashboard_layout_id": "270",
+          "dashboard_element_id": "896",
+          "row": 0,
+          "column": 0,
+          "width": 24,
+          "height": 9,
+          "deleted": false,
+          "element_title": "Untitled",
+          "element_title_hidden": false,
+          "vis_type": "looker_line",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "897",
+          "dashboard_layout_id": "270",
+          "dashboard_element_id": "897",
+          "row": 9,
+          "column": 0,
+          "width": 16,
+          "height": 6,
+          "deleted": false,
+          "element_title": "Untitled",
+          "element_title_hidden": false,
+          "vis_type": "looker_column",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        }
+      ],
+      "label": null,
+      "description": null,
+      "order": -1,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "index": true,
+        "show": true
+      }
+    }
+  ],
+  "deleted_at": null,
+  "deleter_id": null,
+  "edit_uri": null,
+  "enable_viz_full_screen": true,
+  "favorite_count": 0,
+  "filters_bar_collapsed": false,
+  "filters_location_top": true,
+  "last_accessed_at": "2026-01-02 12:18:33 UTC",
+  "updated_at": "2025-01-17 10:34:12 UTC",
+  "last_updater_id": "166",
+  "load_configuration": "cache_run",
+  "lookml_link_id": null,
+  "show_filters_bar": null,
+  "show_title": null,
+  "text_tile_text_color": null,
+  "tile_background_color": null,
+  "tile_text_color": null,
+  "title_color": null,
+  "view_count": 59,
+  "url": "/dashboards/270",
+  "folder": {
+    "name": "Sheila Gallardo Redondo",
+    "parent_id": "2",
+    "id": "182",
+    "content_metadata_id": "713",
+    "created_at": "2024-09-03 15:11:29 UTC",
+    "creator_id": "166",
+    "external_id": "",
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": true,
+    "is_personal_descendant": false,
+    "is_shared_root": false,
+    "is_users_root": false,
+    "can": {
+      "browse_spaces_as_embed_user": false,
+      "create": true,
+      "destroy": false,
+      "edit_content": true,
+      "index": true,
+      "show": true,
+      "move_content": true,
+      "save_shared_space_as_embed_user": true,
+      "see_admin_spaces": true,
+      "update": false
+    }
+  },
+  "folder_id": "182",
+  "content_favorite_id": null,
+  "id": "270",
+  "model": null,
+  "certification_metadata": null,
+  "deleted": false,
+  "last_viewed_at": "2026-01-02 12:19:10 UTC",
+  "last_updater_name": "Sheila Gallardo Redondo",
+  "user_name": "Sheila Gallardo Redondo",
+  "appearance": null,
+  "theme_name": null,
+  "can": {
+    "certify": true,
+    "copy": true,
+    "index": true,
+    "show": true,
+    "create": true,
+    "destroy": true,
+    "move": true,
+    "recover": true,
+    "update": true,
+    "download": true,
+    "render": true,
+    "run": true,
+    "schedule": true,
+    "see_aggregate_table_lookml": true,
+    "see_lookml": true
+  }
+}

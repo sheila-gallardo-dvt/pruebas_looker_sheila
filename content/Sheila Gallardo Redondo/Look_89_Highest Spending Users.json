@@ -1,0 +1,338 @@
+{
+  "content_metadata_id": "859",
+  "id": "89",
+  "title": "Highest Spending Users",
+  "user_id": "166",
+  "created_at": "2025-09-12 10:54:13 UTC",
+  "deleted_at": null,
+  "deleter_id": null,
+  "description": "",
+  "favorite_count": 0,
+  "is_run_on_load": true,
+  "last_accessed_at": "2026-01-02 12:18:13 UTC",
+  "last_updater_id": "166",
+  "short_url": "/looks/89",
+  "updated_at": "2025-09-12 10:54:29 UTC",
+  "view_count": 3,
+  "query": {
+    "view": "order_items",
+    "fields": [
+      "users.approx_location",
+      "users.gender",
+      "order_items.order_count",
+      "users.count",
+      "order_items.total_sale_price",
+      "order_items.average_spend_per_user",
+      "users.country"
+    ],
+    "pivots": [
+      "users.gender"
+    ],
+    "fill_fields": null,
+    "filters": {
+      "users.state": "",
+      "users.city": "",
+      "users.traffic_source": "",
+      "users.gender": "",
+      "order_items.created_date": "90 days",
+      "distribution_centers.location": "",
+      "users.country": ""
+    },
+    "filter_expression": null,
+    "sorts": [
+      "users.gender 0",
+      "order_items.total_sale_price desc 0"
+    ],
+    "total": null,
+    "row_total": null,
+    "subtotals": null,
+    "vis_config": {
+      "map_plot_mode": "points",
+      "heatmap_gridlines": true,
+      "heatmap_gridlines_empty": false,
+      "heatmap_opacity": 0.5,
+      "show_region_field": true,
+      "draw_map_labels_above_data": true,
+      "map_tile_provider": "light",
+      "map_position": "custom",
+      "map_scale_indicator": "off",
+      "map_pannable": true,
+      "map_zoomable": true,
+      "map_marker_type": "circle",
+      "map_marker_icon_name": "default",
+      "map_marker_radius_mode": "proportional_value",
+      "map_marker_units": "pixels",
+      "map_marker_proportional_scale_type": "linear",
+      "map_marker_color_mode": "value",
+      "show_view_names": false,
+      "show_legend": true,
+      "quantize_map_value_colors": false,
+      "reverse_map_value_colors": false,
+      "type": "looker_map",
+      "map_latitude": 37.57941251343841,
+      "map_longitude": -99.31640625000001,
+      "map_zoom": 4,
+      "map_marker_radius_max": 15,
+      "map_marker_color": [
+        "#4285F4",
+        "#EA4335",
+        "#FBBC04",
+        "#34A853"
+      ],
+      "map_value_colors": [
+        "white",
+        "purple"
+      ],
+      "map_value_scale_clamp_min": 0,
+      "map_value_scale_clamp_max": 200,
+      "stacking": "",
+      "show_value_labels": false,
+      "label_density": 25,
+      "legend_position": "center",
+      "x_axis_gridlines": false,
+      "y_axis_gridlines": true,
+      "y_axis_combined": true,
+      "show_y_axis_labels": true,
+      "show_y_axis_ticks": true,
+      "y_axis_tick_density": "default",
+      "y_axis_tick_density_custom": 5,
+      "show_x_axis_label": true,
+      "show_x_axis_ticks": true,
+      "x_axis_scale": "auto",
+      "ordering": "none",
+      "show_null_labels": false,
+      "loading": false,
+      "hidden_fields": [
+        "orders.count",
+        "users.count",
+        "order_items.total_sale_price",
+        "order_items.order_count"
+      ],
+      "map": "usa",
+      "map_projection": "",
+      "quantize_colors": false,
+      "colors": [
+        "whitesmoke",
+        "#64518A"
+      ],
+      "outer_border_color": "#64518A",
+      "inner_border_color": "",
+      "inner_border_width": 0.6,
+      "outer_border_width": 2,
+      "empty_color": "",
+      "y_axes": [
+
+      ],
+      "defaults_version": 1,
+      "note_state": "collapsed",
+      "note_display": "hover",
+      "note_text": "Bubble size corresponds to average user spend"
+    },
+    "filter_config": {
+      "users.state": [
+        {
+          "type": "=",
+          "values": [
+            {
+              "constant": ""
+            },
+            {
+            }
+          ],
+          "id": 0,
+          "error": false
+        }
+      ],
+      "users.city": [
+        {
+          "type": "=",
+          "values": [
+            {
+              "constant": ""
+            },
+            {
+            }
+          ],
+          "id": 1,
+          "error": false
+        }
+      ],
+      "users.traffic_source": [
+        {
+          "type": "=",
+          "values": [
+            {
+              "constant": ""
+            },
+            {
+            }
+          ],
+          "id": 2,
+          "error": false
+        }
+      ],
+      "users.gender": [
+        {
+          "type": "=",
+          "values": [
+            {
+              "constant": ""
+            },
+            {
+            }
+          ],
+          "id": 3,
+          "error": false
+        }
+      ],
+      "order_items.created_date": [
+        {
+          "type": "past",
+          "values": [
+            {
+              "constant": "90",
+              "unit": "day"
+            },
+            {
+            }
+          ],
+          "id": 4,
+          "error": false
+        }
+      ],
+      "distribution_centers.location": [
+        {
+          "type": "advanced",
+          "values": [
+            {
+              "constant": ""
+            },
+            {
+            }
+          ],
+          "id": 5,
+          "error": false
+        }
+      ],
+      "users.country": [
+        {
+          "type": "=",
+          "values": [
+            {
+              "constant": ""
+            },
+            {
+            }
+          ],
+          "id": 6,
+          "error": false
+        }
+      ]
+    },
+    "visible_ui_sections": null,
+    "slug": "nPHNfKh",
+    "client_id": "CFjlPogWYCBe6N9N1mHgC2",
+    "share_url": "https://nubalia.cloud.looker.com/x/CFjlPogWYCBe6N9N1mHgC2",
+    "expanded_share_url": "https://nubalia.cloud.looker.com/explore/thelook_partner/order_items?fields=users.approx_location,users.gender,order_items.order_count,users.count,order_items.total_sale_price,order_items.average_spend_per_user,users.country&pivots=users.gender&f[users.state]=&f[users.city]=&f[users.traffic_source]=&f[users.gender]=&f[order_items.created_date]=90+days&f[distribution_centers.location]=&f[users.country]=&sorts=users.gender+0,order_items.total_sale_price+desc+0&limit=500&column_limit=50&vis=%7B%22map_plot_mode%22%3A%22points%22%2C%22heatmap_gridlines%22%3Atrue%2C%22heatmap_gridlines_empty%22%3Afalse%2C%22heatmap_opacity%22%3A0.5%2C%22show_region_field%22%3Atrue%2C%22draw_map_labels_above_data%22%3Atrue%2C%22map_tile_provider%22%3A%22light%22%2C%22map_position%22%3A%22custom%22%2C%22map_scale_indicator%22%3A%22off%22%2C%22map_pannable%22%3Atrue%2C%22map_zoomable%22%3Atrue%2C%22map_marker_type%22%3A%22circle%22%2C%22map_marker_icon_name%22%3A%22default%22%2C%22map_marker_radius_mode%22%3A%22proportional_value%22%2C%22map_marker_units%22%3A%22pixels%22%2C%22map_marker_proportional_scale_type%22%3A%22linear%22%2C%22map_marker_color_mode%22%3A%22value%22%2C%22show_view_names%22%3Afalse%2C%22show_legend%22%3Atrue%2C%22quantize_map_value_colors%22%3Afalse%2C%22reverse_map_value_colors%22%3Afalse%2C%22type%22%3A%22looker_map%22%2C%22map_latitude%22%3A37.57941251343841%2C%22map_longitude%22%3A-99.31640625000001%2C%22map_zoom%22%3A4%2C%22map_marker_radius_max%22%3A15%2C%22map_marker_color%22%3A%5B%22%234285F4%22%2C%22%23EA4335%22%2C%22%23FBBC04%22%2C%22%2334A853%22%5D%2C%22map_value_colors%22%3A%5B%22white%22%2C%22purple%22%5D%2C%22map_value_scale_clamp_min%22%3A0%2C%22map_value_scale_clamp_max%22%3A200%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22loading%22%3Afalse%2C%22hidden_fields%22%3A%5B%22orders.count%22%2C%22users.count%22%2C%22order_items.total_sale_price%22%2C%22order_items.order_count%22%5D%2C%22map%22%3A%22usa%22%2C%22map_projection%22%3A%22%22%2C%22quantize_colors%22%3Afalse%2C%22colors%22%3A%5B%22whitesmoke%22%2C%22%2364518A%22%5D%2C%22outer_border_color%22%3A%22%2364518A%22%2C%22inner_border_color%22%3A%22%22%2C%22inner_border_width%22%3A0.6%2C%22outer_border_width%22%3A2%2C%22empty_color%22%3A%22%22%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22note_state%22%3A%22collapsed%22%2C%22note_display%22%3A%22hover%22%2C%22note_text%22%3A%22Bubble+size+corresponds+to+average+user+spend%22%7D&filter_config=%7B%22users.state%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22users.city%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%2C%22users.traffic_source%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%2C%22error%22%3Afalse%7D%5D%2C%22users.gender%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%2C%22order_items.created_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%2290%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A4%2C%22error%22%3Afalse%7D%5D%2C%22distribution_centers.location%22%3A%5B%7B%22type%22%3A%22advanced%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A5%2C%22error%22%3Afalse%7D%5D%2C%22users.country%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A6%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
+    "url": "/explore/thelook_partner/order_items?fields=users.approx_location,users.gender,order_items.order_count,users.count,order_items.total_sale_price,order_items.average_spend_per_user,users.country&pivots=users.gender&f[users.state]=&f[users.city]=&f[users.traffic_source]=&f[users.gender]=&f[order_items.created_date]=90+days&f[distribution_centers.location]=&f[users.country]=&sorts=users.gender+0,order_items.total_sale_price+desc+0&limit=500&column_limit=50&vis=%7B%22map_plot_mode%22%3A%22points%22%2C%22heatmap_gridlines%22%3Atrue%2C%22heatmap_gridlines_empty%22%3Afalse%2C%22heatmap_opacity%22%3A0.5%2C%22show_region_field%22%3Atrue%2C%22draw_map_labels_above_data%22%3Atrue%2C%22map_tile_provider%22%3A%22light%22%2C%22map_position%22%3A%22custom%22%2C%22map_scale_indicator%22%3A%22off%22%2C%22map_pannable%22%3Atrue%2C%22map_zoomable%22%3Atrue%2C%22map_marker_type%22%3A%22circle%22%2C%22map_marker_icon_name%22%3A%22default%22%2C%22map_marker_radius_mode%22%3A%22proportional_value%22%2C%22map_marker_units%22%3A%22pixels%22%2C%22map_marker_proportional_scale_type%22%3A%22linear%22%2C%22map_marker_color_mode%22%3A%22value%22%2C%22show_view_names%22%3Afalse%2C%22show_legend%22%3Atrue%2C%22quantize_map_value_colors%22%3Afalse%2C%22reverse_map_value_colors%22%3Afalse%2C%22type%22%3A%22looker_map%22%2C%22map_latitude%22%3A37.57941251343841%2C%22map_longitude%22%3A-99.31640625000001%2C%22map_zoom%22%3A4%2C%22map_marker_radius_max%22%3A15%2C%22map_marker_color%22%3A%5B%22%234285F4%22%2C%22%23EA4335%22%2C%22%23FBBC04%22%2C%22%2334A853%22%5D%2C%22map_value_colors%22%3A%5B%22white%22%2C%22purple%22%5D%2C%22map_value_scale_clamp_min%22%3A0%2C%22map_value_scale_clamp_max%22%3A200%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22loading%22%3Afalse%2C%22hidden_fields%22%3A%5B%22orders.count%22%2C%22users.count%22%2C%22order_items.total_sale_price%22%2C%22order_items.order_count%22%5D%2C%22map%22%3A%22usa%22%2C%22map_projection%22%3A%22%22%2C%22quantize_colors%22%3Afalse%2C%22colors%22%3A%5B%22whitesmoke%22%2C%22%2364518A%22%5D%2C%22outer_border_color%22%3A%22%2364518A%22%2C%22inner_border_color%22%3A%22%22%2C%22inner_border_width%22%3A0.6%2C%22outer_border_width%22%3A2%2C%22empty_color%22%3A%22%22%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22note_state%22%3A%22collapsed%22%2C%22note_display%22%3A%22hover%22%2C%22note_text%22%3A%22Bubble+size+corresponds+to+average+user+spend%22%7D&filter_config=%7B%22users.state%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22users.city%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%2C%22users.traffic_source%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%2C%22error%22%3Afalse%7D%5D%2C%22users.gender%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%2C%22order_items.created_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%2290%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A4%2C%22error%22%3Afalse%7D%5D%2C%22distribution_centers.location%22%3A%5B%7B%22type%22%3A%22advanced%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A5%2C%22error%22%3Afalse%7D%5D%2C%22users.country%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A6%2C%22error%22%3Afalse%7D%5D%7D",
+    "has_table_calculations": false,
+    "id": "nPHNfKh",
+    "model": "thelook_partner",
+    "limit": "500",
+    "column_limit": "50",
+    "dynamic_fields": null,
+    "query_timezone": null,
+    "quick_calcs": null,
+    "analysis_config": null,
+    "can": {
+      "can_clear_cache": true,
+      "cost_estimate": true,
+      "create": true,
+      "index": true,
+      "show": true,
+      "download": true,
+      "download_unlimited": true,
+      "edit_custom_fields": true,
+      "edit_table_calculations": true,
+      "explore": true,
+      "generate_drill_links": true,
+      "render": true,
+      "run": true,
+      "see_results": true,
+      "save": true,
+      "schedule": true,
+      "see_aggregate_table_lookml": true,
+      "see_derived_table_lookml": true,
+      "see_lookml": true,
+      "see_sql": true,
+      "use_custom_fields": true
+    }
+  },
+  "url": "/explore/thelook_partner/order_items?fields=users.approx_location,users.gender,order_items.order_count,users.count,order_items.total_sale_price,order_items.average_spend_per_user,users.country&pivots=users.gender&f[users.state]=&f[users.city]=&f[users.traffic_source]=&f[users.gender]=&f[order_items.created_date]=90+days&f[distribution_centers.location]=&f[users.country]=&sorts=users.gender+0,order_items.total_sale_price+desc+0&limit=500&column_limit=50&vis=%7B%22map_plot_mode%22%3A%22points%22%2C%22heatmap_gridlines%22%3Atrue%2C%22heatmap_gridlines_empty%22%3Afalse%2C%22heatmap_opacity%22%3A0.5%2C%22show_region_field%22%3Atrue%2C%22draw_map_labels_above_data%22%3Atrue%2C%22map_tile_provider%22%3A%22light%22%2C%22map_position%22%3A%22custom%22%2C%22map_scale_indicator%22%3A%22off%22%2C%22map_pannable%22%3Atrue%2C%22map_zoomable%22%3Atrue%2C%22map_marker_type%22%3A%22circle%22%2C%22map_marker_icon_name%22%3A%22default%22%2C%22map_marker_radius_mode%22%3A%22proportional_value%22%2C%22map_marker_units%22%3A%22pixels%22%2C%22map_marker_proportional_scale_type%22%3A%22linear%22%2C%22map_marker_color_mode%22%3A%22value%22%2C%22show_view_names%22%3Afalse%2C%22show_legend%22%3Atrue%2C%22quantize_map_value_colors%22%3Afalse%2C%22reverse_map_value_colors%22%3Afalse%2C%22type%22%3A%22looker_map%22%2C%22map_latitude%22%3A37.57941251343841%2C%22map_longitude%22%3A-99.31640625000001%2C%22map_zoom%22%3A4%2C%22map_marker_radius_max%22%3A15%2C%22map_marker_color%22%3A%5B%22%234285F4%22%2C%22%23EA4335%22%2C%22%23FBBC04%22%2C%22%2334A853%22%5D%2C%22map_value_colors%22%3A%5B%22white%22%2C%22purple%22%5D%2C%22map_value_scale_clamp_min%22%3A0%2C%22map_value_scale_clamp_max%22%3A200%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22loading%22%3Afalse%2C%22hidden_fields%22%3A%5B%22orders.count%22%2C%22users.count%22%2C%22order_items.total_sale_price%22%2C%22order_items.order_count%22%5D%2C%22map%22%3A%22usa%22%2C%22map_projection%22%3A%22%22%2C%22quantize_colors%22%3Afalse%2C%22colors%22%3A%5B%22whitesmoke%22%2C%22%2364518A%22%5D%2C%22outer_border_color%22%3A%22%2364518A%22%2C%22inner_border_color%22%3A%22%22%2C%22inner_border_width%22%3A0.6%2C%22outer_border_width%22%3A2%2C%22empty_color%22%3A%22%22%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22note_state%22%3A%22collapsed%22%2C%22note_display%22%3A%22hover%22%2C%22note_text%22%3A%22Bubble+size+corresponds+to+average+user+spend%22%7D&filter_config=%7B%22users.state%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22users.city%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%2C%22users.traffic_source%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%2C%22error%22%3Afalse%7D%5D%2C%22users.gender%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%2C%22order_items.created_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%2290%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A4%2C%22error%22%3Afalse%7D%5D%2C%22distribution_centers.location%22%3A%5B%7B%22type%22%3A%22advanced%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A5%2C%22error%22%3Afalse%7D%5D%2C%22users.country%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A6%2C%22error%22%3Afalse%7D%5D%7D&title=Highest+Spending+Users&look_id=89",
+  "folder": {
+    "name": "Sheila Gallardo Redondo",
+    "parent_id": "2",
+    "id": "182",
+    "content_metadata_id": "713",
+    "created_at": "2024-09-03 15:11:29 UTC",
+    "creator_id": "166",
+    "external_id": "",
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": true,
+    "is_personal_descendant": false,
+    "is_shared_root": false,
+    "is_users_root": false,
+    "can": {
+      "browse_spaces_as_embed_user": false,
+      "create": true,
+      "destroy": false,
+      "edit_content": true,
+      "index": true,
+      "show": true,
+      "move_content": true,
+      "save_shared_space_as_embed_user": true,
+      "see_admin_spaces": true,
+      "update": false
+    }
+  },
+  "folder_id": "182",
+  "certification_metadata": null,
+  "content_favorite_id": null,
+  "deleted": false,
+  "embed_url": "https://nubalia.cloud.looker.com/embed/public/yWmZT8drCSJG6Sn6t8z46nv3Ctbt5Ksc",
+  "excel_file_url": "https://nubalia.cloud.looker.com/looks/yWmZT8drCSJG6Sn6t8z46nv3Ctbt5Ksc.iqy?apply_formatting=true&apply_vis=true&filename=Highest+Spending+Users",
+  "google_spreadsheet_formula": "=ImportXML(\"https://nubalia.cloud.looker.com/looks/yWmZT8drCSJG6Sn6t8z46nv3Ctbt5Ksc.gsxml?apply_formatting=true&apply_vis=true\", \"//row\")",
+  "image_embed_url": "https://nubalia.cloud.looker.com/looks/yWmZT8drCSJG6Sn6t8z46nv3Ctbt5Ksc.png",
+  "last_viewed_at": "2026-01-02 12:19:26 UTC",
+  "model": {
+    "id": "thelook_partner",
+    "label": " eCommerce"
+  },
+  "public": true,
+  "public_slug": "yWmZT8drCSJG6Sn6t8z46nv3Ctbt5Ksc",
+  "public_url": "https://nubalia.cloud.looker.com/looks/yWmZT8drCSJG6Sn6t8z46nv3Ctbt5Ksc.txt?apply_formatting=true&apply_vis=true",
+  "query_id": "nPHNfKh",
+  "user_name": "Sheila Gallardo Redondo",
+  "can": {
+    "certify": true,
+    "copy": true,
+    "index": true,
+    "show": true,
+    "create": true,
+    "destroy": true,
+    "move": true,
+    "recover": true,
+    "update": true,
+    "download": true,
+    "download_unlimited": true,
+    "explore": true,
+    "find_and_replace": true,
+    "show_errors": true,
+    "render": true,
+    "run": true,
+    "schedule": true,
+    "update_publicity": true
+  }
+}
