@@ -21,9 +21,9 @@ jobs:
 
       - name: Restore Structure and Content
         env:
-          LOOKERSDK_BASE_URL: ${{ secrets.LOOKERSDK_BASE_URL }}
-          LOOKERSDK_CLIENT_ID: ${{ secrets.LOOKERSDK_CLIENT_ID }}
-          LOOKERSDK_CLIENT_SECRET: ${{ secrets.LOOKERSDK_CLIENT_SECRET }}
+          LOOKERSDK_BASE_URL: ${{ secrets.INSTANCE_URL }}
+          LOOKERSDK_CLIENT_ID: ${{ secrets.LOOKER_CLIENT_ID }}
+          LOOKERSDK_CLIENT_SECRET: ${{ secrets.LOOKER_CLIENT_SECRET }}
           ROOT_SPACE_ID: "182" # Carpeta Shared principal
         run: |
           # 1. ENTRAR EN LA CARPETA DE BACKUP
