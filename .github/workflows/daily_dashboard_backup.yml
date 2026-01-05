@@ -30,6 +30,10 @@ jobs:
 
       # 4. Exportamos el contenido de la carpeta Shared (ID 1)
       - name: Export Shared Folder (ID 1)
+        env:
+          LOOKERSDK_BASE_URL: ${{ secrets.INSTANCE_URL }}
+          LOOKERSDK_CLIENT_ID: ${{ secrets.LOOKER_CLIENT_ID }}
+          LOOKERSDK_CLIENT_SECRET: ${{ secrets.LOOKER_CLIENT_SECRET }}
         run: |
           # Limpiamos la carpeta local antes para no acumular basura de backups fallidos
           rm -rf content/*
