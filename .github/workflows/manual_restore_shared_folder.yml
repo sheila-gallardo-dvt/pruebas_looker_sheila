@@ -30,17 +30,11 @@ jobs:
           # Asumimos que el backup se guardó en content/dashboards/
           cd content
           
-          # 2. BORRAR TODO EL CONTENIDO ACTUAL DE SHARED (Recursivo)
-          # Precaución: Esto limpia la carpeta 1 por completo antes de restaurar
-          echo "Purgando carpeta Shared para restauración limpia..."
-          gzr space purge $ROOT_SPACE_ID --force
+          echo "Iniciando importación recursiva en la carpeta $ROOT_SPACE_ID..."
+          
+          # 2. IMPORTACIÓN RECURSIVA
+          # Usamos 'space import' (o 'folder import' si falla) 
+          # El punto '.' indica que importe todo lo que hay en la carpeta actual
+          # --force sobrescribe dashboards/looks si ya existen con el mismo nombre
+          gzr space import . $ROOT_SPACE_ID --force --port 443
 
-          # 3. RESTAURAR CARPETAS Y ARCHIVOS
-          # Usamos un comando especial de Gazer que intenta importar un árbol completo
-          # Si el export se hizo con 'gzr space export', 'gzr space import' es el mejor aliado
-          
-          echo "Iniciando importación recursiva..."
-          
-          # Importamos el directorio actual (.) dentro del espacio raíz (1)
-          # Gazer se encarga de crear las subcarpetas necesarias
-          gzr space import . $ROOT_SPACE_ID --force
