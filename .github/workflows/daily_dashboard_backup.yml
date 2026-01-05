@@ -41,7 +41,7 @@ jobs:
           # --force: sobreescribe los archivos existentes
           
           echo "Iniciando exportación de la carpeta 1..."
-          gzr space export 1 --dir content/dashboards --tarball=false --force
+          gzr space export 1 --dir content --tarball=false --force
 
       # 5. Detectamos si hubo cambios y los subimos a GitHub
       - name: Commit and Push changes
