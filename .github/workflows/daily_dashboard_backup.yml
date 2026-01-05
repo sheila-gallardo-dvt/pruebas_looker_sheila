@@ -30,19 +30,12 @@ jobs:
 
       # 4. Exportamos el contenido de la carpeta Shared (ID 1)
       - name: Export Shared Folder (ID 1)
-        env:
-          # Usamos las credenciales guardadas en los Secretos del Repo
-          LOOKERSDK_BASE_URL: ${{ secrets.LOOKERSDK_BASE_URL }}
-          LOOKERSDK_CLIENT_ID: ${{ secrets.LOOKERSDK_CLIENT_ID }}
-          LOOKERSDK_CLIENT_SECRET: ${{ secrets.LOOKERSDK_CLIENT_SECRET }}
         run: |
-          # --dir: guarda los archivos en la carpeta content/dashboards
-          # --tarball=false: descarga los JSON sueltos, no comprimidos (mejor para ver diferencias en git)
-          # --force: sobreescribe los archivos existentes
+          # Limpiamos la carpeta local antes para no acumular basura de backups fallidos
+          rm -rf content/*
+          # Exportamos directamente dentro de content/dashboards
+          gzr space export 1 --dir content --force
           
-          echo "Iniciando exportación de la carpeta 1..."
-          gzr space export 1 --dir content --tarball=false --force
-
       # 5. Detectamos si hubo cambios y los subimos a GitHub
       - name: Commit and Push changes
         run: |
