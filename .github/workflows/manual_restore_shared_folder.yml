@@ -26,28 +26,43 @@ jobs:
           LOOKERSDK_CLIENT_SECRET: ${{ secrets.LOOKER_CLIENT_SECRET }}
           ROOT_SPACE_ID: "182" # Carpeta Shared principal
         run: |
-          # 1. Entramos en la carpeta donde está el backup
           cd content
-
-          # 2. Buscamos todos los JSON y los procesamos
-          # Usamos -print0 y read -d para que los nombres con espacios no den error
-          find . -name "*.json" -type f -print0 | while IFS= read -r -d '' file; do
+          
+          # Buscamos todos los JSON ordenados para procesar carpetas antes que su contenido
+          find . -name "*.json" -type f | sort | while read -r file; do
             
-            # Obtener el nombre de la carpeta donde está el archivo
-            folder_path=$(dirname "$file" | sed 's|^\./||')
+            filename=$(basename "$file")
+            relative_dir=$(dirname "$file" | sed 's|^\./||')
             
-            # Si el archivo está en una subcarpeta, la creamos/buscamos
-            dest_folder=$ROOT_SPACE_ID
-            if [ "$folder_path" != "." ]; then
-                # Creamos la subcarpeta y obtenemos su ID (Gazer suele devolver el ID si ya existe o la crea)
-                # Nota: gzr folder create es más estable que space create
-                dest_folder=$(gzr folder create "$folder_path" $ROOT_SPACE_ID --fields id | jq -r '.id' 2>/dev/null || gzr folder ls $ROOT_SPACE_ID --fields id,name | jq -r ".[] | select(.name==\"$folder_path\") | .id")
+            # 1. CASO: ARCHIVO DE CONFIGURACIÓN DE CARPETA
+            if [[ "$filename" == Folder_* ]]; then
+                echo "Configurando metadatos de carpeta: $filename"
+                # Extraemos el nombre real del JSON de la carpeta
+                folder_name=$(jq -r '.name' "$file")
+                
+                # Si estamos en la raíz, no creamos nada, solo actualizamos si fuera necesario
+                if [ "$relative_dir" == "." ]; then
+                    continue 
+                fi
+                
+                # Creamos/Obtenemos el ID de la carpeta usando el nombre del JSON
+                # Nota: 'gzr folder create' solo acepta NAME y PARENT_ID
+                parent_id=$ROOT_SPACE_ID # Simplificado para un nivel, se puede iterar para más
+                gzr folder create "$folder_name" "$parent_id" --port 443 2>/dev/null || echo "Carpeta ya existe."
+                continue
             fi
 
-            echo "Restaurando $file en carpeta $dest_folder..."
+            # 2. CASO: DASHBOARDS Y LOOKS
+            # Determinamos la carpeta destino (si hay subcarpetas)
+            dest_folder=$ROOT_SPACE_ID
+            if [ "$relative_dir" != "." ]; then
+                # Buscamos el ID de la carpeta destino por nombre
+                dest_folder=$(gzr folder ls $ROOT_SPACE_ID --fields id,name --port 443 | jq -r ".[] | select(.name==\"$relative_dir\") | .id")
+            fi
+
+            echo "Restaurando contenido: $filename en carpeta ID $dest_folder"
             
-            # Importación directa según el tipo
-            if [[ "$file" == *"Look_"* ]]; then
+            if [[ "$filename" == Look_* ]]; then
               gzr look import "$file" "$dest_folder" --force --port 443
             else
               gzr dashboard import "$file" "$dest_folder" --force --port 443
