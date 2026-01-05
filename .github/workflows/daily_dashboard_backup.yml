@@ -17,6 +17,10 @@ jobs:
       # 1. Bajamos el código actual del repo
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # FORZAMOS a que siempre use la rama de backup, 
+          # tanto en manual como en automático.
+          ref: 'backup-dashboards'
 
       # 2. Preparamos el entorno Ruby para Gazer
       - name: Set up Ruby
