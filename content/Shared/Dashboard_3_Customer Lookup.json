@@ -1,0 +1,1567 @@
+{
+  "content_metadata_id": "9",
+  "description": "",
+  "hidden": false,
+  "query_timezone": null,
+  "readonly": false,
+  "refresh_interval": null,
+  "refresh_interval_to_i": null,
+  "title": "Customer Lookup",
+  "user_id": "1",
+  "slug": "ce2GmrFFZyqFUvIRw5uPCL",
+  "preferred_viewer": "dashboards",
+  "alert_sync_with_dashboard_filter_enabled": false,
+  "background_color": null,
+  "created_at": "2020-10-16 11:13:12 UTC",
+  "crossfilter_enabled": false,
+  "dashboard_elements": [
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "3",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "27",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "User Info",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": null,
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "41",
+      "subtitle_text": null,
+      "title": "User Info",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": null,
+      "result_maker": {
+        "id": "41",
+        "dynamic_fields": null,
+        "sorts": [
+          "users.zip"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "order_items",
+          "fields": [
+            "users.id",
+            "users.email",
+            "users.name",
+            "users.traffic_source",
+            "users.created_month",
+            "users.age",
+            "users.gender",
+            "users.city",
+            "users.state",
+            "users.zip",
+            "users.history"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": {
+            "order_items.created_date": "99 years"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "users.zip"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "type": "looker_single_record",
+            "show_null_labels": false,
+            "show_view_names": false,
+            "show_row_numbers": true
+          },
+          "filter_config": null,
+          "visible_ui_sections": null,
+          "slug": "sYBpvkY",
+          "client_id": "DJOgIbmQpywPsJfSxP5NTA",
+          "share_url": "https://nubalia.cloud.looker.com/x/DJOgIbmQpywPsJfSxP5NTA",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/thelook/order_items?fields=users.id,users.email,users.name,users.traffic_source,users.created_month,users.age,users.gender,users.city,users.state,users.zip,users.history&f[order_items.created_date]=99+years&sorts=users.zip&limit=1&column_limit=50&query_timezone=America%2FLos_Angeles&vis=%7B%22type%22%3A%22looker_single_record%22%2C%22show_null_labels%22%3Afalse%2C%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%7D&origin=share-expanded",
+          "url": "/explore/thelook/order_items?fields=users.id,users.email,users.name,users.traffic_source,users.created_month,users.age,users.gender,users.city,users.state,users.zip,users.history&f[order_items.created_date]=99+years&sorts=users.zip&limit=1&column_limit=50&query_timezone=America%2FLos_Angeles&vis=%7B%22type%22%3A%22looker_single_record%22%2C%22show_null_labels%22%3Afalse%2C%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%7D",
+          "has_table_calculations": false,
+          "id": "sYBpvkY",
+          "model": "thelook",
+          "limit": "1",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "type": "looker_single_record",
+          "show_null_labels": false,
+          "show_view_names": false,
+          "show_row_numbers": true
+        },
+        "filterables": [
+          {
+            "model": "thelook",
+            "view": "order_items",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Email",
+                "field": "users.email"
+              }
+            ]
+          }
+        ],
+        "query_id": "sYBpvkY"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "3",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "28",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "Lifetime Orders",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": null,
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "42",
+      "subtitle_text": null,
+      "title": "Lifetime Orders",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": null,
+      "result_maker": {
+        "id": "42",
+        "dynamic_fields": null,
+        "sorts": [
+          "order_items.order_count desc"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "order_items",
+          "fields": [
+            "order_items.order_count"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": {
+            "order_items.created_date": "99 years"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "order_items.order_count desc"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "type": "single_value",
+            "show_null_labels": false,
+            "user_access_filters": {
+            }
+          },
+          "filter_config": null,
+          "visible_ui_sections": null,
+          "slug": "mYYyRdx",
+          "client_id": "jHEPbPi6ylpfx4y4CN2C13",
+          "share_url": "https://nubalia.cloud.looker.com/x/jHEPbPi6ylpfx4y4CN2C13",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/thelook/order_items?fields=order_items.order_count&f[order_items.created_date]=99+years&sorts=order_items.order_count+desc&limit=500&vis=%7B%22type%22%3A%22single_value%22%2C%22show_null_labels%22%3Afalse%2C%22user_access_filters%22%3A%7B%7D%7D&origin=share-expanded",
+          "url": "/explore/thelook/order_items?fields=order_items.order_count&f[order_items.created_date]=99+years&sorts=order_items.order_count+desc&limit=500&vis=%7B%22type%22%3A%22single_value%22%2C%22show_null_labels%22%3Afalse%2C%22user_access_filters%22%3A%7B%7D%7D",
+          "has_table_calculations": false,
+          "id": "mYYyRdx",
+          "model": "thelook",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "type": "single_value",
+          "show_null_labels": false,
+          "user_access_filters": {
+          }
+        },
+        "filterables": [
+          {
+            "model": "thelook",
+            "view": "order_items",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Email",
+                "field": "users.email"
+              }
+            ]
+          }
+        ],
+        "query_id": "mYYyRdx"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "3",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "29",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "Total Items Returned",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": null,
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "43",
+      "subtitle_text": null,
+      "title": "Total Items Returned",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": null,
+      "result_maker": {
+        "id": "43",
+        "dynamic_fields": null,
+        "sorts": [
+          "order_items.count desc"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "order_items",
+          "fields": [
+            "order_items.count"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": {
+            "order_items.returned_date": "NOT NULL"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "order_items.count desc"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "type": "single_value",
+            "show_null_labels": false,
+            "font_size": "medium",
+            "text_color": "black"
+          },
+          "filter_config": null,
+          "visible_ui_sections": null,
+          "slug": "qvNW4dc",
+          "client_id": "bDytjVOM21CrLA5mGbEMg2",
+          "share_url": "https://nubalia.cloud.looker.com/x/bDytjVOM21CrLA5mGbEMg2",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/thelook/order_items?fields=order_items.count&f[order_items.returned_date]=NOT+NULL&sorts=order_items.count+desc&limit=500&vis=%7B%22type%22%3A%22single_value%22%2C%22show_null_labels%22%3Afalse%2C%22font_size%22%3A%22medium%22%2C%22text_color%22%3A%22black%22%7D&origin=share-expanded",
+          "url": "/explore/thelook/order_items?fields=order_items.count&f[order_items.returned_date]=NOT+NULL&sorts=order_items.count+desc&limit=500&vis=%7B%22type%22%3A%22single_value%22%2C%22show_null_labels%22%3Afalse%2C%22font_size%22%3A%22medium%22%2C%22text_color%22%3A%22black%22%7D",
+          "has_table_calculations": false,
+          "id": "qvNW4dc",
+          "model": "thelook",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "type": "single_value",
+          "show_null_labels": false,
+          "font_size": "medium",
+          "text_color": "black"
+        },
+        "filterables": [
+          {
+            "model": "thelook",
+            "view": "order_items",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Email",
+                "field": "users.email"
+              }
+            ]
+          }
+        ],
+        "query_id": "qvNW4dc"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "3",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "30",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "Lifetime Spend",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": null,
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "44",
+      "subtitle_text": null,
+      "title": "Lifetime Spend",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": null,
+      "result_maker": {
+        "id": "44",
+        "dynamic_fields": null,
+        "sorts": [
+          "order_items.total_sale_price desc"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "order_items",
+          "fields": [
+            "order_items.total_sale_price"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": {
+            "order_items.created_date": "99 years"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "order_items.total_sale_price desc"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "type": "single_value",
+            "show_null_labels": false,
+            "font_size": "medium",
+            "text_color": "black",
+            "show_single_value_title": true,
+            "show_comparison": false,
+            "comparison_type": "value",
+            "comparison_reverse_colors": false,
+            "show_comparison_label": true,
+            "colors": [
+              "#5245ed",
+              "#a2dcf3",
+              "#776fdf",
+              "#1ea8df",
+              "#49cec1",
+              "#776fdf",
+              "#49cec1",
+              "#1ea8df",
+              "#a2dcf3",
+              "#776fdf",
+              "#776fdf",
+              "#635189"
+            ],
+            "color_palette": "Default"
+          },
+          "filter_config": null,
+          "visible_ui_sections": null,
+          "slug": "PQpvtMb",
+          "client_id": "vOSgeFErgyBHVea4pDVdxu",
+          "share_url": "https://nubalia.cloud.looker.com/x/vOSgeFErgyBHVea4pDVdxu",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/thelook/order_items?fields=order_items.total_sale_price&f[order_items.created_date]=99+years&sorts=order_items.total_sale_price+desc&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22type%22%3A%22single_value%22%2C%22show_null_labels%22%3Afalse%2C%22font_size%22%3A%22medium%22%2C%22text_color%22%3A%22black%22%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22colors%22%3A%5B%22%235245ed%22%2C%22%23a2dcf3%22%2C%22%23776fdf%22%2C%22%231ea8df%22%2C%22%2349cec1%22%2C%22%23776fdf%22%2C%22%2349cec1%22%2C%22%231ea8df%22%2C%22%23a2dcf3%22%2C%22%23776fdf%22%2C%22%23776fdf%22%2C%22%23635189%22%5D%2C%22color_palette%22%3A%22Default%22%7D&origin=share-expanded",
+          "url": "/explore/thelook/order_items?fields=order_items.total_sale_price&f[order_items.created_date]=99+years&sorts=order_items.total_sale_price+desc&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22type%22%3A%22single_value%22%2C%22show_null_labels%22%3Afalse%2C%22font_size%22%3A%22medium%22%2C%22text_color%22%3A%22black%22%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22colors%22%3A%5B%22%235245ed%22%2C%22%23a2dcf3%22%2C%22%23776fdf%22%2C%22%231ea8df%22%2C%22%2349cec1%22%2C%22%23776fdf%22%2C%22%2349cec1%22%2C%22%231ea8df%22%2C%22%23a2dcf3%22%2C%22%23776fdf%22%2C%22%23776fdf%22%2C%22%23635189%22%5D%2C%22color_palette%22%3A%22Default%22%7D",
+          "has_table_calculations": false,
+          "id": "PQpvtMb",
+          "model": "thelook",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "type": "single_value",
+          "show_null_labels": false,
+          "font_size": "medium",
+          "text_color": "black",
+          "show_single_value_title": true,
+          "show_comparison": false,
+          "comparison_type": "value",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "colors": [
+            "#5245ed",
+            "#a2dcf3",
+            "#776fdf",
+            "#1ea8df",
+            "#49cec1",
+            "#776fdf",
+            "#49cec1",
+            "#1ea8df",
+            "#a2dcf3",
+            "#776fdf",
+            "#776fdf",
+            "#635189"
+          ],
+          "color_palette": "Default"
+        },
+        "filterables": [
+          {
+            "model": "thelook",
+            "view": "order_items",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Email",
+                "field": "users.email"
+              }
+            ]
+          }
+        ],
+        "query_id": "PQpvtMb"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "3",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "31",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "Items Order History",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": null,
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "45",
+      "subtitle_text": null,
+      "title": "Items Order History",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": null,
+      "result_maker": {
+        "id": "45",
+        "dynamic_fields": null,
+        "sorts": [
+          "order_items.created_date desc"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "order_items",
+          "fields": [
+            "order_items.id",
+            "products.item_name",
+            "order_items.status",
+            "order_items.created_date",
+            "order_items.shipped_date",
+            "order_items.delivered_date",
+            "order_items.returned_date",
+            "distribution_centers.name"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": {
+            "order_items.created_date": "99 years"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "order_items.created_date desc"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "type": "table",
+            "show_view_names": true,
+            "show_row_numbers": true
+          },
+          "filter_config": null,
+          "visible_ui_sections": null,
+          "slug": "6bs4h6b",
+          "client_id": "3NaGRdOHzzjm8kIcsIPG14",
+          "share_url": "https://nubalia.cloud.looker.com/x/3NaGRdOHzzjm8kIcsIPG14",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/thelook/order_items?fields=order_items.id,products.item_name,order_items.status,order_items.created_date,order_items.shipped_date,order_items.delivered_date,order_items.returned_date,distribution_centers.name&f[order_items.created_date]=99+years&sorts=order_items.created_date+desc&limit=500&vis=%7B%22type%22%3A%22table%22%2C%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%7D&origin=share-expanded",
+          "url": "/explore/thelook/order_items?fields=order_items.id,products.item_name,order_items.status,order_items.created_date,order_items.shipped_date,order_items.delivered_date,order_items.returned_date,distribution_centers.name&f[order_items.created_date]=99+years&sorts=order_items.created_date+desc&limit=500&vis=%7B%22type%22%3A%22table%22%2C%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%7D",
+          "has_table_calculations": false,
+          "id": "6bs4h6b",
+          "model": "thelook",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "type": "table",
+          "show_view_names": true,
+          "show_row_numbers": true
+        },
+        "filterables": [
+          {
+            "model": "thelook",
+            "view": "order_items",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Email",
+                "field": "users.email"
+              }
+            ]
+          }
+        ],
+        "query_id": "6bs4h6b"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "3",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "32",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "Favorite Categories",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": null,
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "46",
+      "subtitle_text": null,
+      "title": "Favorite Categories",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": null,
+      "result_maker": {
+        "id": "46",
+        "dynamic_fields": null,
+        "sorts": [
+          "order_items.count desc"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "order_items",
+          "fields": [
+            "products.category",
+            "order_items.count"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": {
+            "order_items.created_date": "99 years"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "order_items.count desc"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "type": "looker_pie",
+            "value_labels": "legend",
+            "label_type": "labPer",
+            "show_view_names": true,
+            "colors": [
+              "#64518A",
+              "#8D7FB9",
+              "#EA8A2F",
+              "#F2B431",
+              "#2DA5DE",
+              "#57BEBE",
+              "#7F7977",
+              "#B2A898",
+              "#494C52"
+            ]
+          },
+          "filter_config": null,
+          "visible_ui_sections": null,
+          "slug": "JYZJ5K3",
+          "client_id": "FAzdgxi2nhG7zYCiI2EEzs",
+          "share_url": "https://nubalia.cloud.looker.com/x/FAzdgxi2nhG7zYCiI2EEzs",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/thelook/order_items?fields=products.category,order_items.count&f[order_items.created_date]=99+years&sorts=order_items.count+desc&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22type%22%3A%22looker_pie%22%2C%22value_labels%22%3A%22legend%22%2C%22label_type%22%3A%22labPer%22%2C%22show_view_names%22%3Atrue%2C%22colors%22%3A%5B%22%2364518A%22%2C%22%238D7FB9%22%2C%22%23EA8A2F%22%2C%22%23F2B431%22%2C%22%232DA5DE%22%2C%22%2357BEBE%22%2C%22%237F7977%22%2C%22%23B2A898%22%2C%22%23494C52%22%5D%7D&origin=share-expanded",
+          "url": "/explore/thelook/order_items?fields=products.category,order_items.count&f[order_items.created_date]=99+years&sorts=order_items.count+desc&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22type%22%3A%22looker_pie%22%2C%22value_labels%22%3A%22legend%22%2C%22label_type%22%3A%22labPer%22%2C%22show_view_names%22%3Atrue%2C%22colors%22%3A%5B%22%2364518A%22%2C%22%238D7FB9%22%2C%22%23EA8A2F%22%2C%22%23F2B431%22%2C%22%232DA5DE%22%2C%22%2357BEBE%22%2C%22%237F7977%22%2C%22%23B2A898%22%2C%22%23494C52%22%5D%7D",
+          "has_table_calculations": false,
+          "id": "JYZJ5K3",
+          "model": "thelook",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "type": "looker_pie",
+          "value_labels": "legend",
+          "label_type": "labPer",
+          "show_view_names": true,
+          "colors": [
+            "#64518A",
+            "#8D7FB9",
+            "#EA8A2F",
+            "#F2B431",
+            "#2DA5DE",
+            "#57BEBE",
+            "#7F7977",
+            "#B2A898",
+            "#494C52"
+          ]
+        },
+        "filterables": [
+          {
+            "model": "thelook",
+            "view": "order_items",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Email",
+                "field": "users.email"
+              }
+            ]
+          }
+        ],
+        "query_id": "JYZJ5K3"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "3",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "33",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "User Avatar",
+      "merge_result_id": null,
+      "note_display": "below",
+      "note_state": "collapsed",
+      "note_text": "",
+      "note_text_as_html": "",
+      "query": null,
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "47",
+      "subtitle_text": null,
+      "title": "User Avatar",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": null,
+      "result_maker": {
+        "id": "47",
+        "dynamic_fields": null,
+        "sorts": [
+          "users.created_month desc",
+          "users.user_image"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "order_items",
+          "fields": [
+            "users.user_image"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+            "users.created_month desc",
+            "users.user_image"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "type": "single_value",
+            "font_size": "medium",
+            "note_state": "collapsed",
+            "note_display": "below",
+            "note_text": ""
+          },
+          "filter_config": null,
+          "visible_ui_sections": null,
+          "slug": "WWyvBG4",
+          "client_id": "ZfsuJ0ehGwyjZNlA27AKdj",
+          "share_url": "https://nubalia.cloud.looker.com/x/ZfsuJ0ehGwyjZNlA27AKdj",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/thelook/order_items?fields=users.user_image&sorts=users.created_month+desc,users.user_image&limit=500&vis=%7B%22type%22%3A%22single_value%22%2C%22font_size%22%3A%22medium%22%2C%22note_state%22%3A%22collapsed%22%2C%22note_display%22%3A%22below%22%2C%22note_text%22%3A%22%22%7D&origin=share-expanded",
+          "url": "/explore/thelook/order_items?fields=users.user_image&sorts=users.created_month+desc,users.user_image&limit=500&vis=%7B%22type%22%3A%22single_value%22%2C%22font_size%22%3A%22medium%22%2C%22note_state%22%3A%22collapsed%22%2C%22note_display%22%3A%22below%22%2C%22note_text%22%3A%22%22%7D",
+          "has_table_calculations": false,
+          "id": "WWyvBG4",
+          "model": "thelook",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "type": "single_value",
+          "font_size": "medium",
+          "note_state": "collapsed",
+          "note_display": "below",
+          "note_text": ""
+        },
+        "filterables": [
+          {
+            "model": "thelook",
+            "view": "order_items",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Email",
+                "field": "users.email"
+              }
+            ]
+          }
+        ],
+        "query_id": "WWyvBG4"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "3",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "34",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "User Location",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": null,
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "48",
+      "subtitle_text": null,
+      "title": "User Location",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": null,
+      "result_maker": {
+        "id": "48",
+        "dynamic_fields": null,
+        "sorts": [
+          "users.created_month desc",
+          "users.zip"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "order_items",
+          "fields": [
+            "users.zip",
+            "users.count"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+            "users.created_month desc",
+            "users.zip"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "type": "looker_geo_coordinates",
+            "show_view_names": true,
+            "font_size": "medium",
+            "text_color": "#49719a",
+            "map": "usa",
+            "map_projection": "",
+            "map_plot_mode": "points",
+            "heatmap_gridlines": true,
+            "map_tile_provider": "positron",
+            "map_position": "custom",
+            "map_scale_indicator": "off",
+            "map_pannable": true,
+            "map_zoomable": true,
+            "map_marker_type": "icon",
+            "map_marker_icon_name": "default",
+            "map_marker_radius_mode": "proportional_value",
+            "map_marker_units": "meters",
+            "map_marker_proportional_scale_type": "linear",
+            "map_marker_color_mode": "fixed",
+            "show_legend": true,
+            "quantize_map_value_colors": false,
+            "map_latitude": 42.35930500076174,
+            "map_longitude": -71.02283477783203,
+            "map_zoom": 11,
+            "point_radius": 10,
+            "loading": false,
+            "point_color": "#64518A"
+          },
+          "filter_config": null,
+          "visible_ui_sections": null,
+          "slug": "VK3SyqJ",
+          "client_id": "7H5jCoAKYKis54kc1gmVg5",
+          "share_url": "https://nubalia.cloud.looker.com/x/7H5jCoAKYKis54kc1gmVg5",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/thelook/order_items?fields=users.zip,users.count&sorts=users.created_month+desc,users.zip&limit=1&query_timezone=America%2FLos_Angeles&vis=%7B%22type%22%3A%22looker_geo_coordinates%22%2C%22show_view_names%22%3Atrue%2C%22font_size%22%3A%22medium%22%2C%22text_color%22%3A%22%2349719a%22%2C%22map%22%3A%22usa%22%2C%22map_projection%22%3A%22%22%2C%22map_plot_mode%22%3A%22points%22%2C%22heatmap_gridlines%22%3Atrue%2C%22map_tile_provider%22%3A%22positron%22%2C%22map_position%22%3A%22custom%22%2C%22map_scale_indicator%22%3A%22off%22%2C%22map_pannable%22%3Atrue%2C%22map_zoomable%22%3Atrue%2C%22map_marker_type%22%3A%22icon%22%2C%22map_marker_icon_name%22%3A%22default%22%2C%22map_marker_radius_mode%22%3A%22proportional_value%22%2C%22map_marker_units%22%3A%22meters%22%2C%22map_marker_proportional_scale_type%22%3A%22linear%22%2C%22map_marker_color_mode%22%3A%22fixed%22%2C%22show_legend%22%3Atrue%2C%22quantize_map_value_colors%22%3Afalse%2C%22map_latitude%22%3A42.35930500076174%2C%22map_longitude%22%3A-71.02283477783203%2C%22map_zoom%22%3A11%2C%22point_radius%22%3A10%2C%22loading%22%3Afalse%2C%22point_color%22%3A%22%2364518A%22%7D&origin=share-expanded",
+          "url": "/explore/thelook/order_items?fields=users.zip,users.count&sorts=users.created_month+desc,users.zip&limit=1&query_timezone=America%2FLos_Angeles&vis=%7B%22type%22%3A%22looker_geo_coordinates%22%2C%22show_view_names%22%3Atrue%2C%22font_size%22%3A%22medium%22%2C%22text_color%22%3A%22%2349719a%22%2C%22map%22%3A%22usa%22%2C%22map_projection%22%3A%22%22%2C%22map_plot_mode%22%3A%22points%22%2C%22heatmap_gridlines%22%3Atrue%2C%22map_tile_provider%22%3A%22positron%22%2C%22map_position%22%3A%22custom%22%2C%22map_scale_indicator%22%3A%22off%22%2C%22map_pannable%22%3Atrue%2C%22map_zoomable%22%3Atrue%2C%22map_marker_type%22%3A%22icon%22%2C%22map_marker_icon_name%22%3A%22default%22%2C%22map_marker_radius_mode%22%3A%22proportional_value%22%2C%22map_marker_units%22%3A%22meters%22%2C%22map_marker_proportional_scale_type%22%3A%22linear%22%2C%22map_marker_color_mode%22%3A%22fixed%22%2C%22show_legend%22%3Atrue%2C%22quantize_map_value_colors%22%3Afalse%2C%22map_latitude%22%3A42.35930500076174%2C%22map_longitude%22%3A-71.02283477783203%2C%22map_zoom%22%3A11%2C%22point_radius%22%3A10%2C%22loading%22%3Afalse%2C%22point_color%22%3A%22%2364518A%22%7D",
+          "has_table_calculations": false,
+          "id": "VK3SyqJ",
+          "model": "thelook",
+          "limit": "1",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "type": "looker_geo_coordinates",
+          "show_view_names": true,
+          "font_size": "medium",
+          "text_color": "#49719a",
+          "map": "usa",
+          "map_projection": "",
+          "map_plot_mode": "points",
+          "heatmap_gridlines": true,
+          "map_tile_provider": "positron",
+          "map_position": "custom",
+          "map_scale_indicator": "off",
+          "map_pannable": true,
+          "map_zoomable": true,
+          "map_marker_type": "icon",
+          "map_marker_icon_name": "default",
+          "map_marker_radius_mode": "proportional_value",
+          "map_marker_units": "meters",
+          "map_marker_proportional_scale_type": "linear",
+          "map_marker_color_mode": "fixed",
+          "show_legend": true,
+          "quantize_map_value_colors": false,
+          "map_latitude": 42.35930500076174,
+          "map_longitude": -71.02283477783203,
+          "map_zoom": 11,
+          "point_radius": 10,
+          "loading": false,
+          "point_color": "#64518A"
+        },
+        "filterables": [
+          {
+            "model": "thelook",
+            "view": "order_items",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Email",
+                "field": "users.email"
+              }
+            ]
+          }
+        ],
+        "query_id": "VK3SyqJ"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    }
+  ],
+  "dashboard_filters": [
+    {
+      "id": "7",
+      "dashboard_id": "3",
+      "name": "Email",
+      "title": "Email",
+      "type": "field_filter",
+      "explore": "order_items",
+      "dimension": "users.email",
+      "row": 0,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "display": "popover",
+        "type": "advanced"
+      },
+      "model": "thelook",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "jgraham@gmail.com",
+      "field": null,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    }
+  ],
+  "dashboard_layouts": [
+    {
+      "id": "3",
+      "dashboard_id": "3",
+      "type": "newspaper",
+      "active": true,
+      "column_width": null,
+      "width": null,
+      "deleted": false,
+      "dashboard_title": "Customer Lookup",
+      "dashboard_layout_components": [
+        {
+          "id": "27",
+          "dashboard_layout_id": "3",
+          "dashboard_element_id": "27",
+          "row": 0,
+          "column": 0,
+          "width": 8,
+          "height": 6,
+          "deleted": false,
+          "element_title": "User Info",
+          "element_title_hidden": false,
+          "vis_type": "looker_single_record",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "28",
+          "dashboard_layout_id": "3",
+          "dashboard_element_id": "28",
+          "row": 6,
+          "column": 0,
+          "width": 4,
+          "height": 4,
+          "deleted": false,
+          "element_title": "Lifetime Orders",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "29",
+          "dashboard_layout_id": "3",
+          "dashboard_element_id": "29",
+          "row": 6,
+          "column": 4,
+          "width": 4,
+          "height": 4,
+          "deleted": false,
+          "element_title": "Total Items Returned",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "30",
+          "dashboard_layout_id": "3",
+          "dashboard_element_id": "30",
+          "row": 6,
+          "column": 8,
+          "width": 8,
+          "height": 4,
+          "deleted": false,
+          "element_title": "Lifetime Spend",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "31",
+          "dashboard_layout_id": "3",
+          "dashboard_element_id": "31",
+          "row": 10,
+          "column": 0,
+          "width": 16,
+          "height": 6,
+          "deleted": false,
+          "element_title": "Items Order History",
+          "element_title_hidden": false,
+          "vis_type": "table",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "32",
+          "dashboard_layout_id": "3",
+          "dashboard_element_id": "32",
+          "row": 6,
+          "column": 16,
+          "width": 8,
+          "height": 10,
+          "deleted": false,
+          "element_title": "Favorite Categories",
+          "element_title_hidden": false,
+          "vis_type": "looker_pie",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "33",
+          "dashboard_layout_id": "3",
+          "dashboard_element_id": "33",
+          "row": 0,
+          "column": 8,
+          "width": 6,
+          "height": 6,
+          "deleted": false,
+          "element_title": "User Avatar",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "34",
+          "dashboard_layout_id": "3",
+          "dashboard_element_id": "34",
+          "row": 0,
+          "column": 14,
+          "width": 10,
+          "height": 6,
+          "deleted": false,
+          "element_title": "User Location",
+          "element_title_hidden": false,
+          "vis_type": "looker_geo_coordinates",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        }
+      ],
+      "label": null,
+      "description": null,
+      "order": -1,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "index": true,
+        "show": true
+      }
+    }
+  ],
+  "deleted_at": null,
+  "deleter_id": null,
+  "edit_uri": null,
+  "enable_viz_full_screen": true,
+  "favorite_count": 0,
+  "filters_bar_collapsed": false,
+  "filters_location_top": true,
+  "last_accessed_at": "2025-11-25 09:09:10 UTC",
+  "updated_at": null,
+  "last_updater_id": null,
+  "load_configuration": "cache_run",
+  "lookml_link_id": "thelook::customer_lookup",
+  "show_filters_bar": null,
+  "show_title": null,
+  "text_tile_text_color": null,
+  "tile_background_color": null,
+  "tile_text_color": null,
+  "title_color": null,
+  "view_count": 20,
+  "url": "/dashboards-legacy/3",
+  "folder": {
+    "name": "Shared",
+    "parent_id": null,
+    "id": "1",
+    "content_metadata_id": "1",
+    "created_at": "2020-10-08 17:41:33 UTC",
+    "creator_id": null,
+    "external_id": "",
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": false,
+    "is_personal_descendant": false,
+    "is_shared_root": true,
+    "is_users_root": false,
+    "can": {
+      "browse_spaces_as_embed_user": false,
+      "create": true,
+      "destroy": false,
+      "edit_content": true,
+      "index": true,
+      "show": true,
+      "move_content": true,
+      "save_shared_space_as_embed_user": true,
+      "see_admin_spaces": true,
+      "update": false
+    }
+  },
+  "folder_id": "1",
+  "content_favorite_id": null,
+  "id": "3",
+  "model": null,
+  "certification_metadata": null,
+  "deleted": false,
+  "last_viewed_at": "2025-11-18 14:06:46 UTC",
+  "last_updater_name": "",
+  "user_name": "",
+  "appearance": null,
+  "theme_name": null,
+  "can": {
+    "certify": true,
+    "copy": true,
+    "index": true,
+    "show": true,
+    "create": true,
+    "destroy": true,
+    "move": true,
+    "recover": true,
+    "update": true,
+    "download": true,
+    "render": true,
+    "run": true,
+    "schedule": true,
+    "see_aggregate_table_lookml": true,
+    "see_lookml": true
+  }
+}

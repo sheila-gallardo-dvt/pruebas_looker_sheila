@@ -1,0 +1,2842 @@
+{
+  "content_metadata_id": "788",
+  "description": "",
+  "hidden": false,
+  "query_timezone": null,
+  "readonly": false,
+  "refresh_interval": null,
+  "refresh_interval_to_i": null,
+  "title": "Clientes DVT",
+  "user_id": "162",
+  "slug": "Q0jE0aKDssVz6MerTkuPYe",
+  "preferred_viewer": null,
+  "alert_sync_with_dashboard_filter_enabled": false,
+  "background_color": null,
+  "created_at": "2025-05-16 10:49:11 UTC",
+  "crossfilter_enabled": false,
+  "dashboard_elements": [
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "287",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "950",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "billing_skus_services_union",
+        "fields": [
+          "billing_skus_services_union.cliente",
+          "billing_skus_services_union.comercial",
+          "billing_skus_services_union.total_cost_sum",
+          "billing_skus_services_union.discountable_costs_sum",
+          "billing_skus_services_union.reseller_margin_sum"
+        ],
+        "pivots": null,
+        "fill_fields": null,
+        "filters": null,
+        "filter_expression": null,
+        "sorts": [
+          "billing_skus_services_union.total_cost_sum desc"
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "show_view_names": false,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": true,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "white",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": "12",
+          "rows_font_size": "12",
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "show_sql_query_menu_options": false,
+          "show_totals": true,
+          "show_row_totals": true,
+          "truncate_header": false,
+          "minimum_column_width": 75,
+          "series_cell_visualizations": {
+            "billing_skus_services_union.total_cost_sum": {
+              "is_active": false
+            }
+          },
+          "series_text_format": {
+            "billing_skus_services_union.cliente": {
+              "bold": true,
+              "fg_color": "#ff294e"
+            }
+          },
+          "series_value_format": {
+            "billing_skus_services_union.total_cost_sum": {
+              "name": "eur_0",
+              "decimals": "0",
+              "format_string": "\"€\"#,##0",
+              "label": "Euros (0)",
+              "label_prefix": "Euros"
+            },
+            "billing_skus_services_union.discountable_costs_sum": {
+              "name": "decimal_0",
+              "decimals": "0",
+              "format_string": "#,##0",
+              "label": "Decimals (0)",
+              "label_prefix": "Decimals"
+            },
+            "billing_skus_services_union.reseller_margin_sum": {
+              "name": "eur_0",
+              "decimals": "0",
+              "format_string": "\"€\"#,##0",
+              "label": "Euros (0)",
+              "label_prefix": "Euros"
+            }
+          },
+          "type": "looker_grid",
+          "x_axis_gridlines": false,
+          "y_axis_gridlines": true,
+          "show_y_axis_labels": true,
+          "show_y_axis_ticks": true,
+          "y_axis_tick_density": "default",
+          "y_axis_tick_density_custom": 5,
+          "show_x_axis_label": true,
+          "show_x_axis_ticks": true,
+          "y_axis_scale_mode": "linear",
+          "x_axis_reversed": false,
+          "y_axis_reversed": false,
+          "plot_size_by_field": false,
+          "trellis": "",
+          "stacking": "",
+          "legend_position": "center",
+          "point_style": "none",
+          "show_value_labels": false,
+          "label_density": 25,
+          "x_axis_scale": "auto",
+          "y_axis_combined": true,
+          "ordering": "none",
+          "show_null_labels": false,
+          "show_totals_labels": false,
+          "show_silhouette": false,
+          "totals_color": "#808080",
+          "defaults_version": 1,
+          "series_types": {
+          }
+        },
+        "filter_config": {
+        },
+        "visible_ui_sections": null,
+        "slug": "gCgcY3jMtxMfcgMckF5ppVkkjpGCZV8X",
+        "client_id": "fpr1bAroDcBk6HgLEIV4ic",
+        "share_url": "https://nubalia.cloud.looker.com/x/fpr1bAroDcBk6HgLEIV4ic",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.cliente,billing_skus_services_union.comercial,billing_skus_services_union.total_cost_sum,billing_skus_services_union.discountable_costs_sum,billing_skus_services_union.reseller_margin_sum&sorts=billing_skus_services_union.total_cost_sum+desc&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_cell_visualizations%22%3A%7B%22billing_skus_services_union.total_cost_sum%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22billing_skus_services_union.cliente%22%3A%7B%22bold%22%3Atrue%2C%22fg_color%22%3A%22%23ff294e%22%7D%7D%2C%22series_value_format%22%3A%7B%22billing_skus_services_union.total_cost_sum%22%3A%7B%22name%22%3A%22eur_0%22%2C%22decimals%22%3A%220%22%2C%22format_string%22%3A%22%5C%22%E2%82%AC%5C%22%23%2C%23%230%22%2C%22label%22%3A%22Euros+%280%29%22%2C%22label_prefix%22%3A%22Euros%22%7D%2C%22billing_skus_services_union.discountable_costs_sum%22%3A%7B%22name%22%3A%22decimal_0%22%2C%22decimals%22%3A%220%22%2C%22format_string%22%3A%22%23%2C%23%230%22%2C%22label%22%3A%22Decimals+%280%29%22%2C%22label_prefix%22%3A%22Decimals%22%7D%2C%22billing_skus_services_union.reseller_margin_sum%22%3A%7B%22name%22%3A%22eur_0%22%2C%22decimals%22%3A%220%22%2C%22format_string%22%3A%22%5C%22%E2%82%AC%5C%22%23%2C%23%230%22%2C%22label%22%3A%22Euros+%280%29%22%2C%22label_prefix%22%3A%22Euros%22%7D%7D%2C%22type%22%3A%22looker_grid%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%7D&dynamic_fields=%5B%5D&origin=share-expanded",
+        "url": "/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.cliente,billing_skus_services_union.comercial,billing_skus_services_union.total_cost_sum,billing_skus_services_union.discountable_costs_sum,billing_skus_services_union.reseller_margin_sum&sorts=billing_skus_services_union.total_cost_sum+desc&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_cell_visualizations%22%3A%7B%22billing_skus_services_union.total_cost_sum%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22billing_skus_services_union.cliente%22%3A%7B%22bold%22%3Atrue%2C%22fg_color%22%3A%22%23ff294e%22%7D%7D%2C%22series_value_format%22%3A%7B%22billing_skus_services_union.total_cost_sum%22%3A%7B%22name%22%3A%22eur_0%22%2C%22decimals%22%3A%220%22%2C%22format_string%22%3A%22%5C%22%E2%82%AC%5C%22%23%2C%23%230%22%2C%22label%22%3A%22Euros+%280%29%22%2C%22label_prefix%22%3A%22Euros%22%7D%2C%22billing_skus_services_union.discountable_costs_sum%22%3A%7B%22name%22%3A%22decimal_0%22%2C%22decimals%22%3A%220%22%2C%22format_string%22%3A%22%23%2C%23%230%22%2C%22label%22%3A%22Decimals+%280%29%22%2C%22label_prefix%22%3A%22Decimals%22%7D%2C%22billing_skus_services_union.reseller_margin_sum%22%3A%7B%22name%22%3A%22eur_0%22%2C%22decimals%22%3A%220%22%2C%22format_string%22%3A%22%5C%22%E2%82%AC%5C%22%23%2C%23%230%22%2C%22label%22%3A%22Euros+%280%29%22%2C%22label_prefix%22%3A%22Euros%22%7D%7D%2C%22type%22%3A%22looker_grid%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%7D&dynamic_fields=%5B%5D",
+        "has_table_calculations": false,
+        "id": "gCgcY3jMtxMfcgMckF5ppVkkjpGCZV8X",
+        "model": "detailed_billing_es",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": "[]",
+        "query_timezone": null,
+        "quick_calcs": [
+
+        ],
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "3080",
+      "subtitle_text": null,
+      "title": "Margen y Coste (por Cliente)",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "gCgcY3jMtxMfcgMckF5ppVkkjpGCZV8X",
+      "result_maker": {
+        "id": "3080",
+        "dynamic_fields": "[]",
+        "sorts": [
+          "billing_skus_services_union.total_cost_sum desc"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "billing_skus_services_union",
+          "fields": [
+            "billing_skus_services_union.cliente",
+            "billing_skus_services_union.comercial",
+            "billing_skus_services_union.total_cost_sum",
+            "billing_skus_services_union.discountable_costs_sum",
+            "billing_skus_services_union.reseller_margin_sum"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+            "billing_skus_services_union.total_cost_sum desc"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "show_view_names": false,
+            "show_row_numbers": true,
+            "transpose": false,
+            "truncate_text": true,
+            "hide_totals": false,
+            "hide_row_totals": false,
+            "size_to_fit": true,
+            "table_theme": "white",
+            "limit_displayed_rows": false,
+            "enable_conditional_formatting": false,
+            "header_text_alignment": "left",
+            "header_font_size": "12",
+            "rows_font_size": "12",
+            "conditional_formatting_include_totals": false,
+            "conditional_formatting_include_nulls": false,
+            "show_sql_query_menu_options": false,
+            "show_totals": true,
+            "show_row_totals": true,
+            "truncate_header": false,
+            "minimum_column_width": 75,
+            "series_cell_visualizations": {
+              "billing_skus_services_union.total_cost_sum": {
+                "is_active": false
+              }
+            },
+            "series_text_format": {
+              "billing_skus_services_union.cliente": {
+                "bold": true,
+                "fg_color": "#ff294e"
+              }
+            },
+            "series_value_format": {
+              "billing_skus_services_union.total_cost_sum": {
+                "name": "eur_0",
+                "decimals": "0",
+                "format_string": "\"€\"#,##0",
+                "label": "Euros (0)",
+                "label_prefix": "Euros"
+              },
+              "billing_skus_services_union.discountable_costs_sum": {
+                "name": "decimal_0",
+                "decimals": "0",
+                "format_string": "#,##0",
+                "label": "Decimals (0)",
+                "label_prefix": "Decimals"
+              },
+              "billing_skus_services_union.reseller_margin_sum": {
+                "name": "eur_0",
+                "decimals": "0",
+                "format_string": "\"€\"#,##0",
+                "label": "Euros (0)",
+                "label_prefix": "Euros"
+              }
+            },
+            "type": "looker_grid",
+            "x_axis_gridlines": false,
+            "y_axis_gridlines": true,
+            "show_y_axis_labels": true,
+            "show_y_axis_ticks": true,
+            "y_axis_tick_density": "default",
+            "y_axis_tick_density_custom": 5,
+            "show_x_axis_label": true,
+            "show_x_axis_ticks": true,
+            "y_axis_scale_mode": "linear",
+            "x_axis_reversed": false,
+            "y_axis_reversed": false,
+            "plot_size_by_field": false,
+            "trellis": "",
+            "stacking": "",
+            "legend_position": "center",
+            "point_style": "none",
+            "show_value_labels": false,
+            "label_density": 25,
+            "x_axis_scale": "auto",
+            "y_axis_combined": true,
+            "ordering": "none",
+            "show_null_labels": false,
+            "show_totals_labels": false,
+            "show_silhouette": false,
+            "totals_color": "#808080",
+            "defaults_version": 1,
+            "series_types": {
+            }
+          },
+          "filter_config": {
+          },
+          "visible_ui_sections": null,
+          "slug": "gCgcY3jMtxMfcgMckF5ppVkkjpGCZV8X",
+          "client_id": "fpr1bAroDcBk6HgLEIV4ic",
+          "share_url": "https://nubalia.cloud.looker.com/x/fpr1bAroDcBk6HgLEIV4ic",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.cliente,billing_skus_services_union.comercial,billing_skus_services_union.total_cost_sum,billing_skus_services_union.discountable_costs_sum,billing_skus_services_union.reseller_margin_sum&sorts=billing_skus_services_union.total_cost_sum+desc&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_cell_visualizations%22%3A%7B%22billing_skus_services_union.total_cost_sum%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22billing_skus_services_union.cliente%22%3A%7B%22bold%22%3Atrue%2C%22fg_color%22%3A%22%23ff294e%22%7D%7D%2C%22series_value_format%22%3A%7B%22billing_skus_services_union.total_cost_sum%22%3A%7B%22name%22%3A%22eur_0%22%2C%22decimals%22%3A%220%22%2C%22format_string%22%3A%22%5C%22%E2%82%AC%5C%22%23%2C%23%230%22%2C%22label%22%3A%22Euros+%280%29%22%2C%22label_prefix%22%3A%22Euros%22%7D%2C%22billing_skus_services_union.discountable_costs_sum%22%3A%7B%22name%22%3A%22decimal_0%22%2C%22decimals%22%3A%220%22%2C%22format_string%22%3A%22%23%2C%23%230%22%2C%22label%22%3A%22Decimals+%280%29%22%2C%22label_prefix%22%3A%22Decimals%22%7D%2C%22billing_skus_services_union.reseller_margin_sum%22%3A%7B%22name%22%3A%22eur_0%22%2C%22decimals%22%3A%220%22%2C%22format_string%22%3A%22%5C%22%E2%82%AC%5C%22%23%2C%23%230%22%2C%22label%22%3A%22Euros+%280%29%22%2C%22label_prefix%22%3A%22Euros%22%7D%7D%2C%22type%22%3A%22looker_grid%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%7D&dynamic_fields=%5B%5D&origin=share-expanded",
+          "url": "/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.cliente,billing_skus_services_union.comercial,billing_skus_services_union.total_cost_sum,billing_skus_services_union.discountable_costs_sum,billing_skus_services_union.reseller_margin_sum&sorts=billing_skus_services_union.total_cost_sum+desc&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_cell_visualizations%22%3A%7B%22billing_skus_services_union.total_cost_sum%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22billing_skus_services_union.cliente%22%3A%7B%22bold%22%3Atrue%2C%22fg_color%22%3A%22%23ff294e%22%7D%7D%2C%22series_value_format%22%3A%7B%22billing_skus_services_union.total_cost_sum%22%3A%7B%22name%22%3A%22eur_0%22%2C%22decimals%22%3A%220%22%2C%22format_string%22%3A%22%5C%22%E2%82%AC%5C%22%23%2C%23%230%22%2C%22label%22%3A%22Euros+%280%29%22%2C%22label_prefix%22%3A%22Euros%22%7D%2C%22billing_skus_services_union.discountable_costs_sum%22%3A%7B%22name%22%3A%22decimal_0%22%2C%22decimals%22%3A%220%22%2C%22format_string%22%3A%22%23%2C%23%230%22%2C%22label%22%3A%22Decimals+%280%29%22%2C%22label_prefix%22%3A%22Decimals%22%7D%2C%22billing_skus_services_union.reseller_margin_sum%22%3A%7B%22name%22%3A%22eur_0%22%2C%22decimals%22%3A%220%22%2C%22format_string%22%3A%22%5C%22%E2%82%AC%5C%22%23%2C%23%230%22%2C%22label%22%3A%22Euros+%280%29%22%2C%22label_prefix%22%3A%22Euros%22%7D%7D%2C%22type%22%3A%22looker_grid%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%7D&dynamic_fields=%5B%5D",
+          "has_table_calculations": false,
+          "id": "gCgcY3jMtxMfcgMckF5ppVkkjpGCZV8X",
+          "model": "detailed_billing_es",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": "[]",
+          "query_timezone": null,
+          "quick_calcs": [
+
+          ],
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "show_view_names": false,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": true,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "white",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": "12",
+          "rows_font_size": "12",
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "show_sql_query_menu_options": false,
+          "show_totals": true,
+          "show_row_totals": true,
+          "truncate_header": false,
+          "minimum_column_width": 75,
+          "series_cell_visualizations": {
+            "billing_skus_services_union.total_cost_sum": {
+              "is_active": false
+            }
+          },
+          "series_text_format": {
+            "billing_skus_services_union.cliente": {
+              "bold": true,
+              "fg_color": "#ff294e"
+            }
+          },
+          "series_value_format": {
+            "billing_skus_services_union.total_cost_sum": {
+              "name": "eur_0",
+              "decimals": "0",
+              "format_string": "\"€\"#,##0",
+              "label": "Euros (0)",
+              "label_prefix": "Euros"
+            },
+            "billing_skus_services_union.discountable_costs_sum": {
+              "name": "decimal_0",
+              "decimals": "0",
+              "format_string": "#,##0",
+              "label": "Decimals (0)",
+              "label_prefix": "Decimals"
+            },
+            "billing_skus_services_union.reseller_margin_sum": {
+              "name": "eur_0",
+              "decimals": "0",
+              "format_string": "\"€\"#,##0",
+              "label": "Euros (0)",
+              "label_prefix": "Euros"
+            }
+          },
+          "type": "looker_grid",
+          "x_axis_gridlines": false,
+          "y_axis_gridlines": true,
+          "show_y_axis_labels": true,
+          "show_y_axis_ticks": true,
+          "y_axis_tick_density": "default",
+          "y_axis_tick_density_custom": 5,
+          "show_x_axis_label": true,
+          "show_x_axis_ticks": true,
+          "y_axis_scale_mode": "linear",
+          "x_axis_reversed": false,
+          "y_axis_reversed": false,
+          "plot_size_by_field": false,
+          "trellis": "",
+          "stacking": "",
+          "legend_position": "center",
+          "point_style": "none",
+          "show_value_labels": false,
+          "label_density": 25,
+          "x_axis_scale": "auto",
+          "y_axis_combined": true,
+          "ordering": "none",
+          "show_null_labels": false,
+          "show_totals_labels": false,
+          "show_silhouette": false,
+          "totals_color": "#808080",
+          "defaults_version": 1,
+          "series_types": {
+          }
+        },
+        "filterables": [
+          {
+            "model": "detailed_billing_es",
+            "view": "billing_skus_services_union",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Cliente",
+                "field": "billing_skus_services_union.cliente"
+              },
+              {
+                "dashboard_filter_name": "Fecha Date",
+                "field": "billing_skus_services_union.fecha_date"
+              },
+              {
+                "dashboard_filter_name": "Area",
+                "field": "billing_skus_services_union.area"
+              },
+              {
+                "dashboard_filter_name": "Comercial",
+                "field": "billing_skus_services_union.comercial"
+              }
+            ]
+          }
+        ],
+        "query_id": "gCgcY3jMtxMfcgMckF5ppVkkjpGCZV8X"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "287",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "952",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "billing_skus_services_union",
+        "fields": [
+          "billing_skus_services_union.total_cost_sum",
+          "billing_skus_services_union.fecha_year"
+        ],
+        "pivots": null,
+        "fill_fields": [
+          "billing_skus_services_union.fecha_year"
+        ],
+        "filters": null,
+        "filter_expression": null,
+        "sorts": [
+          "billing_skus_services_union.fecha_year desc"
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "custom_color_enabled": true,
+          "show_single_value_title": true,
+          "show_comparison": true,
+          "comparison_type": "change",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "enable_conditional_formatting": false,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "custom_color": "black",
+          "single_value_title": "Coste Total",
+          "smart_single_value_size": true,
+          "comparison_label": "Vs Last Year",
+          "series_types": {
+          },
+          "type": "single_value",
+          "defaults_version": 1
+        },
+        "filter_config": {
+        },
+        "visible_ui_sections": null,
+        "slug": "DSH7BFgZxy7nS8mff2Qz836YJCZmdZ2Q",
+        "client_id": "DmqWg6v2w0k6abKHj8mvL5",
+        "share_url": "https://nubalia.cloud.looker.com/x/DmqWg6v2w0k6abKHj8mvL5",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.total_cost_sum,billing_skus_services_union.fecha_year&fill_fields=billing_skus_services_union.fecha_year&sorts=billing_skus_services_union.fecha_year+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22custom_color%22%3A%22black%22%2C%22single_value_title%22%3A%22Coste+Total%22%2C%22smart_single_value_size%22%3Atrue%2C%22comparison_label%22%3A%22Vs+Last+Year%22%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+        "url": "/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.total_cost_sum,billing_skus_services_union.fecha_year&fill_fields=billing_skus_services_union.fecha_year&sorts=billing_skus_services_union.fecha_year+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22custom_color%22%3A%22black%22%2C%22single_value_title%22%3A%22Coste+Total%22%2C%22smart_single_value_size%22%3Atrue%2C%22comparison_label%22%3A%22Vs+Last+Year%22%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+        "has_table_calculations": false,
+        "id": "DSH7BFgZxy7nS8mff2Qz836YJCZmdZ2Q",
+        "model": "detailed_billing_es",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "3082",
+      "subtitle_text": null,
+      "title": "Untitled",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "DSH7BFgZxy7nS8mff2Qz836YJCZmdZ2Q",
+      "result_maker": {
+        "id": "3082",
+        "dynamic_fields": null,
+        "sorts": [
+          "billing_skus_services_union.fecha_year desc"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "billing_skus_services_union",
+          "fields": [
+            "billing_skus_services_union.total_cost_sum",
+            "billing_skus_services_union.fecha_year"
+          ],
+          "pivots": null,
+          "fill_fields": [
+            "billing_skus_services_union.fecha_year"
+          ],
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+            "billing_skus_services_union.fecha_year desc"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "custom_color_enabled": true,
+            "show_single_value_title": true,
+            "show_comparison": true,
+            "comparison_type": "change",
+            "comparison_reverse_colors": false,
+            "show_comparison_label": true,
+            "enable_conditional_formatting": false,
+            "conditional_formatting_include_totals": false,
+            "conditional_formatting_include_nulls": false,
+            "custom_color": "black",
+            "single_value_title": "Coste Total",
+            "smart_single_value_size": true,
+            "comparison_label": "Vs Last Year",
+            "series_types": {
+            },
+            "type": "single_value",
+            "defaults_version": 1
+          },
+          "filter_config": {
+          },
+          "visible_ui_sections": null,
+          "slug": "DSH7BFgZxy7nS8mff2Qz836YJCZmdZ2Q",
+          "client_id": "DmqWg6v2w0k6abKHj8mvL5",
+          "share_url": "https://nubalia.cloud.looker.com/x/DmqWg6v2w0k6abKHj8mvL5",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.total_cost_sum,billing_skus_services_union.fecha_year&fill_fields=billing_skus_services_union.fecha_year&sorts=billing_skus_services_union.fecha_year+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22custom_color%22%3A%22black%22%2C%22single_value_title%22%3A%22Coste+Total%22%2C%22smart_single_value_size%22%3Atrue%2C%22comparison_label%22%3A%22Vs+Last+Year%22%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+          "url": "/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.total_cost_sum,billing_skus_services_union.fecha_year&fill_fields=billing_skus_services_union.fecha_year&sorts=billing_skus_services_union.fecha_year+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22custom_color%22%3A%22black%22%2C%22single_value_title%22%3A%22Coste+Total%22%2C%22smart_single_value_size%22%3Atrue%2C%22comparison_label%22%3A%22Vs+Last+Year%22%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+          "has_table_calculations": false,
+          "id": "DSH7BFgZxy7nS8mff2Qz836YJCZmdZ2Q",
+          "model": "detailed_billing_es",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "custom_color_enabled": true,
+          "show_single_value_title": true,
+          "show_comparison": true,
+          "comparison_type": "change",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "enable_conditional_formatting": false,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "custom_color": "black",
+          "single_value_title": "Coste Total",
+          "smart_single_value_size": true,
+          "comparison_label": "Vs Last Year",
+          "series_types": {
+          },
+          "type": "single_value",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "detailed_billing_es",
+            "view": "billing_skus_services_union",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Cliente",
+                "field": "billing_skus_services_union.cliente"
+              },
+              {
+                "dashboard_filter_name": "Fecha Date",
+                "field": "billing_skus_services_union.fecha_date"
+              },
+              {
+                "dashboard_filter_name": "Area",
+                "field": "billing_skus_services_union.area"
+              },
+              {
+                "dashboard_filter_name": "Comercial",
+                "field": "billing_skus_services_union.comercial"
+              }
+            ]
+          }
+        ],
+        "query_id": "DSH7BFgZxy7nS8mff2Qz836YJCZmdZ2Q"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "287",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "953",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": null,
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": null,
+      "subtitle_text": null,
+      "title": null,
+      "title_hidden": false,
+      "title_text": null,
+      "type": "button",
+      "alert_count": 0,
+      "rich_content_json": "{\"text\":\"Consumo DVT\",\"description\":\"\",\"newTab\":true,\"alignment\":\"left\",\"size\":\"small\",\"style\":\"FILLED\",\"color\":\"#EA4335\",\"href\":\"https://nubalia.cloud.looker.com/dashboards/286?Fecha+Date=this+year+to+second&Comercial=&Area=&Cliente=&Service+ID=\"}",
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": null,
+      "result_maker": null,
+      "can": {
+        "can_clear_cache": false,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": false,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": false
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "287",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "956",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "billing_skus_services_union",
+        "fields": [
+          "billing_skus_services_union.percent_margin",
+          "billing_skus_services_union.fecha_year"
+        ],
+        "pivots": null,
+        "fill_fields": [
+          "billing_skus_services_union.fecha_year"
+        ],
+        "filters": null,
+        "filter_expression": null,
+        "sorts": [
+          "billing_skus_services_union.fecha_year desc"
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "custom_color_enabled": true,
+          "show_single_value_title": true,
+          "show_comparison": true,
+          "comparison_type": "change",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "enable_conditional_formatting": false,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "custom_color": "black",
+          "single_value_title": "% margen",
+          "smart_single_value_size": true,
+          "comparison_label": "vs Last Year",
+          "series_types": {
+          },
+          "type": "single_value",
+          "defaults_version": 1
+        },
+        "filter_config": {
+        },
+        "visible_ui_sections": null,
+        "slug": "GnQXGGgQW4rZKQ2TXSt3GVhpnGGQjyr8",
+        "client_id": "GFeP3Z9WOQCiV9DKwJVFL2",
+        "share_url": "https://nubalia.cloud.looker.com/x/GFeP3Z9WOQCiV9DKwJVFL2",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.percent_margin,billing_skus_services_union.fecha_year&fill_fields=billing_skus_services_union.fecha_year&sorts=billing_skus_services_union.fecha_year+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22custom_color%22%3A%22black%22%2C%22single_value_title%22%3A%22%25+margen%22%2C%22smart_single_value_size%22%3Atrue%2C%22comparison_label%22%3A%22vs+Last+Year%22%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+        "url": "/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.percent_margin,billing_skus_services_union.fecha_year&fill_fields=billing_skus_services_union.fecha_year&sorts=billing_skus_services_union.fecha_year+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22custom_color%22%3A%22black%22%2C%22single_value_title%22%3A%22%25+margen%22%2C%22smart_single_value_size%22%3Atrue%2C%22comparison_label%22%3A%22vs+Last+Year%22%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+        "has_table_calculations": false,
+        "id": "GnQXGGgQW4rZKQ2TXSt3GVhpnGGQjyr8",
+        "model": "detailed_billing_es",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "3084",
+      "subtitle_text": null,
+      "title": "Untitled",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "GnQXGGgQW4rZKQ2TXSt3GVhpnGGQjyr8",
+      "result_maker": {
+        "id": "3084",
+        "dynamic_fields": null,
+        "sorts": [
+          "billing_skus_services_union.fecha_year desc"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "billing_skus_services_union",
+          "fields": [
+            "billing_skus_services_union.percent_margin",
+            "billing_skus_services_union.fecha_year"
+          ],
+          "pivots": null,
+          "fill_fields": [
+            "billing_skus_services_union.fecha_year"
+          ],
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+            "billing_skus_services_union.fecha_year desc"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "custom_color_enabled": true,
+            "show_single_value_title": true,
+            "show_comparison": true,
+            "comparison_type": "change",
+            "comparison_reverse_colors": false,
+            "show_comparison_label": true,
+            "enable_conditional_formatting": false,
+            "conditional_formatting_include_totals": false,
+            "conditional_formatting_include_nulls": false,
+            "custom_color": "black",
+            "single_value_title": "% margen",
+            "smart_single_value_size": true,
+            "comparison_label": "vs Last Year",
+            "series_types": {
+            },
+            "type": "single_value",
+            "defaults_version": 1
+          },
+          "filter_config": {
+          },
+          "visible_ui_sections": null,
+          "slug": "GnQXGGgQW4rZKQ2TXSt3GVhpnGGQjyr8",
+          "client_id": "GFeP3Z9WOQCiV9DKwJVFL2",
+          "share_url": "https://nubalia.cloud.looker.com/x/GFeP3Z9WOQCiV9DKwJVFL2",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.percent_margin,billing_skus_services_union.fecha_year&fill_fields=billing_skus_services_union.fecha_year&sorts=billing_skus_services_union.fecha_year+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22custom_color%22%3A%22black%22%2C%22single_value_title%22%3A%22%25+margen%22%2C%22smart_single_value_size%22%3Atrue%2C%22comparison_label%22%3A%22vs+Last+Year%22%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+          "url": "/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.percent_margin,billing_skus_services_union.fecha_year&fill_fields=billing_skus_services_union.fecha_year&sorts=billing_skus_services_union.fecha_year+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22custom_color%22%3A%22black%22%2C%22single_value_title%22%3A%22%25+margen%22%2C%22smart_single_value_size%22%3Atrue%2C%22comparison_label%22%3A%22vs+Last+Year%22%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+          "has_table_calculations": false,
+          "id": "GnQXGGgQW4rZKQ2TXSt3GVhpnGGQjyr8",
+          "model": "detailed_billing_es",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "custom_color_enabled": true,
+          "show_single_value_title": true,
+          "show_comparison": true,
+          "comparison_type": "change",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "enable_conditional_formatting": false,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "custom_color": "black",
+          "single_value_title": "% margen",
+          "smart_single_value_size": true,
+          "comparison_label": "vs Last Year",
+          "series_types": {
+          },
+          "type": "single_value",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "detailed_billing_es",
+            "view": "billing_skus_services_union",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Cliente",
+                "field": "billing_skus_services_union.cliente"
+              },
+              {
+                "dashboard_filter_name": "Fecha Date",
+                "field": "billing_skus_services_union.fecha_date"
+              },
+              {
+                "dashboard_filter_name": "Area",
+                "field": "billing_skus_services_union.area"
+              },
+              {
+                "dashboard_filter_name": "Comercial",
+                "field": "billing_skus_services_union.comercial"
+              }
+            ]
+          }
+        ],
+        "query_id": "GnQXGGgQW4rZKQ2TXSt3GVhpnGGQjyr8"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "287",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "957",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "billing_skus_services_union",
+        "fields": [
+          "billing_skus_services_union.cliente",
+          "billing_skus_services_union.percent_margin"
+        ],
+        "pivots": null,
+        "fill_fields": null,
+        "filters": null,
+        "filter_expression": null,
+        "sorts": [
+          "billing_skus_services_union.percent_margin desc"
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "show_view_names": false,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": true,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "white",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": "12",
+          "rows_font_size": "12",
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "show_sql_query_menu_options": false,
+          "show_totals": true,
+          "show_row_totals": true,
+          "truncate_header": false,
+          "minimum_column_width": 75,
+          "series_cell_visualizations": {
+            "billing_skus_services_union.percent_margin": {
+              "is_active": false,
+              "palette": {
+                "palette_id": "8b4823b9-aa34-3209-ba15-9d36c6ae15ad",
+                "collection_id": "b43731d5-dc87-4a8e-b807-635bef3948e7",
+                "custom_colors": [
+                  "#C2DD67",
+                  "#3EB0D5",
+                  "#4276BE",
+                  "#592EC2",
+                  "#C2DD67"
+                ],
+                "collection_default": false,
+                "collection_label": "Boardwalk"
+              }
+            }
+          },
+          "series_text_format": {
+            "billing_skus_services_union.cliente": {
+              "bold": true
+            }
+          },
+          "header_font_color": "black",
+          "series_value_format": {
+          },
+          "type": "looker_grid",
+          "x_axis_gridlines": false,
+          "y_axis_gridlines": true,
+          "show_y_axis_labels": true,
+          "show_y_axis_ticks": true,
+          "y_axis_tick_density": "default",
+          "y_axis_tick_density_custom": 5,
+          "show_x_axis_label": true,
+          "show_x_axis_ticks": true,
+          "y_axis_scale_mode": "linear",
+          "x_axis_reversed": false,
+          "y_axis_reversed": false,
+          "plot_size_by_field": false,
+          "trellis": "",
+          "stacking": "",
+          "legend_position": "center",
+          "point_style": "none",
+          "show_value_labels": false,
+          "label_density": 25,
+          "x_axis_scale": "auto",
+          "y_axis_combined": true,
+          "ordering": "none",
+          "show_null_labels": false,
+          "show_totals_labels": false,
+          "show_silhouette": false,
+          "totals_color": "#808080",
+          "defaults_version": 1,
+          "series_types": {
+          },
+          "show_null_points": true,
+          "interpolation": "linear",
+          "value_labels": "legend",
+          "label_type": "labPer"
+        },
+        "filter_config": {
+        },
+        "visible_ui_sections": null,
+        "slug": "2yjzSCh2JdRVVcYVmSrGbqqhw2D5CjfV",
+        "client_id": "fSn4iCjNm3IAzZfFwKjot7",
+        "share_url": "https://nubalia.cloud.looker.com/x/fSn4iCjNm3IAzZfFwKjot7",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.cliente,billing_skus_services_union.percent_margin&sorts=billing_skus_services_union.percent_margin+desc&limit=10&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_cell_visualizations%22%3A%7B%22billing_skus_services_union.percent_margin%22%3A%7B%22is_active%22%3Afalse%2C%22palette%22%3A%7B%22palette_id%22%3A%228b4823b9-aa34-3209-ba15-9d36c6ae15ad%22%2C%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22custom_colors%22%3A%5B%22%23C2DD67%22%2C%22%233EB0D5%22%2C%22%234276BE%22%2C%22%23592EC2%22%2C%22%23C2DD67%22%5D%7D%7D%7D%2C%22series_text_format%22%3A%7B%22billing_skus_services_union.cliente%22%3A%7B%22bold%22%3Atrue%7D%7D%2C%22header_font_color%22%3A%22black%22%2C%22series_value_format%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22value_labels%22%3A%22legend%22%2C%22label_type%22%3A%22labPer%22%7D&filter_config=%7B%7D&origin=share-expanded",
+        "url": "/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.cliente,billing_skus_services_union.percent_margin&sorts=billing_skus_services_union.percent_margin+desc&limit=10&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_cell_visualizations%22%3A%7B%22billing_skus_services_union.percent_margin%22%3A%7B%22is_active%22%3Afalse%2C%22palette%22%3A%7B%22palette_id%22%3A%228b4823b9-aa34-3209-ba15-9d36c6ae15ad%22%2C%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22custom_colors%22%3A%5B%22%23C2DD67%22%2C%22%233EB0D5%22%2C%22%234276BE%22%2C%22%23592EC2%22%2C%22%23C2DD67%22%5D%7D%7D%7D%2C%22series_text_format%22%3A%7B%22billing_skus_services_union.cliente%22%3A%7B%22bold%22%3Atrue%7D%7D%2C%22header_font_color%22%3A%22black%22%2C%22series_value_format%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22value_labels%22%3A%22legend%22%2C%22label_type%22%3A%22labPer%22%7D&filter_config=%7B%7D",
+        "has_table_calculations": false,
+        "id": "2yjzSCh2JdRVVcYVmSrGbqqhw2D5CjfV",
+        "model": "detailed_billing_es",
+        "limit": "10",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "3081",
+      "subtitle_text": null,
+      "title": "Top 10 % de Margen por Cliente",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "2yjzSCh2JdRVVcYVmSrGbqqhw2D5CjfV",
+      "result_maker": {
+        "id": "3081",
+        "dynamic_fields": null,
+        "sorts": [
+          "billing_skus_services_union.percent_margin desc"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "billing_skus_services_union",
+          "fields": [
+            "billing_skus_services_union.cliente",
+            "billing_skus_services_union.percent_margin"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+            "billing_skus_services_union.percent_margin desc"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "show_view_names": false,
+            "show_row_numbers": true,
+            "transpose": false,
+            "truncate_text": true,
+            "hide_totals": false,
+            "hide_row_totals": false,
+            "size_to_fit": true,
+            "table_theme": "white",
+            "limit_displayed_rows": false,
+            "enable_conditional_formatting": false,
+            "header_text_alignment": "left",
+            "header_font_size": "12",
+            "rows_font_size": "12",
+            "conditional_formatting_include_totals": false,
+            "conditional_formatting_include_nulls": false,
+            "show_sql_query_menu_options": false,
+            "show_totals": true,
+            "show_row_totals": true,
+            "truncate_header": false,
+            "minimum_column_width": 75,
+            "series_cell_visualizations": {
+              "billing_skus_services_union.percent_margin": {
+                "is_active": false,
+                "palette": {
+                  "palette_id": "8b4823b9-aa34-3209-ba15-9d36c6ae15ad",
+                  "collection_id": "b43731d5-dc87-4a8e-b807-635bef3948e7",
+                  "custom_colors": [
+                    "#C2DD67",
+                    "#3EB0D5",
+                    "#4276BE",
+                    "#592EC2",
+                    "#C2DD67"
+                  ]
+                }
+              }
+            },
+            "series_text_format": {
+              "billing_skus_services_union.cliente": {
+                "bold": true
+              }
+            },
+            "header_font_color": "black",
+            "series_value_format": {
+            },
+            "type": "looker_grid",
+            "x_axis_gridlines": false,
+            "y_axis_gridlines": true,
+            "show_y_axis_labels": true,
+            "show_y_axis_ticks": true,
+            "y_axis_tick_density": "default",
+            "y_axis_tick_density_custom": 5,
+            "show_x_axis_label": true,
+            "show_x_axis_ticks": true,
+            "y_axis_scale_mode": "linear",
+            "x_axis_reversed": false,
+            "y_axis_reversed": false,
+            "plot_size_by_field": false,
+            "trellis": "",
+            "stacking": "",
+            "legend_position": "center",
+            "point_style": "none",
+            "show_value_labels": false,
+            "label_density": 25,
+            "x_axis_scale": "auto",
+            "y_axis_combined": true,
+            "ordering": "none",
+            "show_null_labels": false,
+            "show_totals_labels": false,
+            "show_silhouette": false,
+            "totals_color": "#808080",
+            "defaults_version": 1,
+            "series_types": {
+            },
+            "show_null_points": true,
+            "interpolation": "linear",
+            "value_labels": "legend",
+            "label_type": "labPer"
+          },
+          "filter_config": {
+          },
+          "visible_ui_sections": null,
+          "slug": "2yjzSCh2JdRVVcYVmSrGbqqhw2D5CjfV",
+          "client_id": "fSn4iCjNm3IAzZfFwKjot7",
+          "share_url": "https://nubalia.cloud.looker.com/x/fSn4iCjNm3IAzZfFwKjot7",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.cliente,billing_skus_services_union.percent_margin&sorts=billing_skus_services_union.percent_margin+desc&limit=10&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_cell_visualizations%22%3A%7B%22billing_skus_services_union.percent_margin%22%3A%7B%22is_active%22%3Afalse%2C%22palette%22%3A%7B%22palette_id%22%3A%228b4823b9-aa34-3209-ba15-9d36c6ae15ad%22%2C%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22custom_colors%22%3A%5B%22%23C2DD67%22%2C%22%233EB0D5%22%2C%22%234276BE%22%2C%22%23592EC2%22%2C%22%23C2DD67%22%5D%7D%7D%7D%2C%22series_text_format%22%3A%7B%22billing_skus_services_union.cliente%22%3A%7B%22bold%22%3Atrue%7D%7D%2C%22header_font_color%22%3A%22black%22%2C%22series_value_format%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22value_labels%22%3A%22legend%22%2C%22label_type%22%3A%22labPer%22%7D&filter_config=%7B%7D&origin=share-expanded",
+          "url": "/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.cliente,billing_skus_services_union.percent_margin&sorts=billing_skus_services_union.percent_margin+desc&limit=10&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_cell_visualizations%22%3A%7B%22billing_skus_services_union.percent_margin%22%3A%7B%22is_active%22%3Afalse%2C%22palette%22%3A%7B%22palette_id%22%3A%228b4823b9-aa34-3209-ba15-9d36c6ae15ad%22%2C%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22custom_colors%22%3A%5B%22%23C2DD67%22%2C%22%233EB0D5%22%2C%22%234276BE%22%2C%22%23592EC2%22%2C%22%23C2DD67%22%5D%7D%7D%7D%2C%22series_text_format%22%3A%7B%22billing_skus_services_union.cliente%22%3A%7B%22bold%22%3Atrue%7D%7D%2C%22header_font_color%22%3A%22black%22%2C%22series_value_format%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22value_labels%22%3A%22legend%22%2C%22label_type%22%3A%22labPer%22%7D&filter_config=%7B%7D",
+          "has_table_calculations": false,
+          "id": "2yjzSCh2JdRVVcYVmSrGbqqhw2D5CjfV",
+          "model": "detailed_billing_es",
+          "limit": "10",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "show_view_names": false,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": true,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "white",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": "12",
+          "rows_font_size": "12",
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "show_sql_query_menu_options": false,
+          "show_totals": true,
+          "show_row_totals": true,
+          "truncate_header": false,
+          "minimum_column_width": 75,
+          "series_cell_visualizations": {
+            "billing_skus_services_union.percent_margin": {
+              "is_active": false,
+              "palette": {
+                "palette_id": "8b4823b9-aa34-3209-ba15-9d36c6ae15ad",
+                "collection_id": "b43731d5-dc87-4a8e-b807-635bef3948e7",
+                "custom_colors": [
+                  "#C2DD67",
+                  "#3EB0D5",
+                  "#4276BE",
+                  "#592EC2",
+                  "#C2DD67"
+                ],
+                "collection_default": false,
+                "collection_label": "Boardwalk"
+              }
+            }
+          },
+          "series_text_format": {
+            "billing_skus_services_union.cliente": {
+              "bold": true
+            }
+          },
+          "header_font_color": "black",
+          "series_value_format": {
+          },
+          "type": "looker_grid",
+          "x_axis_gridlines": false,
+          "y_axis_gridlines": true,
+          "show_y_axis_labels": true,
+          "show_y_axis_ticks": true,
+          "y_axis_tick_density": "default",
+          "y_axis_tick_density_custom": 5,
+          "show_x_axis_label": true,
+          "show_x_axis_ticks": true,
+          "y_axis_scale_mode": "linear",
+          "x_axis_reversed": false,
+          "y_axis_reversed": false,
+          "plot_size_by_field": false,
+          "trellis": "",
+          "stacking": "",
+          "legend_position": "center",
+          "point_style": "none",
+          "show_value_labels": false,
+          "label_density": 25,
+          "x_axis_scale": "auto",
+          "y_axis_combined": true,
+          "ordering": "none",
+          "show_null_labels": false,
+          "show_totals_labels": false,
+          "show_silhouette": false,
+          "totals_color": "#808080",
+          "defaults_version": 1,
+          "series_types": {
+          },
+          "show_null_points": true,
+          "interpolation": "linear",
+          "value_labels": "legend",
+          "label_type": "labPer"
+        },
+        "filterables": [
+          {
+            "model": "detailed_billing_es",
+            "view": "billing_skus_services_union",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Cliente",
+                "field": "billing_skus_services_union.cliente"
+              },
+              {
+                "dashboard_filter_name": "Fecha Date",
+                "field": "billing_skus_services_union.fecha_date"
+              },
+              {
+                "dashboard_filter_name": "Area",
+                "field": "billing_skus_services_union.area"
+              },
+              {
+                "dashboard_filter_name": "Comercial",
+                "field": "billing_skus_services_union.comercial"
+              }
+            ]
+          }
+        ],
+        "query_id": "2yjzSCh2JdRVVcYVmSrGbqqhw2D5CjfV"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "287",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "958",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "billing_skus_services_union",
+        "fields": [
+          "billing_skus_services_union.discountable_costs_sum",
+          "billing_skus_services_union.fecha_year"
+        ],
+        "pivots": null,
+        "fill_fields": [
+          "billing_skus_services_union.fecha_year"
+        ],
+        "filters": null,
+        "filter_expression": null,
+        "sorts": [
+          "billing_skus_services_union.fecha_year desc"
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "custom_color_enabled": true,
+          "show_single_value_title": true,
+          "show_comparison": true,
+          "comparison_type": "change",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "enable_conditional_formatting": false,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "custom_color": "black",
+          "single_value_title": "Coste descontable",
+          "smart_single_value_size": true,
+          "comparison_label": "vs Last Year",
+          "series_types": {
+          },
+          "type": "single_value",
+          "defaults_version": 1
+        },
+        "filter_config": {
+        },
+        "visible_ui_sections": null,
+        "slug": "YpQNsHts3CDht24WkVxXQGYjShs8dF5x",
+        "client_id": "ysYWJTDTc5bvcSqfnYRC04",
+        "share_url": "https://nubalia.cloud.looker.com/x/ysYWJTDTc5bvcSqfnYRC04",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.discountable_costs_sum,billing_skus_services_union.fecha_year&fill_fields=billing_skus_services_union.fecha_year&sorts=billing_skus_services_union.fecha_year+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22custom_color%22%3A%22black%22%2C%22single_value_title%22%3A%22Coste+descontable%22%2C%22smart_single_value_size%22%3Atrue%2C%22comparison_label%22%3A%22vs+Last+Year%22%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+        "url": "/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.discountable_costs_sum,billing_skus_services_union.fecha_year&fill_fields=billing_skus_services_union.fecha_year&sorts=billing_skus_services_union.fecha_year+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22custom_color%22%3A%22black%22%2C%22single_value_title%22%3A%22Coste+descontable%22%2C%22smart_single_value_size%22%3Atrue%2C%22comparison_label%22%3A%22vs+Last+Year%22%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+        "has_table_calculations": false,
+        "id": "YpQNsHts3CDht24WkVxXQGYjShs8dF5x",
+        "model": "detailed_billing_es",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "3083",
+      "subtitle_text": null,
+      "title": "Untitled",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "YpQNsHts3CDht24WkVxXQGYjShs8dF5x",
+      "result_maker": {
+        "id": "3083",
+        "dynamic_fields": null,
+        "sorts": [
+          "billing_skus_services_union.fecha_year desc"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "billing_skus_services_union",
+          "fields": [
+            "billing_skus_services_union.discountable_costs_sum",
+            "billing_skus_services_union.fecha_year"
+          ],
+          "pivots": null,
+          "fill_fields": [
+            "billing_skus_services_union.fecha_year"
+          ],
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+            "billing_skus_services_union.fecha_year desc"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "custom_color_enabled": true,
+            "show_single_value_title": true,
+            "show_comparison": true,
+            "comparison_type": "change",
+            "comparison_reverse_colors": false,
+            "show_comparison_label": true,
+            "enable_conditional_formatting": false,
+            "conditional_formatting_include_totals": false,
+            "conditional_formatting_include_nulls": false,
+            "custom_color": "black",
+            "single_value_title": "Coste descontable",
+            "smart_single_value_size": true,
+            "comparison_label": "vs Last Year",
+            "series_types": {
+            },
+            "type": "single_value",
+            "defaults_version": 1
+          },
+          "filter_config": {
+          },
+          "visible_ui_sections": null,
+          "slug": "YpQNsHts3CDht24WkVxXQGYjShs8dF5x",
+          "client_id": "ysYWJTDTc5bvcSqfnYRC04",
+          "share_url": "https://nubalia.cloud.looker.com/x/ysYWJTDTc5bvcSqfnYRC04",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.discountable_costs_sum,billing_skus_services_union.fecha_year&fill_fields=billing_skus_services_union.fecha_year&sorts=billing_skus_services_union.fecha_year+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22custom_color%22%3A%22black%22%2C%22single_value_title%22%3A%22Coste+descontable%22%2C%22smart_single_value_size%22%3Atrue%2C%22comparison_label%22%3A%22vs+Last+Year%22%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+          "url": "/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.discountable_costs_sum,billing_skus_services_union.fecha_year&fill_fields=billing_skus_services_union.fecha_year&sorts=billing_skus_services_union.fecha_year+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22custom_color%22%3A%22black%22%2C%22single_value_title%22%3A%22Coste+descontable%22%2C%22smart_single_value_size%22%3Atrue%2C%22comparison_label%22%3A%22vs+Last+Year%22%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+          "has_table_calculations": false,
+          "id": "YpQNsHts3CDht24WkVxXQGYjShs8dF5x",
+          "model": "detailed_billing_es",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "custom_color_enabled": true,
+          "show_single_value_title": true,
+          "show_comparison": true,
+          "comparison_type": "change",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "enable_conditional_formatting": false,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "custom_color": "black",
+          "single_value_title": "Coste descontable",
+          "smart_single_value_size": true,
+          "comparison_label": "vs Last Year",
+          "series_types": {
+          },
+          "type": "single_value",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "detailed_billing_es",
+            "view": "billing_skus_services_union",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Cliente",
+                "field": "billing_skus_services_union.cliente"
+              },
+              {
+                "dashboard_filter_name": "Fecha Date",
+                "field": "billing_skus_services_union.fecha_date"
+              },
+              {
+                "dashboard_filter_name": "Area",
+                "field": "billing_skus_services_union.area"
+              },
+              {
+                "dashboard_filter_name": "Comercial",
+                "field": "billing_skus_services_union.comercial"
+              }
+            ]
+          }
+        ],
+        "query_id": "YpQNsHts3CDht24WkVxXQGYjShs8dF5x"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "287",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "959",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "billing_skus_services_union",
+        "fields": [
+          "billing_skus_services_union.fecha_month",
+          "billing_skus_services_union.total_cost_sum"
+        ],
+        "pivots": null,
+        "fill_fields": [
+          "billing_skus_services_union.fecha_month"
+        ],
+        "filters": null,
+        "filter_expression": null,
+        "sorts": [
+          "billing_skus_services_union.fecha_month desc"
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "x_axis_gridlines": false,
+          "y_axis_gridlines": true,
+          "show_view_names": false,
+          "show_y_axis_labels": true,
+          "show_y_axis_ticks": true,
+          "y_axis_tick_density": "default",
+          "y_axis_tick_density_custom": 5,
+          "show_x_axis_label": true,
+          "show_x_axis_ticks": true,
+          "y_axis_scale_mode": "linear",
+          "x_axis_reversed": false,
+          "y_axis_reversed": false,
+          "plot_size_by_field": false,
+          "trellis": "",
+          "stacking": "",
+          "limit_displayed_rows": false,
+          "legend_position": "center",
+          "point_style": "none",
+          "show_value_labels": false,
+          "label_density": 25,
+          "x_axis_scale": "auto",
+          "y_axis_combined": true,
+          "show_null_points": true,
+          "interpolation": "linear",
+          "color_application": {
+            "collection_id": "b43731d5-dc87-4a8e-b807-635bef3948e7",
+            "custom": {
+              "id": "a4389c25-d6a8-6178-e200-f321e5743ba3",
+              "label": "Custom",
+              "type": "discrete",
+              "colors": [
+                "#ff294e",
+                "#B1399E",
+                "#C2DD67",
+                "#592EC2",
+                "#4276BE",
+                "#72D16D",
+                "#FFD95F",
+                "#B32F37",
+                "#9174F0",
+                "#E57947",
+                "#75E2E2",
+                "#FBB555"
+              ]
+            },
+            "options": {
+              "steps": 5
+            }
+          },
+          "x_axis_zoom": true,
+          "y_axis_zoom": true,
+          "series_types": {
+          },
+          "type": "looker_line",
+          "defaults_version": 1,
+          "ordering": "none",
+          "show_null_labels": false,
+          "show_totals_labels": false,
+          "show_silhouette": false,
+          "totals_color": "#808080"
+        },
+        "filter_config": {
+        },
+        "visible_ui_sections": null,
+        "slug": "3rhH5K4bfh7mXMfsy6ybhsqKPxQ2CQ66",
+        "client_id": "I2ZCFBOrhw8i8R1m24MMCf",
+        "share_url": "https://nubalia.cloud.looker.com/x/I2ZCFBOrhw8i8R1m24MMCf",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.fecha_month,billing_skus_services_union.total_cost_sum&fill_fields=billing_skus_services_union.fecha_month&sorts=billing_skus_services_union.fecha_month+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22custom%22%3A%7B%22id%22%3A%22a4389c25-d6a8-6178-e200-f321e5743ba3%22%2C%22label%22%3A%22Custom%22%2C%22type%22%3A%22discrete%22%2C%22colors%22%3A%5B%22%23ff294e%22%2C%22%23B1399E%22%2C%22%23C2DD67%22%2C%22%23592EC2%22%2C%22%234276BE%22%2C%22%2372D16D%22%2C%22%23FFD95F%22%2C%22%23B32F37%22%2C%22%239174F0%22%2C%22%23E57947%22%2C%22%2375E2E2%22%2C%22%23FBB555%22%5D%7D%2C%22options%22%3A%7B%22steps%22%3A5%7D%7D%2C%22x_axis_zoom%22%3Atrue%2C%22y_axis_zoom%22%3Atrue%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_line%22%2C%22defaults_version%22%3A1%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%7D&filter_config=%7B%7D&origin=share-expanded",
+        "url": "/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.fecha_month,billing_skus_services_union.total_cost_sum&fill_fields=billing_skus_services_union.fecha_month&sorts=billing_skus_services_union.fecha_month+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22custom%22%3A%7B%22id%22%3A%22a4389c25-d6a8-6178-e200-f321e5743ba3%22%2C%22label%22%3A%22Custom%22%2C%22type%22%3A%22discrete%22%2C%22colors%22%3A%5B%22%23ff294e%22%2C%22%23B1399E%22%2C%22%23C2DD67%22%2C%22%23592EC2%22%2C%22%234276BE%22%2C%22%2372D16D%22%2C%22%23FFD95F%22%2C%22%23B32F37%22%2C%22%239174F0%22%2C%22%23E57947%22%2C%22%2375E2E2%22%2C%22%23FBB555%22%5D%7D%2C%22options%22%3A%7B%22steps%22%3A5%7D%7D%2C%22x_axis_zoom%22%3Atrue%2C%22y_axis_zoom%22%3Atrue%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_line%22%2C%22defaults_version%22%3A1%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%7D&filter_config=%7B%7D",
+        "has_table_calculations": false,
+        "id": "3rhH5K4bfh7mXMfsy6ybhsqKPxQ2CQ66",
+        "model": "detailed_billing_es",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "2631",
+      "subtitle_text": null,
+      "title": "Evolución temporal (por Cliente)",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "3rhH5K4bfh7mXMfsy6ybhsqKPxQ2CQ66",
+      "result_maker": {
+        "id": "2631",
+        "dynamic_fields": null,
+        "sorts": [
+          "billing_skus_services_union.fecha_month desc"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "billing_skus_services_union",
+          "fields": [
+            "billing_skus_services_union.fecha_month",
+            "billing_skus_services_union.total_cost_sum"
+          ],
+          "pivots": null,
+          "fill_fields": [
+            "billing_skus_services_union.fecha_month"
+          ],
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+            "billing_skus_services_union.fecha_month desc"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "x_axis_gridlines": false,
+            "y_axis_gridlines": true,
+            "show_view_names": false,
+            "show_y_axis_labels": true,
+            "show_y_axis_ticks": true,
+            "y_axis_tick_density": "default",
+            "y_axis_tick_density_custom": 5,
+            "show_x_axis_label": true,
+            "show_x_axis_ticks": true,
+            "y_axis_scale_mode": "linear",
+            "x_axis_reversed": false,
+            "y_axis_reversed": false,
+            "plot_size_by_field": false,
+            "trellis": "",
+            "stacking": "",
+            "limit_displayed_rows": false,
+            "legend_position": "center",
+            "point_style": "none",
+            "show_value_labels": false,
+            "label_density": 25,
+            "x_axis_scale": "auto",
+            "y_axis_combined": true,
+            "show_null_points": true,
+            "interpolation": "linear",
+            "color_application": {
+              "collection_id": "b43731d5-dc87-4a8e-b807-635bef3948e7",
+              "custom": {
+                "id": "a4389c25-d6a8-6178-e200-f321e5743ba3",
+                "label": "Custom",
+                "type": "discrete",
+                "colors": [
+                  "#ff294e",
+                  "#B1399E",
+                  "#C2DD67",
+                  "#592EC2",
+                  "#4276BE",
+                  "#72D16D",
+                  "#FFD95F",
+                  "#B32F37",
+                  "#9174F0",
+                  "#E57947",
+                  "#75E2E2",
+                  "#FBB555"
+                ]
+              },
+              "options": {
+                "steps": 5
+              }
+            },
+            "x_axis_zoom": true,
+            "y_axis_zoom": true,
+            "series_types": {
+            },
+            "type": "looker_line",
+            "defaults_version": 1,
+            "ordering": "none",
+            "show_null_labels": false,
+            "show_totals_labels": false,
+            "show_silhouette": false,
+            "totals_color": "#808080"
+          },
+          "filter_config": {
+          },
+          "visible_ui_sections": null,
+          "slug": "3rhH5K4bfh7mXMfsy6ybhsqKPxQ2CQ66",
+          "client_id": "I2ZCFBOrhw8i8R1m24MMCf",
+          "share_url": "https://nubalia.cloud.looker.com/x/I2ZCFBOrhw8i8R1m24MMCf",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.fecha_month,billing_skus_services_union.total_cost_sum&fill_fields=billing_skus_services_union.fecha_month&sorts=billing_skus_services_union.fecha_month+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22custom%22%3A%7B%22id%22%3A%22a4389c25-d6a8-6178-e200-f321e5743ba3%22%2C%22label%22%3A%22Custom%22%2C%22type%22%3A%22discrete%22%2C%22colors%22%3A%5B%22%23ff294e%22%2C%22%23B1399E%22%2C%22%23C2DD67%22%2C%22%23592EC2%22%2C%22%234276BE%22%2C%22%2372D16D%22%2C%22%23FFD95F%22%2C%22%23B32F37%22%2C%22%239174F0%22%2C%22%23E57947%22%2C%22%2375E2E2%22%2C%22%23FBB555%22%5D%7D%2C%22options%22%3A%7B%22steps%22%3A5%7D%7D%2C%22x_axis_zoom%22%3Atrue%2C%22y_axis_zoom%22%3Atrue%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_line%22%2C%22defaults_version%22%3A1%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%7D&filter_config=%7B%7D&origin=share-expanded",
+          "url": "/explore/detailed_billing_es/billing_skus_services_union?fields=billing_skus_services_union.fecha_month,billing_skus_services_union.total_cost_sum&fill_fields=billing_skus_services_union.fecha_month&sorts=billing_skus_services_union.fecha_month+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22custom%22%3A%7B%22id%22%3A%22a4389c25-d6a8-6178-e200-f321e5743ba3%22%2C%22label%22%3A%22Custom%22%2C%22type%22%3A%22discrete%22%2C%22colors%22%3A%5B%22%23ff294e%22%2C%22%23B1399E%22%2C%22%23C2DD67%22%2C%22%23592EC2%22%2C%22%234276BE%22%2C%22%2372D16D%22%2C%22%23FFD95F%22%2C%22%23B32F37%22%2C%22%239174F0%22%2C%22%23E57947%22%2C%22%2375E2E2%22%2C%22%23FBB555%22%5D%7D%2C%22options%22%3A%7B%22steps%22%3A5%7D%7D%2C%22x_axis_zoom%22%3Atrue%2C%22y_axis_zoom%22%3Atrue%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_line%22%2C%22defaults_version%22%3A1%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%7D&filter_config=%7B%7D",
+          "has_table_calculations": false,
+          "id": "3rhH5K4bfh7mXMfsy6ybhsqKPxQ2CQ66",
+          "model": "detailed_billing_es",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "x_axis_gridlines": false,
+          "y_axis_gridlines": true,
+          "show_view_names": false,
+          "show_y_axis_labels": true,
+          "show_y_axis_ticks": true,
+          "y_axis_tick_density": "default",
+          "y_axis_tick_density_custom": 5,
+          "show_x_axis_label": true,
+          "show_x_axis_ticks": true,
+          "y_axis_scale_mode": "linear",
+          "x_axis_reversed": false,
+          "y_axis_reversed": false,
+          "plot_size_by_field": false,
+          "trellis": "",
+          "stacking": "",
+          "limit_displayed_rows": false,
+          "legend_position": "center",
+          "point_style": "none",
+          "show_value_labels": false,
+          "label_density": 25,
+          "x_axis_scale": "auto",
+          "y_axis_combined": true,
+          "show_null_points": true,
+          "interpolation": "linear",
+          "color_application": {
+            "collection_id": "b43731d5-dc87-4a8e-b807-635bef3948e7",
+            "custom": {
+              "id": "a4389c25-d6a8-6178-e200-f321e5743ba3",
+              "label": "Custom",
+              "type": "discrete",
+              "colors": [
+                "#ff294e",
+                "#B1399E",
+                "#C2DD67",
+                "#592EC2",
+                "#4276BE",
+                "#72D16D",
+                "#FFD95F",
+                "#B32F37",
+                "#9174F0",
+                "#E57947",
+                "#75E2E2",
+                "#FBB555"
+              ]
+            },
+            "options": {
+              "steps": 5
+            }
+          },
+          "x_axis_zoom": true,
+          "y_axis_zoom": true,
+          "series_types": {
+          },
+          "type": "looker_line",
+          "defaults_version": 1,
+          "ordering": "none",
+          "show_null_labels": false,
+          "show_totals_labels": false,
+          "show_silhouette": false,
+          "totals_color": "#808080"
+        },
+        "filterables": [
+          {
+            "model": "detailed_billing_es",
+            "view": "billing_skus_services_union",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Cliente",
+                "field": "billing_skus_services_union.cliente"
+              },
+              {
+                "dashboard_filter_name": "Fecha Date",
+                "field": "billing_skus_services_union.fecha_date"
+              },
+              {
+                "dashboard_filter_name": "Area",
+                "field": "billing_skus_services_union.area"
+              },
+              {
+                "dashboard_filter_name": "Comercial",
+                "field": "billing_skus_services_union.comercial"
+              }
+            ]
+          }
+        ],
+        "query_id": "3rhH5K4bfh7mXMfsy6ybhsqKPxQ2CQ66"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": "<img src=\"https://datasciencefestival.com/wp-content/uploads/2022/08/devoteam-logo.png\" width=\"150\">",
+      "body_text_as_html": "<p><img src=\"https://datasciencefestival.com/wp-content/uploads/2022/08/devoteam-logo.png\" width=\"150\"></p>\n",
+      "dashboard_id": "287",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "1260",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": null,
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": null,
+      "subtitle_text": "",
+      "title": null,
+      "title_hidden": false,
+      "title_text": "",
+      "type": "text",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": null,
+      "result_maker": null,
+      "can": {
+        "can_clear_cache": false,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": false,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": false
+      },
+      "alerts": [
+
+      ]
+    }
+  ],
+  "dashboard_filters": [
+    {
+      "id": "321",
+      "dashboard_id": "287",
+      "name": "Cliente",
+      "title": "Cliente",
+      "type": "field_filter",
+      "explore": "billing_skus_services_union",
+      "dimension": "billing_skus_services_union.cliente",
+      "row": 0,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "type": "tag_list",
+        "display": "popover"
+      },
+      "model": "detailed_billing_es",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "",
+      "field": {
+        "align": "left",
+        "can_filter": true,
+        "category": "dimension",
+        "default_filter_value": null,
+        "description": "",
+        "enumerations": null,
+        "field_group_label": null,
+        "fill_style": null,
+        "fiscal_month_offset": 0,
+        "has_allowed_values": false,
+        "hidden": false,
+        "is_filter": false,
+        "is_numeric": false,
+        "label": "Billing Skus Services Union Cliente",
+        "label_from_parameter": null,
+        "label_short": "Cliente",
+        "map_layer": null,
+        "name": "billing_skus_services_union.cliente",
+        "strict_value_format": false,
+        "requires_refresh_on_sort": false,
+        "sortable": true,
+        "suggestions": null,
+        "synonyms": [
+
+        ],
+        "tags": [
+
+        ],
+        "type": "string",
+        "user_attribute_filter_types": [
+          "string",
+          "advanced_filter_string"
+        ],
+        "value_format": null,
+        "value_format_name": null,
+        "view": "billing_skus_services_union",
+        "view_label": "Billing Skus Services Union",
+        "dynamic": false,
+        "week_start_day": "monday",
+        "original_view": "billing_skus_services_union",
+        "datatype": "TIMESTAMP",
+        "convert_tz": true,
+        "dimension_group": null,
+        "error": null,
+        "field_group_variant": "Cliente",
+        "measure": false,
+        "parameter": false,
+        "primary_key": false,
+        "project_name": "detailed_billing_es",
+        "scope": "billing_skus_services_union",
+        "suggest_dimension": "billing_skus_services_union.cliente",
+        "suggest_explore": "billing_skus_services_union",
+        "suggestable": true,
+        "lookml_expression": null,
+        "is_fiscal": false,
+        "is_timeframe": false,
+        "can_time_filter": false,
+        "time_interval": null,
+        "lookml_link": "/projects/detailed_billing_es/files/views%2Fbilling_skus_services_union.view.lkml?line=13",
+        "period_over_period_params": null,
+        "permanent": null,
+        "source_file": "views/billing_skus_services_union.view.lkml",
+        "source_file_path": "detailed_billing_es/views/billing_skus_services_union.view.lkml",
+        "sql": "${TABLE}.cliente ",
+        "sql_case": null,
+        "filters": null,
+        "times_used": 0
+      },
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    },
+    {
+      "id": "320",
+      "dashboard_id": "287",
+      "name": "Fecha Date",
+      "title": "Fecha Date",
+      "type": "field_filter",
+      "explore": "billing_skus_services_union",
+      "dimension": "billing_skus_services_union.fecha_date",
+      "row": 1,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "type": "relative_timeframes",
+        "display": "inline",
+        "options": [
+
+        ]
+      },
+      "model": "detailed_billing_es",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "30 day",
+      "field": {
+        "align": "left",
+        "can_filter": true,
+        "category": "dimension",
+        "default_filter_value": null,
+        "description": "",
+        "enumerations": null,
+        "field_group_label": "Fecha Date",
+        "fill_style": "range",
+        "fiscal_month_offset": 0,
+        "has_allowed_values": false,
+        "hidden": false,
+        "is_filter": false,
+        "is_numeric": false,
+        "label": "Billing Skus Services Union Fecha Date",
+        "label_from_parameter": null,
+        "label_short": "Fecha Date",
+        "map_layer": null,
+        "name": "billing_skus_services_union.fecha_date",
+        "strict_value_format": false,
+        "requires_refresh_on_sort": false,
+        "sortable": true,
+        "suggestions": null,
+        "synonyms": [
+
+        ],
+        "tags": [
+
+        ],
+        "type": "date_date",
+        "user_attribute_filter_types": [
+          "datetime",
+          "advanced_filter_datetime"
+        ],
+        "value_format": null,
+        "value_format_name": null,
+        "view": "billing_skus_services_union",
+        "view_label": "Billing Skus Services Union",
+        "dynamic": false,
+        "week_start_day": "monday",
+        "original_view": "billing_skus_services_union",
+        "datatype": "DATE",
+        "convert_tz": false,
+        "dimension_group": "billing_skus_services_union.fecha",
+        "error": null,
+        "field_group_variant": "Date",
+        "measure": false,
+        "parameter": false,
+        "primary_key": false,
+        "project_name": "detailed_billing_es",
+        "scope": "billing_skus_services_union",
+        "suggest_dimension": "billing_skus_services_union.fecha_date",
+        "suggest_explore": "billing_skus_services_union",
+        "suggestable": false,
+        "lookml_expression": null,
+        "is_fiscal": false,
+        "is_timeframe": true,
+        "can_time_filter": false,
+        "time_interval": {
+          "name": "day",
+          "count": 1
+        },
+        "lookml_link": "/projects/detailed_billing_es/files/views%2Fbilling_skus_services_union.view.lkml?line=145",
+        "period_over_period_params": null,
+        "permanent": null,
+        "source_file": "views/billing_skus_services_union.view.lkml",
+        "source_file_path": "detailed_billing_es/views/billing_skus_services_union.view.lkml",
+        "sql": "${TABLE}.usage_date ",
+        "sql_case": null,
+        "filters": null,
+        "times_used": 0
+      },
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    },
+    {
+      "id": "322",
+      "dashboard_id": "287",
+      "name": "Area",
+      "title": "Area",
+      "type": "field_filter",
+      "explore": "billing_skus_services_union",
+      "dimension": "billing_skus_services_union.area",
+      "row": 2,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "type": "checkboxes",
+        "display": "popover"
+      },
+      "model": "detailed_billing_es",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "",
+      "field": {
+        "align": "left",
+        "can_filter": true,
+        "category": "dimension",
+        "default_filter_value": null,
+        "description": "",
+        "enumerations": null,
+        "field_group_label": null,
+        "fill_style": null,
+        "fiscal_month_offset": 0,
+        "has_allowed_values": false,
+        "hidden": false,
+        "is_filter": false,
+        "is_numeric": false,
+        "label": "Billing Skus Services Union Area",
+        "label_from_parameter": null,
+        "label_short": "Area",
+        "map_layer": null,
+        "name": "billing_skus_services_union.area",
+        "strict_value_format": false,
+        "requires_refresh_on_sort": false,
+        "sortable": true,
+        "suggestions": null,
+        "synonyms": [
+
+        ],
+        "tags": [
+
+        ],
+        "type": "string",
+        "user_attribute_filter_types": [
+          "string",
+          "advanced_filter_string"
+        ],
+        "value_format": null,
+        "value_format_name": null,
+        "view": "billing_skus_services_union",
+        "view_label": "Billing Skus Services Union",
+        "dynamic": false,
+        "week_start_day": "monday",
+        "original_view": "billing_skus_services_union",
+        "datatype": "TIMESTAMP",
+        "convert_tz": true,
+        "dimension_group": null,
+        "error": null,
+        "field_group_variant": "Area",
+        "measure": false,
+        "parameter": false,
+        "primary_key": false,
+        "project_name": "detailed_billing_es",
+        "scope": "billing_skus_services_union",
+        "suggest_dimension": "billing_skus_services_union.area",
+        "suggest_explore": "billing_skus_services_union",
+        "suggestable": true,
+        "lookml_expression": null,
+        "is_fiscal": false,
+        "is_timeframe": false,
+        "can_time_filter": false,
+        "time_interval": null,
+        "lookml_link": "/projects/detailed_billing_es/files/views%2Fbilling_skus_services_union.view.lkml?line=4",
+        "period_over_period_params": null,
+        "permanent": null,
+        "source_file": "views/billing_skus_services_union.view.lkml",
+        "source_file_path": "detailed_billing_es/views/billing_skus_services_union.view.lkml",
+        "sql": "${TABLE}.area ",
+        "sql_case": null,
+        "filters": null,
+        "times_used": 0
+      },
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    },
+    {
+      "id": "323",
+      "dashboard_id": "287",
+      "name": "Comercial",
+      "title": "Comercial",
+      "type": "field_filter",
+      "explore": "billing_skus_services_union",
+      "dimension": "billing_skus_services_union.comercial",
+      "row": 3,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "type": "checkboxes",
+        "display": "popover"
+      },
+      "model": "detailed_billing_es",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "",
+      "field": {
+        "align": "left",
+        "can_filter": true,
+        "category": "dimension",
+        "default_filter_value": null,
+        "description": "",
+        "enumerations": null,
+        "field_group_label": null,
+        "fill_style": null,
+        "fiscal_month_offset": 0,
+        "has_allowed_values": false,
+        "hidden": false,
+        "is_filter": false,
+        "is_numeric": false,
+        "label": "Billing Skus Services Union Comercial",
+        "label_from_parameter": null,
+        "label_short": "Comercial",
+        "map_layer": null,
+        "name": "billing_skus_services_union.comercial",
+        "strict_value_format": false,
+        "requires_refresh_on_sort": false,
+        "sortable": true,
+        "suggestions": null,
+        "synonyms": [
+
+        ],
+        "tags": [
+
+        ],
+        "type": "string",
+        "user_attribute_filter_types": [
+          "string",
+          "advanced_filter_string"
+        ],
+        "value_format": null,
+        "value_format_name": null,
+        "view": "billing_skus_services_union",
+        "view_label": "Billing Skus Services Union",
+        "dynamic": false,
+        "week_start_day": "monday",
+        "original_view": "billing_skus_services_union",
+        "datatype": "TIMESTAMP",
+        "convert_tz": true,
+        "dimension_group": null,
+        "error": null,
+        "field_group_variant": "Comercial",
+        "measure": false,
+        "parameter": false,
+        "primary_key": false,
+        "project_name": "detailed_billing_es",
+        "scope": "billing_skus_services_union",
+        "suggest_dimension": "billing_skus_services_union.comercial",
+        "suggest_explore": "billing_skus_services_union",
+        "suggestable": true,
+        "lookml_expression": null,
+        "is_fiscal": false,
+        "is_timeframe": false,
+        "can_time_filter": false,
+        "time_interval": null,
+        "lookml_link": "/projects/detailed_billing_es/files/views%2Fbilling_skus_services_union.view.lkml?line=23",
+        "period_over_period_params": null,
+        "permanent": null,
+        "source_file": "views/billing_skus_services_union.view.lkml",
+        "source_file_path": "detailed_billing_es/views/billing_skus_services_union.view.lkml",
+        "sql": "${TABLE}.comercial ",
+        "sql_case": null,
+        "filters": null,
+        "times_used": 0
+      },
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    }
+  ],
+  "dashboard_layouts": [
+    {
+      "id": "287",
+      "dashboard_id": "287",
+      "type": "newspaper",
+      "active": true,
+      "column_width": null,
+      "width": null,
+      "deleted": false,
+      "dashboard_title": "Clientes DVT",
+      "dashboard_layout_components": [
+        {
+          "id": "950",
+          "dashboard_layout_id": "287",
+          "dashboard_element_id": "950",
+          "row": 4,
+          "column": 0,
+          "width": 24,
+          "height": 6,
+          "deleted": false,
+          "element_title": "Margen y Coste (por Cliente)",
+          "element_title_hidden": false,
+          "vis_type": "looker_grid",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "952",
+          "dashboard_layout_id": "287",
+          "dashboard_element_id": "952",
+          "row": 2,
+          "column": 0,
+          "width": 8,
+          "height": 2,
+          "deleted": false,
+          "element_title": "Untitled",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "953",
+          "dashboard_layout_id": "287",
+          "dashboard_element_id": "953",
+          "row": 0,
+          "column": 0,
+          "width": 6,
+          "height": 2,
+          "deleted": false,
+          "element_title": "",
+          "element_title_hidden": false,
+          "vis_type": "button",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "956",
+          "dashboard_layout_id": "287",
+          "dashboard_element_id": "956",
+          "row": 2,
+          "column": 16,
+          "width": 8,
+          "height": 2,
+          "deleted": false,
+          "element_title": "Untitled",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "957",
+          "dashboard_layout_id": "287",
+          "dashboard_element_id": "957",
+          "row": 10,
+          "column": 0,
+          "width": 8,
+          "height": 6,
+          "deleted": false,
+          "element_title": "Top 10 % de Margen por Cliente",
+          "element_title_hidden": false,
+          "vis_type": "looker_grid",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "958",
+          "dashboard_layout_id": "287",
+          "dashboard_element_id": "958",
+          "row": 2,
+          "column": 8,
+          "width": 8,
+          "height": 2,
+          "deleted": false,
+          "element_title": "Untitled",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "959",
+          "dashboard_layout_id": "287",
+          "dashboard_element_id": "959",
+          "row": 10,
+          "column": 8,
+          "width": 16,
+          "height": 6,
+          "deleted": false,
+          "element_title": "Evolución temporal (por Cliente)",
+          "element_title_hidden": false,
+          "vis_type": "looker_line",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1260",
+          "dashboard_layout_id": "287",
+          "dashboard_element_id": "1260",
+          "row": 0,
+          "column": 11,
+          "width": 13,
+          "height": 2,
+          "deleted": false,
+          "element_title": "",
+          "element_title_hidden": false,
+          "vis_type": "text",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        }
+      ],
+      "label": null,
+      "description": null,
+      "order": -1,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "index": true,
+        "show": true
+      }
+    }
+  ],
+  "deleted_at": null,
+  "deleter_id": null,
+  "edit_uri": null,
+  "enable_viz_full_screen": true,
+  "favorite_count": 0,
+  "filters_bar_collapsed": false,
+  "filters_location_top": true,
+  "last_accessed_at": "2025-12-03 08:25:27 UTC",
+  "updated_at": "2025-12-03 08:23:44 UTC",
+  "last_updater_id": "162",
+  "load_configuration": "cache_run",
+  "lookml_link_id": null,
+  "show_filters_bar": null,
+  "show_title": null,
+  "text_tile_text_color": null,
+  "tile_background_color": null,
+  "tile_text_color": null,
+  "title_color": null,
+  "view_count": 26,
+  "url": "/dashboards/287",
+  "folder": {
+    "name": "Billing",
+    "parent_id": "223",
+    "id": "210",
+    "content_metadata_id": "786",
+    "created_at": "2025-05-16 08:15:03 UTC",
+    "creator_id": "53",
+    "external_id": "",
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": false,
+    "is_personal_descendant": false,
+    "is_shared_root": false,
+    "is_users_root": false,
+    "can": {
+      "browse_spaces_as_embed_user": false,
+      "create": true,
+      "destroy": true,
+      "edit_content": true,
+      "index": true,
+      "show": true,
+      "move_content": true,
+      "save_shared_space_as_embed_user": true,
+      "see_admin_spaces": true,
+      "update": true
+    }
+  },
+  "folder_id": "210",
+  "content_favorite_id": null,
+  "id": "287",
+  "model": null,
+  "certification_metadata": null,
+  "deleted": false,
+  "last_viewed_at": null,
+  "last_updater_name": "Manuel Herrador",
+  "user_name": "Manuel Herrador",
+  "appearance": null,
+  "theme_name": "devoteam_corporate_theme",
+  "can": {
+    "certify": true,
+    "copy": true,
+    "index": true,
+    "show": true,
+    "create": true,
+    "destroy": true,
+    "move": true,
+    "recover": true,
+    "update": true,
+    "download": true,
+    "render": true,
+    "run": true,
+    "schedule": true,
+    "see_aggregate_table_lookml": true,
+    "see_lookml": true
+  }
+}

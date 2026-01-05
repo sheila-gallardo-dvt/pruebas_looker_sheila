@@ -1,0 +1,29 @@
+{
+  "name": "BANCA MARCH",
+  "parent_id": "1",
+  "id": "227",
+  "content_metadata_id": "830",
+  "created_at": "2025-06-24 15:10:41 UTC",
+  "creator_id": "164",
+  "external_id": "",
+  "is_embed": false,
+  "is_embed_shared_root": false,
+  "is_embed_users_root": false,
+  "is_personal": false,
+  "is_personal_descendant": false,
+  "is_shared_root": false,
+  "is_users_root": false,
+  "child_count": 0,
+  "can": {
+    "browse_spaces_as_embed_user": false,
+    "create": true,
+    "destroy": true,
+    "edit_content": true,
+    "index": true,
+    "show": true,
+    "move_content": true,
+    "save_shared_space_as_embed_user": true,
+    "see_admin_spaces": true,
+    "update": true
+  }
+}
