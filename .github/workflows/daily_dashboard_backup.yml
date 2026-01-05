@@ -42,7 +42,7 @@ jobs:
           # Limpiamos la carpeta local antes para no acumular basura de backups fallidos
           rm -rf content/*
           # Exportamos directamente dentro de content
-          gzr space export 1 --dir content --force
+          gzr space export 182 --dir content --force
           
       # 5. Detectamos si hubo cambios y los subimos a GitHub
       - name: Commit and Push changes
