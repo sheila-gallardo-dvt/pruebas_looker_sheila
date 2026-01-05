@@ -28,7 +28,7 @@ jobs:
         run: |
           # 1. ENTRAR EN LA CARPETA DE BACKUP
           # Asumimos que el backup se guardó en content/dashboards/
-          cd content/dashboards
+          cd content
           
           # 2. BORRAR TODO EL CONTENIDO ACTUAL DE SHARED (Recursivo)
           # Precaución: Esto limpia la carpeta 1 por completo antes de restaurar
