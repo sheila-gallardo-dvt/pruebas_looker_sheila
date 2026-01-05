@@ -1,0 +1,3353 @@
+{
+  "content_metadata_id": "820",
+  "description": "",
+  "hidden": false,
+  "query_timezone": null,
+  "readonly": false,
+  "refresh_interval": null,
+  "refresh_interval_to_i": null,
+  "title": "Plan de ocupación 2025 (PRO)",
+  "user_id": "189",
+  "slug": "EzqstAJWQmNyZRvLww7sR1",
+  "preferred_viewer": "dashboards-next",
+  "alert_sync_with_dashboard_filter_enabled": false,
+  "background_color": null,
+  "created_at": "2025-06-12 14:04:24 UTC",
+  "crossfilter_enabled": false,
+  "dashboard_elements": [
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "298",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "1038",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "plan_ocupacion_tabla_final",
+        "fields": [
+          "plan_ocupacion_tabla_final.count_distinct_usuarios"
+        ],
+        "pivots": null,
+        "fill_fields": null,
+        "filters": null,
+        "filter_expression": null,
+        "sorts": [
+
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "custom_color_enabled": true,
+          "show_single_value_title": true,
+          "show_comparison": false,
+          "comparison_type": "value",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "enable_conditional_formatting": false,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "single_value_title": "USUARIOS",
+          "type": "single_value",
+          "defaults_version": 1
+        },
+        "filter_config": {
+        },
+        "visible_ui_sections": null,
+        "slug": "StzMFMSfDnqrv2GJRW68JTCfVxk3dC7r",
+        "client_id": "Go4hFgsCIS8A5yFaxM5cF4",
+        "share_url": "https://nubalia.cloud.looker.com/x/Go4hFgsCIS8A5yFaxM5cF4",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.count_distinct_usuarios&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22single_value_title%22%3A%22USUARIOS%22%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+        "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.count_distinct_usuarios&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22single_value_title%22%3A%22USUARIOS%22%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+        "has_table_calculations": false,
+        "id": "StzMFMSfDnqrv2GJRW68JTCfVxk3dC7r",
+        "model": "model_plan_ocupacion",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "2796",
+      "subtitle_text": null,
+      "title": "Usuarios",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "StzMFMSfDnqrv2GJRW68JTCfVxk3dC7r",
+      "result_maker": {
+        "id": "2796",
+        "dynamic_fields": null,
+        "sorts": [
+
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "plan_ocupacion_tabla_final",
+          "fields": [
+            "plan_ocupacion_tabla_final.count_distinct_usuarios"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "custom_color_enabled": true,
+            "show_single_value_title": true,
+            "show_comparison": false,
+            "comparison_type": "value",
+            "comparison_reverse_colors": false,
+            "show_comparison_label": true,
+            "enable_conditional_formatting": false,
+            "conditional_formatting_include_totals": false,
+            "conditional_formatting_include_nulls": false,
+            "single_value_title": "USUARIOS",
+            "type": "single_value",
+            "defaults_version": 1
+          },
+          "filter_config": {
+          },
+          "visible_ui_sections": null,
+          "slug": "StzMFMSfDnqrv2GJRW68JTCfVxk3dC7r",
+          "client_id": "Go4hFgsCIS8A5yFaxM5cF4",
+          "share_url": "https://nubalia.cloud.looker.com/x/Go4hFgsCIS8A5yFaxM5cF4",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.count_distinct_usuarios&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22single_value_title%22%3A%22USUARIOS%22%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+          "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.count_distinct_usuarios&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22single_value_title%22%3A%22USUARIOS%22%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+          "has_table_calculations": false,
+          "id": "StzMFMSfDnqrv2GJRW68JTCfVxk3dC7r",
+          "model": "model_plan_ocupacion",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "custom_color_enabled": true,
+          "show_single_value_title": true,
+          "show_comparison": false,
+          "comparison_type": "value",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "enable_conditional_formatting": false,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "single_value_title": "USUARIOS",
+          "type": "single_value",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "model_plan_ocupacion",
+            "view": "plan_ocupacion_tabla_final",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Dia Date",
+                "field": "plan_ocupacion_tabla_final.dia_date"
+              },
+              {
+                "dashboard_filter_name": "Squad",
+                "field": "plan_ocupacion_tabla_final.squad_proyecto_individual"
+              },
+              {
+                "dashboard_filter_name": "Proyecto",
+                "field": "plan_ocupacion_tabla_final.proyecto"
+              },
+              {
+                "dashboard_filter_name": "Area",
+                "field": "plan_ocupacion_tabla_final.area"
+              },
+              {
+                "dashboard_filter_name": "Usuario",
+                "field": "plan_ocupacion_tabla_final.nombre_usuario"
+              }
+            ]
+          }
+        ],
+        "query_id": "StzMFMSfDnqrv2GJRW68JTCfVxk3dC7r"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "298",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "1039",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "plan_ocupacion_tabla_final",
+        "fields": [
+          "plan_ocupacion_tabla_final.count_distinct_proyecto"
+        ],
+        "pivots": null,
+        "fill_fields": null,
+        "filters": {
+          "plan_ocupacion_tabla_final.estado": "Abierto"
+        },
+        "filter_expression": null,
+        "sorts": [
+
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "custom_color_enabled": true,
+          "show_single_value_title": true,
+          "show_comparison": false,
+          "comparison_type": "value",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "enable_conditional_formatting": false,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "single_value_title": "PROYECTOS ABIERTOS",
+          "type": "single_value",
+          "defaults_version": 1
+        },
+        "filter_config": {
+          "plan_ocupacion_tabla_final.estado": [
+            {
+              "type": "=",
+              "values": [
+                {
+                  "constant": "Abierto"
+                },
+                {
+                }
+              ],
+              "id": 2
+            }
+          ]
+        },
+        "visible_ui_sections": null,
+        "slug": "GRBTpRbDcC49yDmDZGvkmCnH9tN75sJb",
+        "client_id": "lGGfxg0px8WEfVdTGJwm87",
+        "share_url": "https://nubalia.cloud.looker.com/x/lGGfxg0px8WEfVdTGJwm87",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.count_distinct_proyecto&f[plan_ocupacion_tabla_final.estado]=Abierto&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22single_value_title%22%3A%22PROYECTOS+ABIERTOS%22%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22plan_ocupacion_tabla_final.estado%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Abierto%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%7D%5D%7D&origin=share-expanded",
+        "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.count_distinct_proyecto&f[plan_ocupacion_tabla_final.estado]=Abierto&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22single_value_title%22%3A%22PROYECTOS+ABIERTOS%22%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22plan_ocupacion_tabla_final.estado%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Abierto%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%7D%5D%7D",
+        "has_table_calculations": false,
+        "id": "GRBTpRbDcC49yDmDZGvkmCnH9tN75sJb",
+        "model": "model_plan_ocupacion",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "2812",
+      "subtitle_text": null,
+      "title": "Proyectos",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "GRBTpRbDcC49yDmDZGvkmCnH9tN75sJb",
+      "result_maker": {
+        "id": "2812",
+        "dynamic_fields": null,
+        "sorts": [
+
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "plan_ocupacion_tabla_final",
+          "fields": [
+            "plan_ocupacion_tabla_final.count_distinct_proyecto"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": {
+            "plan_ocupacion_tabla_final.estado": "Abierto"
+          },
+          "filter_expression": null,
+          "sorts": [
+
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "custom_color_enabled": true,
+            "show_single_value_title": true,
+            "show_comparison": false,
+            "comparison_type": "value",
+            "comparison_reverse_colors": false,
+            "show_comparison_label": true,
+            "enable_conditional_formatting": false,
+            "conditional_formatting_include_totals": false,
+            "conditional_formatting_include_nulls": false,
+            "single_value_title": "PROYECTOS ABIERTOS",
+            "type": "single_value",
+            "defaults_version": 1
+          },
+          "filter_config": {
+            "plan_ocupacion_tabla_final.estado": [
+              {
+                "type": "=",
+                "values": [
+                  {
+                    "constant": "Abierto"
+                  },
+                  {
+                  }
+                ],
+                "id": 2
+              }
+            ]
+          },
+          "visible_ui_sections": null,
+          "slug": "GRBTpRbDcC49yDmDZGvkmCnH9tN75sJb",
+          "client_id": "lGGfxg0px8WEfVdTGJwm87",
+          "share_url": "https://nubalia.cloud.looker.com/x/lGGfxg0px8WEfVdTGJwm87",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.count_distinct_proyecto&f[plan_ocupacion_tabla_final.estado]=Abierto&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22single_value_title%22%3A%22PROYECTOS+ABIERTOS%22%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22plan_ocupacion_tabla_final.estado%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Abierto%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%7D%5D%7D&origin=share-expanded",
+          "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.count_distinct_proyecto&f[plan_ocupacion_tabla_final.estado]=Abierto&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22single_value_title%22%3A%22PROYECTOS+ABIERTOS%22%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22plan_ocupacion_tabla_final.estado%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Abierto%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%7D%5D%7D",
+          "has_table_calculations": false,
+          "id": "GRBTpRbDcC49yDmDZGvkmCnH9tN75sJb",
+          "model": "model_plan_ocupacion",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "custom_color_enabled": true,
+          "show_single_value_title": true,
+          "show_comparison": false,
+          "comparison_type": "value",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "enable_conditional_formatting": false,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "single_value_title": "PROYECTOS ABIERTOS",
+          "type": "single_value",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "model_plan_ocupacion",
+            "view": "plan_ocupacion_tabla_final",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Dia Date",
+                "field": "plan_ocupacion_tabla_final.dia_date"
+              },
+              {
+                "dashboard_filter_name": "Squad",
+                "field": "plan_ocupacion_tabla_final.squad_proyecto_individual"
+              },
+              {
+                "dashboard_filter_name": "Usuario",
+                "field": "plan_ocupacion_tabla_final.nombre_usuario"
+              },
+              {
+                "dashboard_filter_name": "Area",
+                "field": "plan_ocupacion_tabla_final.area"
+              },
+              {
+                "dashboard_filter_name": "Proyecto",
+                "field": "plan_ocupacion_tabla_final.proyecto"
+              }
+            ]
+          }
+        ],
+        "query_id": "GRBTpRbDcC49yDmDZGvkmCnH9tN75sJb"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "298",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "1040",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "plan_ocupacion_tabla_final",
+        "fields": [
+          "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico"
+        ],
+        "pivots": null,
+        "fill_fields": null,
+        "filters": null,
+        "filter_expression": null,
+        "sorts": [
+
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "custom_color_enabled": true,
+          "show_single_value_title": true,
+          "show_comparison": false,
+          "comparison_type": "value",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "enable_conditional_formatting": false,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "single_value_title": "% OCUPACIÓN (Media)",
+          "type": "single_value",
+          "defaults_version": 1
+        },
+        "filter_config": {
+        },
+        "visible_ui_sections": null,
+        "slug": "t36JPMKSzffk4v6XRSSMKRVbnTSvX8B3",
+        "client_id": "4sJjpJZZANnmPfpYVNUdsM",
+        "share_url": "https://nubalia.cloud.looker.com/x/4sJjpJZZANnmPfpYVNUdsM",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.promedio_porcentaje_dinamico&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22single_value_title%22%3A%22%25+OCUPACI%C3%93N+%28Media%29%22%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+        "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.promedio_porcentaje_dinamico&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22single_value_title%22%3A%22%25+OCUPACI%C3%93N+%28Media%29%22%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+        "has_table_calculations": false,
+        "id": "t36JPMKSzffk4v6XRSSMKRVbnTSvX8B3",
+        "model": "model_plan_ocupacion",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "2797",
+      "subtitle_text": null,
+      "title": "% Ocupación (Media)",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "t36JPMKSzffk4v6XRSSMKRVbnTSvX8B3",
+      "result_maker": {
+        "id": "2797",
+        "dynamic_fields": null,
+        "sorts": [
+
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "plan_ocupacion_tabla_final",
+          "fields": [
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "custom_color_enabled": true,
+            "show_single_value_title": true,
+            "show_comparison": false,
+            "comparison_type": "value",
+            "comparison_reverse_colors": false,
+            "show_comparison_label": true,
+            "enable_conditional_formatting": false,
+            "conditional_formatting_include_totals": false,
+            "conditional_formatting_include_nulls": false,
+            "single_value_title": "% OCUPACIÓN (Media)",
+            "type": "single_value",
+            "defaults_version": 1
+          },
+          "filter_config": {
+          },
+          "visible_ui_sections": null,
+          "slug": "t36JPMKSzffk4v6XRSSMKRVbnTSvX8B3",
+          "client_id": "4sJjpJZZANnmPfpYVNUdsM",
+          "share_url": "https://nubalia.cloud.looker.com/x/4sJjpJZZANnmPfpYVNUdsM",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.promedio_porcentaje_dinamico&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22single_value_title%22%3A%22%25+OCUPACI%C3%93N+%28Media%29%22%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+          "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.promedio_porcentaje_dinamico&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22single_value_title%22%3A%22%25+OCUPACI%C3%93N+%28Media%29%22%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+          "has_table_calculations": false,
+          "id": "t36JPMKSzffk4v6XRSSMKRVbnTSvX8B3",
+          "model": "model_plan_ocupacion",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "custom_color_enabled": true,
+          "show_single_value_title": true,
+          "show_comparison": false,
+          "comparison_type": "value",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "enable_conditional_formatting": false,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "single_value_title": "% OCUPACIÓN (Media)",
+          "type": "single_value",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "model_plan_ocupacion",
+            "view": "plan_ocupacion_tabla_final",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Dia Date",
+                "field": "plan_ocupacion_tabla_final.dia_date"
+              },
+              {
+                "dashboard_filter_name": "Squad",
+                "field": "plan_ocupacion_tabla_final.squad_proyecto_individual"
+              },
+              {
+                "dashboard_filter_name": "Usuario",
+                "field": "plan_ocupacion_tabla_final.nombre_usuario"
+              },
+              {
+                "dashboard_filter_name": "Area",
+                "field": "plan_ocupacion_tabla_final.area"
+              },
+              {
+                "dashboard_filter_name": "Proyecto",
+                "field": "plan_ocupacion_tabla_final.proyecto"
+              },
+              {
+                "dashboard_filter_name": "Estado",
+                "field": "plan_ocupacion_tabla_final.estado"
+              }
+            ]
+          }
+        ],
+        "query_id": "t36JPMKSzffk4v6XRSSMKRVbnTSvX8B3"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "298",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "1041",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "plan_ocupacion_tabla_final",
+        "fields": [
+          "plan_ocupacion_tabla_final.squad_proyecto_individual",
+          "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico"
+        ],
+        "pivots": null,
+        "fill_fields": null,
+        "filters": null,
+        "filter_expression": null,
+        "sorts": [
+          "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico desc 0"
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "show_view_names": false,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": true,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "white",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": "12",
+          "rows_font_size": "12",
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "show_sql_query_menu_options": false,
+          "show_totals": true,
+          "show_row_totals": true,
+          "truncate_header": false,
+          "minimum_column_width": 75,
+          "series_labels": {
+            "plan_ocupacion_tabla_final.squad_proyecto_individual": "Squad",
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico": "% Ocupación (Media)"
+          },
+          "series_cell_visualizations": {
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico": {
+              "is_active": true
+            }
+          },
+          "series_value_format": {
+          },
+          "series_types": {
+          },
+          "type": "looker_grid",
+          "defaults_version": 1
+        },
+        "filter_config": {
+        },
+        "visible_ui_sections": null,
+        "slug": "t4kZhV5J9BzqSd4S2CGVPyM7jbk3k5FB",
+        "client_id": "JCBwRnWKzcCSAIVnbjVSbC",
+        "share_url": "https://nubalia.cloud.looker.com/x/JCBwRnWKzcCSAIVnbjVSbC",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.squad_proyecto_individual,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico&sorts=plan_ocupacion_tabla_final.promedio_porcentaje_dinamico+desc+0&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_labels%22%3A%7B%22plan_ocupacion_tabla_final.squad_proyecto_individual%22%3A%22Squad%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%22%25+Ocupaci%C3%B3n+%28Media%29%22%7D%2C%22series_cell_visualizations%22%3A%7B%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%7B%22is_active%22%3Atrue%7D%7D%2C%22series_value_format%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+        "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.squad_proyecto_individual,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico&sorts=plan_ocupacion_tabla_final.promedio_porcentaje_dinamico+desc+0&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_labels%22%3A%7B%22plan_ocupacion_tabla_final.squad_proyecto_individual%22%3A%22Squad%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%22%25+Ocupaci%C3%B3n+%28Media%29%22%7D%2C%22series_cell_visualizations%22%3A%7B%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%7B%22is_active%22%3Atrue%7D%7D%2C%22series_value_format%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+        "has_table_calculations": false,
+        "id": "t4kZhV5J9BzqSd4S2CGVPyM7jbk3k5FB",
+        "model": "model_plan_ocupacion",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "2801",
+      "subtitle_text": null,
+      "title": "% OCUPACIÓN por SQUAD",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "t4kZhV5J9BzqSd4S2CGVPyM7jbk3k5FB",
+      "result_maker": {
+        "id": "2801",
+        "dynamic_fields": null,
+        "sorts": [
+          "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico desc 0"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "plan_ocupacion_tabla_final",
+          "fields": [
+            "plan_ocupacion_tabla_final.squad_proyecto_individual",
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico desc 0"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "show_view_names": false,
+            "show_row_numbers": true,
+            "transpose": false,
+            "truncate_text": true,
+            "hide_totals": false,
+            "hide_row_totals": false,
+            "size_to_fit": true,
+            "table_theme": "white",
+            "limit_displayed_rows": false,
+            "enable_conditional_formatting": false,
+            "header_text_alignment": "left",
+            "header_font_size": "12",
+            "rows_font_size": "12",
+            "conditional_formatting_include_totals": false,
+            "conditional_formatting_include_nulls": false,
+            "show_sql_query_menu_options": false,
+            "show_totals": true,
+            "show_row_totals": true,
+            "truncate_header": false,
+            "minimum_column_width": 75,
+            "series_labels": {
+              "plan_ocupacion_tabla_final.squad_proyecto_individual": "Squad",
+              "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico": "% Ocupación (Media)"
+            },
+            "series_cell_visualizations": {
+              "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico": {
+                "is_active": true
+              }
+            },
+            "series_value_format": {
+            },
+            "series_types": {
+            },
+            "type": "looker_grid",
+            "defaults_version": 1
+          },
+          "filter_config": {
+          },
+          "visible_ui_sections": null,
+          "slug": "t4kZhV5J9BzqSd4S2CGVPyM7jbk3k5FB",
+          "client_id": "JCBwRnWKzcCSAIVnbjVSbC",
+          "share_url": "https://nubalia.cloud.looker.com/x/JCBwRnWKzcCSAIVnbjVSbC",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.squad_proyecto_individual,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico&sorts=plan_ocupacion_tabla_final.promedio_porcentaje_dinamico+desc+0&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_labels%22%3A%7B%22plan_ocupacion_tabla_final.squad_proyecto_individual%22%3A%22Squad%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%22%25+Ocupaci%C3%B3n+%28Media%29%22%7D%2C%22series_cell_visualizations%22%3A%7B%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%7B%22is_active%22%3Atrue%7D%7D%2C%22series_value_format%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+          "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.squad_proyecto_individual,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico&sorts=plan_ocupacion_tabla_final.promedio_porcentaje_dinamico+desc+0&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_labels%22%3A%7B%22plan_ocupacion_tabla_final.squad_proyecto_individual%22%3A%22Squad%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%22%25+Ocupaci%C3%B3n+%28Media%29%22%7D%2C%22series_cell_visualizations%22%3A%7B%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%7B%22is_active%22%3Atrue%7D%7D%2C%22series_value_format%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+          "has_table_calculations": false,
+          "id": "t4kZhV5J9BzqSd4S2CGVPyM7jbk3k5FB",
+          "model": "model_plan_ocupacion",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "show_view_names": false,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": true,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "white",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": "12",
+          "rows_font_size": "12",
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "show_sql_query_menu_options": false,
+          "show_totals": true,
+          "show_row_totals": true,
+          "truncate_header": false,
+          "minimum_column_width": 75,
+          "series_labels": {
+            "plan_ocupacion_tabla_final.squad_proyecto_individual": "Squad",
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico": "% Ocupación (Media)"
+          },
+          "series_cell_visualizations": {
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico": {
+              "is_active": true
+            }
+          },
+          "series_value_format": {
+          },
+          "series_types": {
+          },
+          "type": "looker_grid",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "model_plan_ocupacion",
+            "view": "plan_ocupacion_tabla_final",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Dia Date",
+                "field": "plan_ocupacion_tabla_final.dia_date"
+              },
+              {
+                "dashboard_filter_name": "Squad",
+                "field": "plan_ocupacion_tabla_final.squad_proyecto_individual"
+              },
+              {
+                "dashboard_filter_name": "Usuario",
+                "field": "plan_ocupacion_tabla_final.nombre_usuario"
+              },
+              {
+                "dashboard_filter_name": "Area",
+                "field": "plan_ocupacion_tabla_final.area"
+              },
+              {
+                "dashboard_filter_name": "Proyecto",
+                "field": "plan_ocupacion_tabla_final.proyecto"
+              },
+              {
+                "dashboard_filter_name": "Estado",
+                "field": "plan_ocupacion_tabla_final.estado"
+              }
+            ]
+          }
+        ],
+        "query_id": "t4kZhV5J9BzqSd4S2CGVPyM7jbk3k5FB"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "298",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "1042",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "plan_ocupacion_tabla_final",
+        "fields": [
+          "plan_ocupacion_tabla_final.dia_month",
+          "plan_ocupacion_tabla_final.estado",
+          "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual",
+          "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual"
+        ],
+        "pivots": [
+          "plan_ocupacion_tabla_final.estado"
+        ],
+        "fill_fields": null,
+        "filters": null,
+        "filter_expression": null,
+        "sorts": [
+          "plan_ocupacion_tabla_final.estado",
+          "plan_ocupacion_tabla_final.dia_month desc"
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "x_axis_gridlines": false,
+          "y_axis_gridlines": true,
+          "show_view_names": false,
+          "show_y_axis_labels": true,
+          "show_y_axis_ticks": true,
+          "y_axis_tick_density": "default",
+          "y_axis_tick_density_custom": 5,
+          "show_x_axis_label": false,
+          "show_x_axis_ticks": true,
+          "y_axis_scale_mode": "linear",
+          "x_axis_reversed": false,
+          "y_axis_reversed": false,
+          "plot_size_by_field": false,
+          "trellis": "",
+          "stacking": "normal",
+          "limit_displayed_rows": false,
+          "legend_position": "center",
+          "point_style": "none",
+          "show_value_labels": true,
+          "label_density": 25,
+          "x_axis_scale": "auto",
+          "y_axis_combined": true,
+          "ordering": "none",
+          "show_null_labels": false,
+          "show_totals_labels": true,
+          "show_silhouette": false,
+          "totals_color": "#000000",
+          "y_axes": [
+            {
+              "label": "",
+              "orientation": "left",
+              "series": [
+                {
+                  "axisId": "Abierto - mensual",
+                  "id": "Abierto - mensual",
+                  "name": "Abierto"
+                },
+                {
+                  "axisId": "Cerrado - mensual",
+                  "id": "Cerrado - mensual",
+                  "name": "Cerrado"
+                },
+                {
+                  "axisId": "Forecast - mensual",
+                  "id": "Forecast - mensual",
+                  "name": "Forecast"
+                },
+                {
+                  "axisId": "plan_ocupacion_tabla_final.estado___null - mensual",
+                  "id": "plan_ocupacion_tabla_final.estado___null - mensual",
+                  "name": "∅"
+                }
+              ],
+              "showLabels": false,
+              "showValues": false,
+              "unpinAxis": false,
+              "tickDensity": "default",
+              "tickDensityCustom": 5,
+              "type": "linear"
+            }
+          ],
+          "x_axis_zoom": true,
+          "y_axis_zoom": true,
+          "series_types": {
+          },
+          "series_colors": {
+            "Abierto - mensual": "#72D16D",
+            "Cerrado - mensual": "#B32F37",
+            "Forecast - mensual": "#FBB555"
+          },
+          "hidden_fields": [
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual",
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual"
+          ],
+          "hidden_pivots": {
+          },
+          "type": "looker_column",
+          "show_null_points": true,
+          "interpolation": "linear",
+          "defaults_version": 1
+        },
+        "filter_config": {
+        },
+        "visible_ui_sections": null,
+        "slug": "bqQ35C4Htf9hzc9FZNNTvcNtsSrCR4WJ",
+        "client_id": "go0YuKECLcqPIzafwLCzFA",
+        "share_url": "https://nubalia.cloud.looker.com/x/go0YuKECLcqPIzafwLCzFA",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.dia_month,plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual&pivots=plan_ocupacion_tabla_final.estado&sorts=plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.dia_month+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22normal%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Atrue%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Atrue%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23000000%22%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22axisId%22%3A%22Abierto+-+mensual%22%2C%22id%22%3A%22Abierto+-+mensual%22%2C%22name%22%3A%22Abierto%22%7D%2C%7B%22axisId%22%3A%22Cerrado+-+mensual%22%2C%22id%22%3A%22Cerrado+-+mensual%22%2C%22name%22%3A%22Cerrado%22%7D%2C%7B%22axisId%22%3A%22Forecast+-+mensual%22%2C%22id%22%3A%22Forecast+-+mensual%22%2C%22name%22%3A%22Forecast%22%7D%2C%7B%22axisId%22%3A%22plan_ocupacion_tabla_final.estado___null+-+mensual%22%2C%22id%22%3A%22plan_ocupacion_tabla_final.estado___null+-+mensual%22%2C%22name%22%3A%22%E2%88%85%22%7D%5D%2C%22showLabels%22%3Afalse%2C%22showValues%22%3Afalse%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22x_axis_zoom%22%3Atrue%2C%22y_axis_zoom%22%3Atrue%2C%22series_types%22%3A%7B%7D%2C%22series_colors%22%3A%7B%22Abierto+-+mensual%22%3A%22%2372D16D%22%2C%22Cerrado+-+mensual%22%3A%22%23B32F37%22%2C%22Forecast+-+mensual%22%3A%22%23FBB555%22%7D%2C%22hidden_fields%22%3A%5B%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual%22%5D%2C%22hidden_pivots%22%3A%7B%7D%2C%22type%22%3A%22looker_column%22%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&dynamic_fields=%5B%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%24%7Bplan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual%7D%2A%24%7Bplan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual%7D%22%2C%22label%22%3A%22%25+Mensual%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22mensual%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
+        "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.dia_month,plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual&pivots=plan_ocupacion_tabla_final.estado&sorts=plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.dia_month+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22normal%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Atrue%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Atrue%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23000000%22%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22axisId%22%3A%22Abierto+-+mensual%22%2C%22id%22%3A%22Abierto+-+mensual%22%2C%22name%22%3A%22Abierto%22%7D%2C%7B%22axisId%22%3A%22Cerrado+-+mensual%22%2C%22id%22%3A%22Cerrado+-+mensual%22%2C%22name%22%3A%22Cerrado%22%7D%2C%7B%22axisId%22%3A%22Forecast+-+mensual%22%2C%22id%22%3A%22Forecast+-+mensual%22%2C%22name%22%3A%22Forecast%22%7D%2C%7B%22axisId%22%3A%22plan_ocupacion_tabla_final.estado___null+-+mensual%22%2C%22id%22%3A%22plan_ocupacion_tabla_final.estado___null+-+mensual%22%2C%22name%22%3A%22%E2%88%85%22%7D%5D%2C%22showLabels%22%3Afalse%2C%22showValues%22%3Afalse%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22x_axis_zoom%22%3Atrue%2C%22y_axis_zoom%22%3Atrue%2C%22series_types%22%3A%7B%7D%2C%22series_colors%22%3A%7B%22Abierto+-+mensual%22%3A%22%2372D16D%22%2C%22Cerrado+-+mensual%22%3A%22%23B32F37%22%2C%22Forecast+-+mensual%22%3A%22%23FBB555%22%7D%2C%22hidden_fields%22%3A%5B%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual%22%5D%2C%22hidden_pivots%22%3A%7B%7D%2C%22type%22%3A%22looker_column%22%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&dynamic_fields=%5B%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%24%7Bplan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual%7D%2A%24%7Bplan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual%7D%22%2C%22label%22%3A%22%25+Mensual%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22mensual%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+        "has_table_calculations": true,
+        "id": "bqQ35C4Htf9hzc9FZNNTvcNtsSrCR4WJ",
+        "model": "model_plan_ocupacion",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": "[{\"category\":\"table_calculation\",\"expression\":\"${plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual}*${plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual}\",\"label\":\"% Mensual\",\"value_format\":null,\"value_format_name\":\"percent_0\",\"_kind_hint\":\"measure\",\"table_calculation\":\"mensual\",\"_type_hint\":\"number\"}]",
+        "query_timezone": null,
+        "quick_calcs": [
+
+        ],
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "2800",
+      "subtitle_text": null,
+      "title": "% Ocupación (Media) | Estado Proyectos ",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "bqQ35C4Htf9hzc9FZNNTvcNtsSrCR4WJ",
+      "result_maker": {
+        "id": "2800",
+        "dynamic_fields": "[{\"category\":\"table_calculation\",\"expression\":\"${plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual}*${plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual}\",\"label\":\"% Mensual\",\"value_format\":null,\"value_format_name\":\"percent_0\",\"_kind_hint\":\"measure\",\"table_calculation\":\"mensual\",\"_type_hint\":\"number\"}]",
+        "sorts": [
+          "plan_ocupacion_tabla_final.estado",
+          "plan_ocupacion_tabla_final.dia_month desc"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "plan_ocupacion_tabla_final",
+          "fields": [
+            "plan_ocupacion_tabla_final.dia_month",
+            "plan_ocupacion_tabla_final.estado",
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual",
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual"
+          ],
+          "pivots": [
+            "plan_ocupacion_tabla_final.estado"
+          ],
+          "fill_fields": null,
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+            "plan_ocupacion_tabla_final.estado",
+            "plan_ocupacion_tabla_final.dia_month desc"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "x_axis_gridlines": false,
+            "y_axis_gridlines": true,
+            "show_view_names": false,
+            "show_y_axis_labels": true,
+            "show_y_axis_ticks": true,
+            "y_axis_tick_density": "default",
+            "y_axis_tick_density_custom": 5,
+            "show_x_axis_label": false,
+            "show_x_axis_ticks": true,
+            "y_axis_scale_mode": "linear",
+            "x_axis_reversed": false,
+            "y_axis_reversed": false,
+            "plot_size_by_field": false,
+            "trellis": "",
+            "stacking": "normal",
+            "limit_displayed_rows": false,
+            "legend_position": "center",
+            "point_style": "none",
+            "show_value_labels": true,
+            "label_density": 25,
+            "x_axis_scale": "auto",
+            "y_axis_combined": true,
+            "ordering": "none",
+            "show_null_labels": false,
+            "show_totals_labels": true,
+            "show_silhouette": false,
+            "totals_color": "#000000",
+            "y_axes": [
+              {
+                "label": "",
+                "orientation": "left",
+                "series": [
+                  {
+                    "axisId": "Abierto - mensual",
+                    "id": "Abierto - mensual",
+                    "name": "Abierto"
+                  },
+                  {
+                    "axisId": "Cerrado - mensual",
+                    "id": "Cerrado - mensual",
+                    "name": "Cerrado"
+                  },
+                  {
+                    "axisId": "Forecast - mensual",
+                    "id": "Forecast - mensual",
+                    "name": "Forecast"
+                  },
+                  {
+                    "axisId": "plan_ocupacion_tabla_final.estado___null - mensual",
+                    "id": "plan_ocupacion_tabla_final.estado___null - mensual",
+                    "name": "∅"
+                  }
+                ],
+                "showLabels": false,
+                "showValues": false,
+                "unpinAxis": false,
+                "tickDensity": "default",
+                "tickDensityCustom": 5,
+                "type": "linear"
+              }
+            ],
+            "x_axis_zoom": true,
+            "y_axis_zoom": true,
+            "series_types": {
+            },
+            "series_colors": {
+              "Abierto - mensual": "#72D16D",
+              "Cerrado - mensual": "#B32F37",
+              "Forecast - mensual": "#FBB555"
+            },
+            "hidden_fields": [
+              "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual",
+              "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual"
+            ],
+            "hidden_pivots": {
+            },
+            "type": "looker_column",
+            "show_null_points": true,
+            "interpolation": "linear",
+            "defaults_version": 1
+          },
+          "filter_config": {
+          },
+          "visible_ui_sections": null,
+          "slug": "bqQ35C4Htf9hzc9FZNNTvcNtsSrCR4WJ",
+          "client_id": "go0YuKECLcqPIzafwLCzFA",
+          "share_url": "https://nubalia.cloud.looker.com/x/go0YuKECLcqPIzafwLCzFA",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.dia_month,plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual&pivots=plan_ocupacion_tabla_final.estado&sorts=plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.dia_month+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22normal%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Atrue%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Atrue%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23000000%22%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22axisId%22%3A%22Abierto+-+mensual%22%2C%22id%22%3A%22Abierto+-+mensual%22%2C%22name%22%3A%22Abierto%22%7D%2C%7B%22axisId%22%3A%22Cerrado+-+mensual%22%2C%22id%22%3A%22Cerrado+-+mensual%22%2C%22name%22%3A%22Cerrado%22%7D%2C%7B%22axisId%22%3A%22Forecast+-+mensual%22%2C%22id%22%3A%22Forecast+-+mensual%22%2C%22name%22%3A%22Forecast%22%7D%2C%7B%22axisId%22%3A%22plan_ocupacion_tabla_final.estado___null+-+mensual%22%2C%22id%22%3A%22plan_ocupacion_tabla_final.estado___null+-+mensual%22%2C%22name%22%3A%22%E2%88%85%22%7D%5D%2C%22showLabels%22%3Afalse%2C%22showValues%22%3Afalse%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22x_axis_zoom%22%3Atrue%2C%22y_axis_zoom%22%3Atrue%2C%22series_types%22%3A%7B%7D%2C%22series_colors%22%3A%7B%22Abierto+-+mensual%22%3A%22%2372D16D%22%2C%22Cerrado+-+mensual%22%3A%22%23B32F37%22%2C%22Forecast+-+mensual%22%3A%22%23FBB555%22%7D%2C%22hidden_fields%22%3A%5B%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual%22%5D%2C%22hidden_pivots%22%3A%7B%7D%2C%22type%22%3A%22looker_column%22%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&dynamic_fields=%5B%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%24%7Bplan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual%7D%2A%24%7Bplan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual%7D%22%2C%22label%22%3A%22%25+Mensual%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22mensual%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
+          "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.dia_month,plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual&pivots=plan_ocupacion_tabla_final.estado&sorts=plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.dia_month+desc&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22normal%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Atrue%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Atrue%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23000000%22%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22axisId%22%3A%22Abierto+-+mensual%22%2C%22id%22%3A%22Abierto+-+mensual%22%2C%22name%22%3A%22Abierto%22%7D%2C%7B%22axisId%22%3A%22Cerrado+-+mensual%22%2C%22id%22%3A%22Cerrado+-+mensual%22%2C%22name%22%3A%22Cerrado%22%7D%2C%7B%22axisId%22%3A%22Forecast+-+mensual%22%2C%22id%22%3A%22Forecast+-+mensual%22%2C%22name%22%3A%22Forecast%22%7D%2C%7B%22axisId%22%3A%22plan_ocupacion_tabla_final.estado___null+-+mensual%22%2C%22id%22%3A%22plan_ocupacion_tabla_final.estado___null+-+mensual%22%2C%22name%22%3A%22%E2%88%85%22%7D%5D%2C%22showLabels%22%3Afalse%2C%22showValues%22%3Afalse%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22x_axis_zoom%22%3Atrue%2C%22y_axis_zoom%22%3Atrue%2C%22series_types%22%3A%7B%7D%2C%22series_colors%22%3A%7B%22Abierto+-+mensual%22%3A%22%2372D16D%22%2C%22Cerrado+-+mensual%22%3A%22%23B32F37%22%2C%22Forecast+-+mensual%22%3A%22%23FBB555%22%7D%2C%22hidden_fields%22%3A%5B%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual%22%5D%2C%22hidden_pivots%22%3A%7B%7D%2C%22type%22%3A%22looker_column%22%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&dynamic_fields=%5B%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%24%7Bplan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual%7D%2A%24%7Bplan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual%7D%22%2C%22label%22%3A%22%25+Mensual%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22mensual%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+          "has_table_calculations": true,
+          "id": "bqQ35C4Htf9hzc9FZNNTvcNtsSrCR4WJ",
+          "model": "model_plan_ocupacion",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": "[{\"category\":\"table_calculation\",\"expression\":\"${plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual}*${plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual}\",\"label\":\"% Mensual\",\"value_format\":null,\"value_format_name\":\"percent_0\",\"_kind_hint\":\"measure\",\"table_calculation\":\"mensual\",\"_type_hint\":\"number\"}]",
+          "query_timezone": null,
+          "quick_calcs": [
+
+          ],
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "x_axis_gridlines": false,
+          "y_axis_gridlines": true,
+          "show_view_names": false,
+          "show_y_axis_labels": true,
+          "show_y_axis_ticks": true,
+          "y_axis_tick_density": "default",
+          "y_axis_tick_density_custom": 5,
+          "show_x_axis_label": false,
+          "show_x_axis_ticks": true,
+          "y_axis_scale_mode": "linear",
+          "x_axis_reversed": false,
+          "y_axis_reversed": false,
+          "plot_size_by_field": false,
+          "trellis": "",
+          "stacking": "normal",
+          "limit_displayed_rows": false,
+          "legend_position": "center",
+          "point_style": "none",
+          "show_value_labels": true,
+          "label_density": 25,
+          "x_axis_scale": "auto",
+          "y_axis_combined": true,
+          "ordering": "none",
+          "show_null_labels": false,
+          "show_totals_labels": true,
+          "show_silhouette": false,
+          "totals_color": "#000000",
+          "y_axes": [
+            {
+              "label": "",
+              "orientation": "left",
+              "series": [
+                {
+                  "axisId": "Abierto - mensual",
+                  "id": "Abierto - mensual",
+                  "name": "Abierto"
+                },
+                {
+                  "axisId": "Cerrado - mensual",
+                  "id": "Cerrado - mensual",
+                  "name": "Cerrado"
+                },
+                {
+                  "axisId": "Forecast - mensual",
+                  "id": "Forecast - mensual",
+                  "name": "Forecast"
+                },
+                {
+                  "axisId": "plan_ocupacion_tabla_final.estado___null - mensual",
+                  "id": "plan_ocupacion_tabla_final.estado___null - mensual",
+                  "name": "∅"
+                }
+              ],
+              "showLabels": false,
+              "showValues": false,
+              "unpinAxis": false,
+              "tickDensity": "default",
+              "tickDensityCustom": 5,
+              "type": "linear"
+            }
+          ],
+          "x_axis_zoom": true,
+          "y_axis_zoom": true,
+          "series_types": {
+          },
+          "series_colors": {
+            "Abierto - mensual": "#72D16D",
+            "Cerrado - mensual": "#B32F37",
+            "Forecast - mensual": "#FBB555"
+          },
+          "hidden_fields": [
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_por_estados_mensual",
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico_mensual"
+          ],
+          "hidden_pivots": {
+          },
+          "type": "looker_column",
+          "show_null_points": true,
+          "interpolation": "linear",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "model_plan_ocupacion",
+            "view": "plan_ocupacion_tabla_final",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Dia Date",
+                "field": "plan_ocupacion_tabla_final.dia_date"
+              },
+              {
+                "dashboard_filter_name": "Squad",
+                "field": "plan_ocupacion_tabla_final.squad_proyecto_individual"
+              },
+              {
+                "dashboard_filter_name": "Usuario",
+                "field": "plan_ocupacion_tabla_final.nombre_usuario"
+              },
+              {
+                "dashboard_filter_name": "Area",
+                "field": "plan_ocupacion_tabla_final.area"
+              },
+              {
+                "dashboard_filter_name": "Proyecto",
+                "field": "plan_ocupacion_tabla_final.proyecto"
+              },
+              {
+                "dashboard_filter_name": "Estado",
+                "field": "plan_ocupacion_tabla_final.estado"
+              }
+            ]
+          }
+        ],
+        "query_id": "bqQ35C4Htf9hzc9FZNNTvcNtsSrCR4WJ"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "298",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "1043",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "plan_ocupacion_tabla_final",
+        "fields": [
+          "plan_ocupacion_tabla_final.proyecto",
+          "plan_ocupacion_tabla_final.estado",
+          "plan_ocupacion_tabla_final.squad_proyectos_original",
+          "plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto",
+          "plan_ocupacion_tabla_final.count_distinct_usuarios"
+        ],
+        "pivots": null,
+        "fill_fields": null,
+        "filters": null,
+        "filter_expression": null,
+        "sorts": [
+          "plan_ocupacion_tabla_final.count_distinct_usuarios desc"
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "show_view_names": false,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": true,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "white",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": "12",
+          "rows_font_size": "12",
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "show_sql_query_menu_options": false,
+          "show_totals": true,
+          "show_row_totals": true,
+          "truncate_header": false,
+          "minimum_column_width": 75,
+          "series_labels": {
+            "plan_ocupacion_tabla_final.squad_proyectos_original": "Squad",
+            "plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto": "% Ocupación (Media)",
+            "plan_ocupacion_tabla_final.count_distinct_usuarios": "Usuarios"
+          },
+          "series_cell_visualizations": {
+            "plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto": {
+              "is_active": true
+            }
+          },
+          "series_text_format": {
+            "plan_ocupacion_tabla_final.count_distinct_usuarios": {
+              "bold": true
+            },
+            "plan_ocupacion_tabla_final.proyecto": {
+              "bold": true,
+              "fg_color": "#B32F37"
+            },
+            "plan_ocupacion_tabla_final.estado": {
+              "bold": true
+            },
+            "plan_ocupacion_tabla_final.squad_proyectos_original": {
+              "bold": true
+            }
+          },
+          "series_value_format": {
+          },
+          "series_types": {
+          },
+          "type": "looker_grid",
+          "defaults_version": 1
+        },
+        "filter_config": {
+        },
+        "visible_ui_sections": null,
+        "slug": "VcyYDWWgQ5zdxcdKQQHQRR2W752hjD8p",
+        "client_id": "FOnO2XRQHNNODUiZ5y6P9s",
+        "share_url": "https://nubalia.cloud.looker.com/x/FOnO2XRQHNNODUiZ5y6P9s",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.proyecto,plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.squad_proyectos_original,plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto,plan_ocupacion_tabla_final.count_distinct_usuarios&sorts=plan_ocupacion_tabla_final.count_distinct_usuarios+desc&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_labels%22%3A%7B%22plan_ocupacion_tabla_final.squad_proyectos_original%22%3A%22Squad%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto%22%3A%22%25+Ocupaci%C3%B3n+%28Media%29%22%2C%22plan_ocupacion_tabla_final.count_distinct_usuarios%22%3A%22Usuarios%22%7D%2C%22series_cell_visualizations%22%3A%7B%22plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto%22%3A%7B%22is_active%22%3Atrue%7D%7D%2C%22series_text_format%22%3A%7B%22plan_ocupacion_tabla_final.count_distinct_usuarios%22%3A%7B%22bold%22%3Atrue%7D%2C%22plan_ocupacion_tabla_final.proyecto%22%3A%7B%22bold%22%3Atrue%2C%22fg_color%22%3A%22%23B32F37%22%7D%2C%22plan_ocupacion_tabla_final.estado%22%3A%7B%22bold%22%3Atrue%7D%2C%22plan_ocupacion_tabla_final.squad_proyectos_original%22%3A%7B%22bold%22%3Atrue%7D%7D%2C%22series_value_format%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+        "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.proyecto,plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.squad_proyectos_original,plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto,plan_ocupacion_tabla_final.count_distinct_usuarios&sorts=plan_ocupacion_tabla_final.count_distinct_usuarios+desc&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_labels%22%3A%7B%22plan_ocupacion_tabla_final.squad_proyectos_original%22%3A%22Squad%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto%22%3A%22%25+Ocupaci%C3%B3n+%28Media%29%22%2C%22plan_ocupacion_tabla_final.count_distinct_usuarios%22%3A%22Usuarios%22%7D%2C%22series_cell_visualizations%22%3A%7B%22plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto%22%3A%7B%22is_active%22%3Atrue%7D%7D%2C%22series_text_format%22%3A%7B%22plan_ocupacion_tabla_final.count_distinct_usuarios%22%3A%7B%22bold%22%3Atrue%7D%2C%22plan_ocupacion_tabla_final.proyecto%22%3A%7B%22bold%22%3Atrue%2C%22fg_color%22%3A%22%23B32F37%22%7D%2C%22plan_ocupacion_tabla_final.estado%22%3A%7B%22bold%22%3Atrue%7D%2C%22plan_ocupacion_tabla_final.squad_proyectos_original%22%3A%7B%22bold%22%3Atrue%7D%7D%2C%22series_value_format%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+        "has_table_calculations": false,
+        "id": "VcyYDWWgQ5zdxcdKQQHQRR2W752hjD8p",
+        "model": "model_plan_ocupacion",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "2799",
+      "subtitle_text": null,
+      "title": "KPIs por PROYECTO",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "VcyYDWWgQ5zdxcdKQQHQRR2W752hjD8p",
+      "result_maker": {
+        "id": "2799",
+        "dynamic_fields": null,
+        "sorts": [
+          "plan_ocupacion_tabla_final.count_distinct_usuarios desc"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "plan_ocupacion_tabla_final",
+          "fields": [
+            "plan_ocupacion_tabla_final.proyecto",
+            "plan_ocupacion_tabla_final.estado",
+            "plan_ocupacion_tabla_final.squad_proyectos_original",
+            "plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto",
+            "plan_ocupacion_tabla_final.count_distinct_usuarios"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+            "plan_ocupacion_tabla_final.count_distinct_usuarios desc"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "show_view_names": false,
+            "show_row_numbers": true,
+            "transpose": false,
+            "truncate_text": true,
+            "hide_totals": false,
+            "hide_row_totals": false,
+            "size_to_fit": true,
+            "table_theme": "white",
+            "limit_displayed_rows": false,
+            "enable_conditional_formatting": false,
+            "header_text_alignment": "left",
+            "header_font_size": "12",
+            "rows_font_size": "12",
+            "conditional_formatting_include_totals": false,
+            "conditional_formatting_include_nulls": false,
+            "show_sql_query_menu_options": false,
+            "show_totals": true,
+            "show_row_totals": true,
+            "truncate_header": false,
+            "minimum_column_width": 75,
+            "series_labels": {
+              "plan_ocupacion_tabla_final.squad_proyectos_original": "Squad",
+              "plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto": "% Ocupación (Media)",
+              "plan_ocupacion_tabla_final.count_distinct_usuarios": "Usuarios"
+            },
+            "series_cell_visualizations": {
+              "plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto": {
+                "is_active": true
+              }
+            },
+            "series_text_format": {
+              "plan_ocupacion_tabla_final.count_distinct_usuarios": {
+                "bold": true
+              },
+              "plan_ocupacion_tabla_final.proyecto": {
+                "bold": true,
+                "fg_color": "#B32F37"
+              },
+              "plan_ocupacion_tabla_final.estado": {
+                "bold": true
+              },
+              "plan_ocupacion_tabla_final.squad_proyectos_original": {
+                "bold": true
+              }
+            },
+            "series_value_format": {
+            },
+            "series_types": {
+            },
+            "type": "looker_grid",
+            "defaults_version": 1
+          },
+          "filter_config": {
+          },
+          "visible_ui_sections": null,
+          "slug": "VcyYDWWgQ5zdxcdKQQHQRR2W752hjD8p",
+          "client_id": "FOnO2XRQHNNODUiZ5y6P9s",
+          "share_url": "https://nubalia.cloud.looker.com/x/FOnO2XRQHNNODUiZ5y6P9s",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.proyecto,plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.squad_proyectos_original,plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto,plan_ocupacion_tabla_final.count_distinct_usuarios&sorts=plan_ocupacion_tabla_final.count_distinct_usuarios+desc&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_labels%22%3A%7B%22plan_ocupacion_tabla_final.squad_proyectos_original%22%3A%22Squad%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto%22%3A%22%25+Ocupaci%C3%B3n+%28Media%29%22%2C%22plan_ocupacion_tabla_final.count_distinct_usuarios%22%3A%22Usuarios%22%7D%2C%22series_cell_visualizations%22%3A%7B%22plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto%22%3A%7B%22is_active%22%3Atrue%7D%7D%2C%22series_text_format%22%3A%7B%22plan_ocupacion_tabla_final.count_distinct_usuarios%22%3A%7B%22bold%22%3Atrue%7D%2C%22plan_ocupacion_tabla_final.proyecto%22%3A%7B%22bold%22%3Atrue%2C%22fg_color%22%3A%22%23B32F37%22%7D%2C%22plan_ocupacion_tabla_final.estado%22%3A%7B%22bold%22%3Atrue%7D%2C%22plan_ocupacion_tabla_final.squad_proyectos_original%22%3A%7B%22bold%22%3Atrue%7D%7D%2C%22series_value_format%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+          "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.proyecto,plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.squad_proyectos_original,plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto,plan_ocupacion_tabla_final.count_distinct_usuarios&sorts=plan_ocupacion_tabla_final.count_distinct_usuarios+desc&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_labels%22%3A%7B%22plan_ocupacion_tabla_final.squad_proyectos_original%22%3A%22Squad%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto%22%3A%22%25+Ocupaci%C3%B3n+%28Media%29%22%2C%22plan_ocupacion_tabla_final.count_distinct_usuarios%22%3A%22Usuarios%22%7D%2C%22series_cell_visualizations%22%3A%7B%22plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto%22%3A%7B%22is_active%22%3Atrue%7D%7D%2C%22series_text_format%22%3A%7B%22plan_ocupacion_tabla_final.count_distinct_usuarios%22%3A%7B%22bold%22%3Atrue%7D%2C%22plan_ocupacion_tabla_final.proyecto%22%3A%7B%22bold%22%3Atrue%2C%22fg_color%22%3A%22%23B32F37%22%7D%2C%22plan_ocupacion_tabla_final.estado%22%3A%7B%22bold%22%3Atrue%7D%2C%22plan_ocupacion_tabla_final.squad_proyectos_original%22%3A%7B%22bold%22%3Atrue%7D%7D%2C%22series_value_format%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+          "has_table_calculations": false,
+          "id": "VcyYDWWgQ5zdxcdKQQHQRR2W752hjD8p",
+          "model": "model_plan_ocupacion",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "show_view_names": false,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": true,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "white",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": "12",
+          "rows_font_size": "12",
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "show_sql_query_menu_options": false,
+          "show_totals": true,
+          "show_row_totals": true,
+          "truncate_header": false,
+          "minimum_column_width": 75,
+          "series_labels": {
+            "plan_ocupacion_tabla_final.squad_proyectos_original": "Squad",
+            "plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto": "% Ocupación (Media)",
+            "plan_ocupacion_tabla_final.count_distinct_usuarios": "Usuarios"
+          },
+          "series_cell_visualizations": {
+            "plan_ocupacion_tabla_final.promedio_porcentaje_por_proyecto": {
+              "is_active": true
+            }
+          },
+          "series_text_format": {
+            "plan_ocupacion_tabla_final.count_distinct_usuarios": {
+              "bold": true
+            },
+            "plan_ocupacion_tabla_final.proyecto": {
+              "bold": true,
+              "fg_color": "#B32F37"
+            },
+            "plan_ocupacion_tabla_final.estado": {
+              "bold": true
+            },
+            "plan_ocupacion_tabla_final.squad_proyectos_original": {
+              "bold": true
+            }
+          },
+          "series_value_format": {
+          },
+          "series_types": {
+          },
+          "type": "looker_grid",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "model_plan_ocupacion",
+            "view": "plan_ocupacion_tabla_final",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Dia Date",
+                "field": "plan_ocupacion_tabla_final.dia_date"
+              },
+              {
+                "dashboard_filter_name": "Squad",
+                "field": "plan_ocupacion_tabla_final.squad_proyecto_individual"
+              },
+              {
+                "dashboard_filter_name": "Usuario",
+                "field": "plan_ocupacion_tabla_final.nombre_usuario"
+              },
+              {
+                "dashboard_filter_name": "Area",
+                "field": "plan_ocupacion_tabla_final.area"
+              },
+              {
+                "dashboard_filter_name": "Proyecto",
+                "field": "plan_ocupacion_tabla_final.proyecto"
+              },
+              {
+                "dashboard_filter_name": "Estado",
+                "field": "plan_ocupacion_tabla_final.estado"
+              }
+            ]
+          }
+        ],
+        "query_id": "VcyYDWWgQ5zdxcdKQQHQRR2W752hjD8p"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "298",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "1044",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "plan_ocupacion_tabla_final",
+        "fields": [
+          "plan_ocupacion_tabla_final.estado",
+          "plan_ocupacion_tabla_final.count_distinct_proyecto"
+        ],
+        "pivots": null,
+        "fill_fields": null,
+        "filters": null,
+        "filter_expression": null,
+        "sorts": [
+          "plan_ocupacion_tabla_final.count_distinct_proyecto desc 0"
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "value_labels": "labels",
+          "label_type": "labPer",
+          "inner_radius": 30,
+          "series_colors": {
+            "Abierto": "#72D16D",
+            "Cerrado": "#B32F37",
+            "Forecast": "#FBB555"
+          },
+          "series_types": {
+          },
+          "type": "looker_pie",
+          "defaults_version": 1
+        },
+        "filter_config": {
+        },
+        "visible_ui_sections": null,
+        "slug": "MNQszqdBtzMZfcjzj4FZxYz4jM2pxC9q",
+        "client_id": "HM60FFRdNMdhnUseouEWPE",
+        "share_url": "https://nubalia.cloud.looker.com/x/HM60FFRdNMdhnUseouEWPE",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.count_distinct_proyecto&sorts=plan_ocupacion_tabla_final.count_distinct_proyecto+desc+0&limit=500&column_limit=50&vis=%7B%22value_labels%22%3A%22labels%22%2C%22label_type%22%3A%22labPer%22%2C%22inner_radius%22%3A30%2C%22series_colors%22%3A%7B%22Abierto%22%3A%22%2372D16D%22%2C%22Cerrado%22%3A%22%23B32F37%22%2C%22Forecast%22%3A%22%23FBB555%22%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_pie%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+        "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.count_distinct_proyecto&sorts=plan_ocupacion_tabla_final.count_distinct_proyecto+desc+0&limit=500&column_limit=50&vis=%7B%22value_labels%22%3A%22labels%22%2C%22label_type%22%3A%22labPer%22%2C%22inner_radius%22%3A30%2C%22series_colors%22%3A%7B%22Abierto%22%3A%22%2372D16D%22%2C%22Cerrado%22%3A%22%23B32F37%22%2C%22Forecast%22%3A%22%23FBB555%22%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_pie%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+        "has_table_calculations": false,
+        "id": "MNQszqdBtzMZfcjzj4FZxYz4jM2pxC9q",
+        "model": "model_plan_ocupacion",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "2802",
+      "subtitle_text": null,
+      "title": "ESTADO PROYECTO",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "MNQszqdBtzMZfcjzj4FZxYz4jM2pxC9q",
+      "result_maker": {
+        "id": "2802",
+        "dynamic_fields": null,
+        "sorts": [
+          "plan_ocupacion_tabla_final.count_distinct_proyecto desc 0"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "plan_ocupacion_tabla_final",
+          "fields": [
+            "plan_ocupacion_tabla_final.estado",
+            "plan_ocupacion_tabla_final.count_distinct_proyecto"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+            "plan_ocupacion_tabla_final.count_distinct_proyecto desc 0"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "value_labels": "labels",
+            "label_type": "labPer",
+            "inner_radius": 30,
+            "series_colors": {
+              "Abierto": "#72D16D",
+              "Cerrado": "#B32F37",
+              "Forecast": "#FBB555"
+            },
+            "series_types": {
+            },
+            "type": "looker_pie",
+            "defaults_version": 1
+          },
+          "filter_config": {
+          },
+          "visible_ui_sections": null,
+          "slug": "MNQszqdBtzMZfcjzj4FZxYz4jM2pxC9q",
+          "client_id": "HM60FFRdNMdhnUseouEWPE",
+          "share_url": "https://nubalia.cloud.looker.com/x/HM60FFRdNMdhnUseouEWPE",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.count_distinct_proyecto&sorts=plan_ocupacion_tabla_final.count_distinct_proyecto+desc+0&limit=500&column_limit=50&vis=%7B%22value_labels%22%3A%22labels%22%2C%22label_type%22%3A%22labPer%22%2C%22inner_radius%22%3A30%2C%22series_colors%22%3A%7B%22Abierto%22%3A%22%2372D16D%22%2C%22Cerrado%22%3A%22%23B32F37%22%2C%22Forecast%22%3A%22%23FBB555%22%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_pie%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+          "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.estado,plan_ocupacion_tabla_final.count_distinct_proyecto&sorts=plan_ocupacion_tabla_final.count_distinct_proyecto+desc+0&limit=500&column_limit=50&vis=%7B%22value_labels%22%3A%22labels%22%2C%22label_type%22%3A%22labPer%22%2C%22inner_radius%22%3A30%2C%22series_colors%22%3A%7B%22Abierto%22%3A%22%2372D16D%22%2C%22Cerrado%22%3A%22%23B32F37%22%2C%22Forecast%22%3A%22%23FBB555%22%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_pie%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+          "has_table_calculations": false,
+          "id": "MNQszqdBtzMZfcjzj4FZxYz4jM2pxC9q",
+          "model": "model_plan_ocupacion",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "value_labels": "labels",
+          "label_type": "labPer",
+          "inner_radius": 30,
+          "series_colors": {
+            "Abierto": "#72D16D",
+            "Cerrado": "#B32F37",
+            "Forecast": "#FBB555"
+          },
+          "series_types": {
+          },
+          "type": "looker_pie",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "model_plan_ocupacion",
+            "view": "plan_ocupacion_tabla_final",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Dia Date",
+                "field": "plan_ocupacion_tabla_final.dia_date"
+              },
+              {
+                "dashboard_filter_name": "Squad",
+                "field": "plan_ocupacion_tabla_final.squad_proyecto_individual"
+              },
+              {
+                "dashboard_filter_name": "Usuario",
+                "field": "plan_ocupacion_tabla_final.nombre_usuario"
+              },
+              {
+                "dashboard_filter_name": "Area",
+                "field": "plan_ocupacion_tabla_final.area"
+              },
+              {
+                "dashboard_filter_name": "Proyecto",
+                "field": "plan_ocupacion_tabla_final.proyecto"
+              },
+              {
+                "dashboard_filter_name": "Estado",
+                "field": "plan_ocupacion_tabla_final.estado"
+              }
+            ]
+          }
+        ],
+        "query_id": "MNQszqdBtzMZfcjzj4FZxYz4jM2pxC9q"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "298",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "1045",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "plan_ocupacion_tabla_final",
+        "fields": [
+          "plan_ocupacion_tabla_final.nombre_usuario",
+          "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico"
+        ],
+        "pivots": null,
+        "fill_fields": null,
+        "filters": null,
+        "filter_expression": null,
+        "sorts": [
+          "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico desc 0"
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "show_view_names": false,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": true,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "white",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": "12",
+          "rows_font_size": "12",
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "show_sql_query_menu_options": false,
+          "show_totals": true,
+          "show_row_totals": true,
+          "truncate_header": false,
+          "minimum_column_width": 75,
+          "series_labels": {
+            "plan_ocupacion_tabla_final.nombre_usuario": "Usuario",
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico": "% Ocupación (Media)"
+          },
+          "series_cell_visualizations": {
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico": {
+              "is_active": true
+            }
+          },
+          "series_value_format": {
+          },
+          "series_types": {
+          },
+          "type": "looker_grid",
+          "defaults_version": 1
+        },
+        "filter_config": {
+        },
+        "visible_ui_sections": null,
+        "slug": "Phr4tSQxYffnq9FgmC8WMHg8H8WkYdq4",
+        "client_id": "0yi2xFVJXl6tAXFVe6fTr2",
+        "share_url": "https://nubalia.cloud.looker.com/x/0yi2xFVJXl6tAXFVe6fTr2",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.nombre_usuario,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico&sorts=plan_ocupacion_tabla_final.promedio_porcentaje_dinamico+desc+0&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_labels%22%3A%7B%22plan_ocupacion_tabla_final.nombre_usuario%22%3A%22Usuario%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%22%25+Ocupaci%C3%B3n+%28Media%29%22%7D%2C%22series_cell_visualizations%22%3A%7B%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%7B%22is_active%22%3Atrue%7D%7D%2C%22series_value_format%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+        "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.nombre_usuario,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico&sorts=plan_ocupacion_tabla_final.promedio_porcentaje_dinamico+desc+0&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_labels%22%3A%7B%22plan_ocupacion_tabla_final.nombre_usuario%22%3A%22Usuario%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%22%25+Ocupaci%C3%B3n+%28Media%29%22%7D%2C%22series_cell_visualizations%22%3A%7B%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%7B%22is_active%22%3Atrue%7D%7D%2C%22series_value_format%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+        "has_table_calculations": false,
+        "id": "Phr4tSQxYffnq9FgmC8WMHg8H8WkYdq4",
+        "model": "model_plan_ocupacion",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "2803",
+      "subtitle_text": null,
+      "title": "% OCUPACIÓN por USUARIO",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "Phr4tSQxYffnq9FgmC8WMHg8H8WkYdq4",
+      "result_maker": {
+        "id": "2803",
+        "dynamic_fields": null,
+        "sorts": [
+          "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico desc 0"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "plan_ocupacion_tabla_final",
+          "fields": [
+            "plan_ocupacion_tabla_final.nombre_usuario",
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": null,
+          "filter_expression": null,
+          "sorts": [
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico desc 0"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "show_view_names": false,
+            "show_row_numbers": true,
+            "transpose": false,
+            "truncate_text": true,
+            "hide_totals": false,
+            "hide_row_totals": false,
+            "size_to_fit": true,
+            "table_theme": "white",
+            "limit_displayed_rows": false,
+            "enable_conditional_formatting": false,
+            "header_text_alignment": "left",
+            "header_font_size": "12",
+            "rows_font_size": "12",
+            "conditional_formatting_include_totals": false,
+            "conditional_formatting_include_nulls": false,
+            "show_sql_query_menu_options": false,
+            "show_totals": true,
+            "show_row_totals": true,
+            "truncate_header": false,
+            "minimum_column_width": 75,
+            "series_labels": {
+              "plan_ocupacion_tabla_final.nombre_usuario": "Usuario",
+              "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico": "% Ocupación (Media)"
+            },
+            "series_cell_visualizations": {
+              "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico": {
+                "is_active": true
+              }
+            },
+            "series_value_format": {
+            },
+            "series_types": {
+            },
+            "type": "looker_grid",
+            "defaults_version": 1
+          },
+          "filter_config": {
+          },
+          "visible_ui_sections": null,
+          "slug": "Phr4tSQxYffnq9FgmC8WMHg8H8WkYdq4",
+          "client_id": "0yi2xFVJXl6tAXFVe6fTr2",
+          "share_url": "https://nubalia.cloud.looker.com/x/0yi2xFVJXl6tAXFVe6fTr2",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.nombre_usuario,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico&sorts=plan_ocupacion_tabla_final.promedio_porcentaje_dinamico+desc+0&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_labels%22%3A%7B%22plan_ocupacion_tabla_final.nombre_usuario%22%3A%22Usuario%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%22%25+Ocupaci%C3%B3n+%28Media%29%22%7D%2C%22series_cell_visualizations%22%3A%7B%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%7B%22is_active%22%3Atrue%7D%7D%2C%22series_value_format%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&origin=share-expanded",
+          "url": "/explore/model_plan_ocupacion/plan_ocupacion_tabla_final?fields=plan_ocupacion_tabla_final.nombre_usuario,plan_ocupacion_tabla_final.promedio_porcentaje_dinamico&sorts=plan_ocupacion_tabla_final.promedio_porcentaje_dinamico+desc+0&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22truncate_header%22%3Afalse%2C%22minimum_column_width%22%3A75%2C%22series_labels%22%3A%7B%22plan_ocupacion_tabla_final.nombre_usuario%22%3A%22Usuario%22%2C%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%22%25+Ocupaci%C3%B3n+%28Media%29%22%7D%2C%22series_cell_visualizations%22%3A%7B%22plan_ocupacion_tabla_final.promedio_porcentaje_dinamico%22%3A%7B%22is_active%22%3Atrue%7D%7D%2C%22series_value_format%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D",
+          "has_table_calculations": false,
+          "id": "Phr4tSQxYffnq9FgmC8WMHg8H8WkYdq4",
+          "model": "model_plan_ocupacion",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "show_view_names": false,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": true,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "white",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": "12",
+          "rows_font_size": "12",
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "show_sql_query_menu_options": false,
+          "show_totals": true,
+          "show_row_totals": true,
+          "truncate_header": false,
+          "minimum_column_width": 75,
+          "series_labels": {
+            "plan_ocupacion_tabla_final.nombre_usuario": "Usuario",
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico": "% Ocupación (Media)"
+          },
+          "series_cell_visualizations": {
+            "plan_ocupacion_tabla_final.promedio_porcentaje_dinamico": {
+              "is_active": true
+            }
+          },
+          "series_value_format": {
+          },
+          "series_types": {
+          },
+          "type": "looker_grid",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "model_plan_ocupacion",
+            "view": "plan_ocupacion_tabla_final",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Dia Date",
+                "field": "plan_ocupacion_tabla_final.dia_date"
+              },
+              {
+                "dashboard_filter_name": "Squad",
+                "field": "plan_ocupacion_tabla_final.squad_proyecto_individual"
+              },
+              {
+                "dashboard_filter_name": "Usuario",
+                "field": "plan_ocupacion_tabla_final.nombre_usuario"
+              },
+              {
+                "dashboard_filter_name": "Area",
+                "field": "plan_ocupacion_tabla_final.area"
+              },
+              {
+                "dashboard_filter_name": "Proyecto",
+                "field": "plan_ocupacion_tabla_final.proyecto"
+              },
+              {
+                "dashboard_filter_name": "Estado",
+                "field": "plan_ocupacion_tabla_final.estado"
+              }
+            ]
+          }
+        ],
+        "query_id": "Phr4tSQxYffnq9FgmC8WMHg8H8WkYdq4"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    }
+  ],
+  "dashboard_filters": [
+    {
+      "id": "382",
+      "dashboard_id": "298",
+      "name": "Dia Date",
+      "title": "Dia Date",
+      "type": "field_filter",
+      "explore": "plan_ocupacion_tabla_final",
+      "dimension": "plan_ocupacion_tabla_final.dia_date",
+      "row": 0,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "type": "relative_timeframes",
+        "display": "inline",
+        "options": [
+
+        ]
+      },
+      "model": "model_plan_ocupacion",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "this year",
+      "field": {
+        "align": "left",
+        "can_filter": true,
+        "category": "dimension",
+        "default_filter_value": null,
+        "description": "",
+        "enumerations": null,
+        "field_group_label": "Dia Date",
+        "fill_style": "range",
+        "fiscal_month_offset": 0,
+        "has_allowed_values": false,
+        "hidden": false,
+        "is_filter": false,
+        "is_numeric": false,
+        "label": "Plan Ocupacion Tabla Final Dia Date",
+        "label_from_parameter": null,
+        "label_short": "Dia Date",
+        "map_layer": null,
+        "name": "plan_ocupacion_tabla_final.dia_date",
+        "strict_value_format": false,
+        "requires_refresh_on_sort": false,
+        "sortable": true,
+        "suggestions": null,
+        "synonyms": [
+
+        ],
+        "tags": [
+
+        ],
+        "type": "date_date",
+        "user_attribute_filter_types": [
+          "datetime",
+          "advanced_filter_datetime"
+        ],
+        "value_format": null,
+        "value_format_name": null,
+        "view": "plan_ocupacion_tabla_final",
+        "view_label": "Plan Ocupacion Tabla Final",
+        "dynamic": false,
+        "week_start_day": "monday",
+        "original_view": "plan_ocupacion_tabla_final",
+        "datatype": "DATE",
+        "convert_tz": false,
+        "dimension_group": "plan_ocupacion_tabla_final.dia",
+        "error": null,
+        "field_group_variant": "Date",
+        "measure": false,
+        "parameter": false,
+        "primary_key": false,
+        "project_name": "model_plan_ocupacion",
+        "scope": "plan_ocupacion_tabla_final",
+        "suggest_dimension": "plan_ocupacion_tabla_final.dia_date",
+        "suggest_explore": "plan_ocupacion_tabla_final",
+        "suggestable": false,
+        "lookml_expression": null,
+        "is_fiscal": false,
+        "is_timeframe": true,
+        "can_time_filter": false,
+        "time_interval": {
+          "name": "day",
+          "count": 1
+        },
+        "lookml_link": "/projects/model_plan_ocupacion/files/views%2Fplan_ocupacion_tabla_final.view.lkml?line=21",
+        "period_over_period_params": null,
+        "permanent": null,
+        "source_file": "views/plan_ocupacion_tabla_final.view.lkml",
+        "source_file_path": "model_plan_ocupacion/views/plan_ocupacion_tabla_final.view.lkml",
+        "sql": "CAST(${TABLE}.dia AS DATE) ",
+        "sql_case": null,
+        "filters": null,
+        "times_used": 0
+      },
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    },
+    {
+      "id": "387",
+      "dashboard_id": "298",
+      "name": "Proyecto",
+      "title": "Proyecto",
+      "type": "field_filter",
+      "explore": "plan_ocupacion_tabla_final",
+      "dimension": "plan_ocupacion_tabla_final.proyecto",
+      "row": 1,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "type": "tag_list",
+        "display": "popover"
+      },
+      "model": "model_plan_ocupacion",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "",
+      "field": {
+        "align": "left",
+        "can_filter": true,
+        "category": "dimension",
+        "default_filter_value": null,
+        "description": "",
+        "enumerations": null,
+        "field_group_label": null,
+        "fill_style": null,
+        "fiscal_month_offset": 0,
+        "has_allowed_values": false,
+        "hidden": false,
+        "is_filter": false,
+        "is_numeric": false,
+        "label": "Plan Ocupacion Tabla Final Proyecto",
+        "label_from_parameter": null,
+        "label_short": "Proyecto",
+        "map_layer": null,
+        "name": "plan_ocupacion_tabla_final.proyecto",
+        "strict_value_format": false,
+        "requires_refresh_on_sort": false,
+        "sortable": true,
+        "suggestions": null,
+        "synonyms": [
+
+        ],
+        "tags": [
+
+        ],
+        "type": "string",
+        "user_attribute_filter_types": [
+          "string",
+          "advanced_filter_string"
+        ],
+        "value_format": null,
+        "value_format_name": null,
+        "view": "plan_ocupacion_tabla_final",
+        "view_label": "Plan Ocupacion Tabla Final",
+        "dynamic": false,
+        "week_start_day": "monday",
+        "original_view": "plan_ocupacion_tabla_final",
+        "datatype": "TIMESTAMP",
+        "convert_tz": true,
+        "dimension_group": null,
+        "error": null,
+        "field_group_variant": "Proyecto",
+        "measure": false,
+        "parameter": false,
+        "primary_key": false,
+        "project_name": "model_plan_ocupacion",
+        "scope": "plan_ocupacion_tabla_final",
+        "suggest_dimension": "plan_ocupacion_tabla_final.proyecto",
+        "suggest_explore": "plan_ocupacion_tabla_final",
+        "suggestable": true,
+        "lookml_expression": null,
+        "is_fiscal": false,
+        "is_timeframe": false,
+        "can_time_filter": false,
+        "time_interval": null,
+        "lookml_link": "/projects/model_plan_ocupacion/files/views%2Fplan_ocupacion_tabla_final.view.lkml?line=43",
+        "period_over_period_params": null,
+        "permanent": null,
+        "source_file": "views/plan_ocupacion_tabla_final.view.lkml",
+        "source_file_path": "model_plan_ocupacion/views/plan_ocupacion_tabla_final.view.lkml",
+        "sql": "${TABLE}.Proyecto ",
+        "sql_case": null,
+        "filters": null,
+        "times_used": 0
+      },
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    },
+    {
+      "id": "383",
+      "dashboard_id": "298",
+      "name": "Squad",
+      "title": "Squad",
+      "type": "field_filter",
+      "explore": "plan_ocupacion_tabla_final",
+      "dimension": "plan_ocupacion_tabla_final.squad_proyecto_individual",
+      "row": 2,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "display": "popover",
+        "type": "tag_list"
+      },
+      "model": "model_plan_ocupacion",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "",
+      "field": {
+        "align": "left",
+        "can_filter": true,
+        "category": "dimension",
+        "default_filter_value": null,
+        "description": "",
+        "enumerations": null,
+        "field_group_label": null,
+        "fill_style": null,
+        "fiscal_month_offset": 0,
+        "has_allowed_values": false,
+        "hidden": false,
+        "is_filter": false,
+        "is_numeric": false,
+        "label": "Plan Ocupacion Tabla Final Squad Proyecto Individual",
+        "label_from_parameter": null,
+        "label_short": "Squad Proyecto Individual",
+        "map_layer": null,
+        "name": "plan_ocupacion_tabla_final.squad_proyecto_individual",
+        "strict_value_format": false,
+        "requires_refresh_on_sort": false,
+        "sortable": true,
+        "suggestions": null,
+        "synonyms": [
+
+        ],
+        "tags": [
+
+        ],
+        "type": "string",
+        "user_attribute_filter_types": [
+          "string",
+          "advanced_filter_string"
+        ],
+        "value_format": null,
+        "value_format_name": null,
+        "view": "plan_ocupacion_tabla_final",
+        "view_label": "Plan Ocupacion Tabla Final",
+        "dynamic": false,
+        "week_start_day": "monday",
+        "original_view": "plan_ocupacion_tabla_final",
+        "datatype": "TIMESTAMP",
+        "convert_tz": true,
+        "dimension_group": null,
+        "error": null,
+        "field_group_variant": "Squad Proyecto Individual",
+        "measure": false,
+        "parameter": false,
+        "primary_key": false,
+        "project_name": "model_plan_ocupacion",
+        "scope": "plan_ocupacion_tabla_final",
+        "suggest_dimension": "plan_ocupacion_tabla_final.squad_proyecto_individual",
+        "suggest_explore": "plan_ocupacion_tabla_final",
+        "suggestable": true,
+        "lookml_expression": null,
+        "is_fiscal": false,
+        "is_timeframe": false,
+        "can_time_filter": false,
+        "time_interval": null,
+        "lookml_link": "/projects/model_plan_ocupacion/files/views%2Fplan_ocupacion_tabla_final.view.lkml?line=64",
+        "period_over_period_params": null,
+        "permanent": null,
+        "source_file": "views/plan_ocupacion_tabla_final.view.lkml",
+        "source_file_path": "model_plan_ocupacion/views/plan_ocupacion_tabla_final.view.lkml",
+        "sql": "${TABLE}.squad_proyecto_individual_desglosado ",
+        "sql_case": null,
+        "filters": null,
+        "times_used": 0
+      },
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    },
+    {
+      "id": "386",
+      "dashboard_id": "298",
+      "name": "Area",
+      "title": "Area",
+      "type": "field_filter",
+      "explore": "plan_ocupacion_tabla_final",
+      "dimension": "plan_ocupacion_tabla_final.area",
+      "row": 3,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "display": "popover",
+        "type": "tag_list"
+      },
+      "model": "model_plan_ocupacion",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "",
+      "field": {
+        "align": "left",
+        "can_filter": true,
+        "category": "dimension",
+        "default_filter_value": null,
+        "description": "",
+        "enumerations": null,
+        "field_group_label": null,
+        "fill_style": null,
+        "fiscal_month_offset": 0,
+        "has_allowed_values": false,
+        "hidden": false,
+        "is_filter": false,
+        "is_numeric": false,
+        "label": "Plan Ocupacion Tabla Final Area",
+        "label_from_parameter": null,
+        "label_short": "Area",
+        "map_layer": null,
+        "name": "plan_ocupacion_tabla_final.area",
+        "strict_value_format": false,
+        "requires_refresh_on_sort": false,
+        "sortable": true,
+        "suggestions": null,
+        "synonyms": [
+
+        ],
+        "tags": [
+
+        ],
+        "type": "string",
+        "user_attribute_filter_types": [
+          "string",
+          "advanced_filter_string"
+        ],
+        "value_format": null,
+        "value_format_name": null,
+        "view": "plan_ocupacion_tabla_final",
+        "view_label": "Plan Ocupacion Tabla Final",
+        "dynamic": false,
+        "week_start_day": "monday",
+        "original_view": "plan_ocupacion_tabla_final",
+        "datatype": "TIMESTAMP",
+        "convert_tz": true,
+        "dimension_group": null,
+        "error": null,
+        "field_group_variant": "Area",
+        "measure": false,
+        "parameter": false,
+        "primary_key": false,
+        "project_name": "model_plan_ocupacion",
+        "scope": "plan_ocupacion_tabla_final",
+        "suggest_dimension": "plan_ocupacion_tabla_final.area",
+        "suggest_explore": "plan_ocupacion_tabla_final",
+        "suggestable": true,
+        "lookml_expression": null,
+        "is_fiscal": false,
+        "is_timeframe": false,
+        "can_time_filter": false,
+        "time_interval": null,
+        "lookml_link": "/projects/model_plan_ocupacion/files/views%2Fplan_ocupacion_tabla_final.view.lkml?line=6",
+        "period_over_period_params": null,
+        "permanent": null,
+        "source_file": "views/plan_ocupacion_tabla_final.view.lkml",
+        "source_file_path": "model_plan_ocupacion/views/plan_ocupacion_tabla_final.view.lkml",
+        "sql": "${TABLE}.area ",
+        "sql_case": null,
+        "filters": null,
+        "times_used": 0
+      },
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    },
+    {
+      "id": "384",
+      "dashboard_id": "298",
+      "name": "Usuario",
+      "title": "Usuario",
+      "type": "field_filter",
+      "explore": "plan_ocupacion_tabla_final",
+      "dimension": "plan_ocupacion_tabla_final.nombre_usuario",
+      "row": 4,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "display": "popover",
+        "type": "tag_list"
+      },
+      "model": "model_plan_ocupacion",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "",
+      "field": {
+        "align": "left",
+        "can_filter": true,
+        "category": "dimension",
+        "default_filter_value": null,
+        "description": "",
+        "enumerations": null,
+        "field_group_label": null,
+        "fill_style": null,
+        "fiscal_month_offset": 0,
+        "has_allowed_values": false,
+        "hidden": false,
+        "is_filter": false,
+        "is_numeric": false,
+        "label": "Plan Ocupacion Tabla Final Nombre Usuario",
+        "label_from_parameter": null,
+        "label_short": "Nombre Usuario",
+        "map_layer": null,
+        "name": "plan_ocupacion_tabla_final.nombre_usuario",
+        "strict_value_format": false,
+        "requires_refresh_on_sort": false,
+        "sortable": true,
+        "suggestions": null,
+        "synonyms": [
+
+        ],
+        "tags": [
+
+        ],
+        "type": "string",
+        "user_attribute_filter_types": [
+          "string",
+          "advanced_filter_string"
+        ],
+        "value_format": null,
+        "value_format_name": null,
+        "view": "plan_ocupacion_tabla_final",
+        "view_label": "Plan Ocupacion Tabla Final",
+        "dynamic": false,
+        "week_start_day": "monday",
+        "original_view": "plan_ocupacion_tabla_final",
+        "datatype": "TIMESTAMP",
+        "convert_tz": true,
+        "dimension_group": null,
+        "error": null,
+        "field_group_variant": "Nombre Usuario",
+        "measure": false,
+        "parameter": false,
+        "primary_key": false,
+        "project_name": "model_plan_ocupacion",
+        "scope": "plan_ocupacion_tabla_final",
+        "suggest_dimension": "plan_ocupacion_tabla_final.nombre_usuario",
+        "suggest_explore": "plan_ocupacion_tabla_final",
+        "suggestable": true,
+        "lookml_expression": null,
+        "is_fiscal": false,
+        "is_timeframe": false,
+        "can_time_filter": false,
+        "time_interval": null,
+        "lookml_link": "/projects/model_plan_ocupacion/files/views%2Fplan_ocupacion_tabla_final.view.lkml?line=33",
+        "period_over_period_params": null,
+        "permanent": null,
+        "source_file": "views/plan_ocupacion_tabla_final.view.lkml",
+        "source_file_path": "model_plan_ocupacion/views/plan_ocupacion_tabla_final.view.lkml",
+        "sql": "${TABLE}.nombre_usuario ",
+        "sql_case": null,
+        "filters": null,
+        "times_used": 0
+      },
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    },
+    {
+      "id": "385",
+      "dashboard_id": "298",
+      "name": "Estado",
+      "title": "Estado",
+      "type": "field_filter",
+      "explore": "plan_ocupacion_tabla_final",
+      "dimension": "plan_ocupacion_tabla_final.estado",
+      "row": 5,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "display": "popover",
+        "type": "tag_list"
+      },
+      "model": "model_plan_ocupacion",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "",
+      "field": {
+        "align": "left",
+        "can_filter": true,
+        "category": "dimension",
+        "default_filter_value": null,
+        "description": "",
+        "enumerations": null,
+        "field_group_label": null,
+        "fill_style": null,
+        "fiscal_month_offset": 0,
+        "has_allowed_values": false,
+        "hidden": false,
+        "is_filter": false,
+        "is_numeric": false,
+        "label": "Plan Ocupacion Tabla Final Estado",
+        "label_from_parameter": null,
+        "label_short": "Estado",
+        "map_layer": null,
+        "name": "plan_ocupacion_tabla_final.estado",
+        "strict_value_format": false,
+        "requires_refresh_on_sort": false,
+        "sortable": true,
+        "suggestions": null,
+        "synonyms": [
+
+        ],
+        "tags": [
+
+        ],
+        "type": "string",
+        "user_attribute_filter_types": [
+          "string",
+          "advanced_filter_string"
+        ],
+        "value_format": null,
+        "value_format_name": null,
+        "view": "plan_ocupacion_tabla_final",
+        "view_label": "Plan Ocupacion Tabla Final",
+        "dynamic": false,
+        "week_start_day": "monday",
+        "original_view": "plan_ocupacion_tabla_final",
+        "datatype": "TIMESTAMP",
+        "convert_tz": true,
+        "dimension_group": null,
+        "error": null,
+        "field_group_variant": "Estado",
+        "measure": false,
+        "parameter": false,
+        "primary_key": false,
+        "project_name": "model_plan_ocupacion",
+        "scope": "plan_ocupacion_tabla_final",
+        "suggest_dimension": "plan_ocupacion_tabla_final.estado",
+        "suggest_explore": "plan_ocupacion_tabla_final",
+        "suggestable": true,
+        "lookml_expression": null,
+        "is_fiscal": false,
+        "is_timeframe": false,
+        "can_time_filter": false,
+        "time_interval": null,
+        "lookml_link": "/projects/model_plan_ocupacion/files/views%2Fplan_ocupacion_tabla_final.view.lkml?line=28",
+        "period_over_period_params": null,
+        "permanent": null,
+        "source_file": "views/plan_ocupacion_tabla_final.view.lkml",
+        "source_file_path": "model_plan_ocupacion/views/plan_ocupacion_tabla_final.view.lkml",
+        "sql": "${TABLE}.Estado ",
+        "sql_case": null,
+        "filters": null,
+        "times_used": 0
+      },
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    }
+  ],
+  "dashboard_layouts": [
+    {
+      "id": "298",
+      "dashboard_id": "298",
+      "type": "newspaper",
+      "active": true,
+      "column_width": null,
+      "width": null,
+      "deleted": false,
+      "dashboard_title": "Plan de ocupación 2025 (PRO)",
+      "dashboard_layout_components": [
+        {
+          "id": "1038",
+          "dashboard_layout_id": "298",
+          "dashboard_element_id": "1038",
+          "row": 0,
+          "column": 0,
+          "width": 4,
+          "height": 4,
+          "deleted": false,
+          "element_title": "Usuarios",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1039",
+          "dashboard_layout_id": "298",
+          "dashboard_element_id": "1040",
+          "row": 8,
+          "column": 0,
+          "width": 4,
+          "height": 4,
+          "deleted": false,
+          "element_title": "% Ocupación (Media)",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1040",
+          "dashboard_layout_id": "298",
+          "dashboard_element_id": "1039",
+          "row": 4,
+          "column": 0,
+          "width": 4,
+          "height": 4,
+          "deleted": false,
+          "element_title": "Proyectos",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1041",
+          "dashboard_layout_id": "298",
+          "dashboard_element_id": "1043",
+          "row": 12,
+          "column": 0,
+          "width": 14,
+          "height": 6,
+          "deleted": false,
+          "element_title": "KPIs por PROYECTO",
+          "element_title_hidden": false,
+          "vis_type": "looker_grid",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1042",
+          "dashboard_layout_id": "298",
+          "dashboard_element_id": "1044",
+          "row": 6,
+          "column": 18,
+          "width": 6,
+          "height": 6,
+          "deleted": false,
+          "element_title": "ESTADO PROYECTO",
+          "element_title_hidden": false,
+          "vis_type": "looker_pie",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1043",
+          "dashboard_layout_id": "298",
+          "dashboard_element_id": "1041",
+          "row": 0,
+          "column": 18,
+          "width": 6,
+          "height": 6,
+          "deleted": false,
+          "element_title": "% OCUPACIÓN por SQUAD",
+          "element_title_hidden": false,
+          "vis_type": "looker_grid",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1044",
+          "dashboard_layout_id": "298",
+          "dashboard_element_id": "1042",
+          "row": 0,
+          "column": 4,
+          "width": 14,
+          "height": 12,
+          "deleted": false,
+          "element_title": "% Ocupación (Media) | Estado Proyectos ",
+          "element_title_hidden": false,
+          "vis_type": "looker_column",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1045",
+          "dashboard_layout_id": "298",
+          "dashboard_element_id": "1045",
+          "row": 12,
+          "column": 14,
+          "width": 10,
+          "height": 6,
+          "deleted": false,
+          "element_title": "% OCUPACIÓN por USUARIO",
+          "element_title_hidden": false,
+          "vis_type": "looker_grid",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        }
+      ],
+      "label": null,
+      "description": null,
+      "order": -1,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "index": true,
+        "show": true
+      }
+    }
+  ],
+  "deleted_at": null,
+  "deleter_id": null,
+  "edit_uri": null,
+  "enable_viz_full_screen": true,
+  "favorite_count": 0,
+  "filters_bar_collapsed": false,
+  "filters_location_top": true,
+  "last_accessed_at": "2025-12-11 12:48:47 UTC",
+  "updated_at": "2025-12-03 08:37:45 UTC",
+  "last_updater_id": "162",
+  "load_configuration": "cache_run",
+  "lookml_link_id": null,
+  "show_filters_bar": null,
+  "show_title": null,
+  "text_tile_text_color": null,
+  "tile_background_color": null,
+  "tile_text_color": null,
+  "title_color": null,
+  "view_count": 52,
+  "url": "/dashboards/298",
+  "folder": {
+    "name": "Plan de Ocupación",
+    "parent_id": "223",
+    "id": "224",
+    "content_metadata_id": "823",
+    "created_at": "2025-06-17 13:52:26 UTC",
+    "creator_id": "189",
+    "external_id": "",
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": false,
+    "is_personal_descendant": false,
+    "is_shared_root": false,
+    "is_users_root": false,
+    "can": {
+      "browse_spaces_as_embed_user": false,
+      "create": true,
+      "destroy": true,
+      "edit_content": true,
+      "index": true,
+      "show": true,
+      "move_content": true,
+      "save_shared_space_as_embed_user": true,
+      "see_admin_spaces": true,
+      "update": true
+    }
+  },
+  "folder_id": "224",
+  "content_favorite_id": null,
+  "id": "298",
+  "model": null,
+  "certification_metadata": null,
+  "deleted": false,
+  "last_viewed_at": null,
+  "last_updater_name": "Manuel Herrador",
+  "user_name": "Agatángelo Antón Quiñones",
+  "appearance": null,
+  "theme_name": "devoteam_corporate_theme_2",
+  "can": {
+    "certify": true,
+    "copy": true,
+    "index": true,
+    "show": true,
+    "create": true,
+    "destroy": true,
+    "move": true,
+    "recover": true,
+    "update": true,
+    "download": true,
+    "render": true,
+    "run": true,
+    "schedule": true,
+    "see_aggregate_table_lookml": true,
+    "see_lookml": true
+  }
+}

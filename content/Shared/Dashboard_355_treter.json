@@ -1,0 +1,804 @@
+{
+  "content_metadata_id": "957",
+  "description": "",
+  "hidden": false,
+  "query_timezone": null,
+  "readonly": false,
+  "refresh_interval": null,
+  "refresh_interval_to_i": null,
+  "title": "treter",
+  "user_id": "53",
+  "slug": "6SsuidMkYC1pPhZw1oQInu",
+  "preferred_viewer": "dashboards-next",
+  "alert_sync_with_dashboard_filter_enabled": false,
+  "background_color": null,
+  "created_at": "2025-11-19 12:09:05 UTC",
+  "crossfilter_enabled": false,
+  "dashboard_elements": [
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "355",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "1267",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "users",
+        "fields": [
+          "users.count",
+          "users.count_seleccion_paises",
+          "users.last_name"
+        ],
+        "pivots": null,
+        "fill_fields": null,
+        "filters": {
+          "users.age": "NOT NULL",
+          "users.created_date": "7 years",
+          "users.filtro_paises_seleccionados": "Belgium,Australia,Colombia"
+        },
+        "filter_expression": null,
+        "sorts": [
+
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "show_view_names": false,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": true,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "white",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": 12,
+          "rows_font_size": 12,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "type": "looker_grid",
+          "defaults_version": 1
+        },
+        "filter_config": {
+          "users.age": [
+            {
+              "type": "!null",
+              "values": [
+                {
+                },
+                {
+                }
+              ],
+              "id": 10
+            }
+          ],
+          "users.created_date": [
+            {
+              "type": "past",
+              "values": [
+                {
+                  "constant": "7",
+                  "unit": "yr"
+                },
+                {
+                }
+              ],
+              "id": 11
+            }
+          ],
+          "users.filtro_paises_seleccionados": [
+            {
+              "type": "=",
+              "values": [
+                {
+                  "constant": "Belgium,Australia,Colombia"
+                },
+                {
+                }
+              ],
+              "id": 12
+            }
+          ]
+        },
+        "visible_ui_sections": null,
+        "slug": "hNyqRjcTYdgXJncBSZFC68bgsJDCVSMm",
+        "client_id": "UAV4uvAov5QEfGgeVviAGV",
+        "share_url": "https://nubalia.cloud.looker.com/x/UAV4uvAov5QEfGgeVviAGV",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/carlos-training-looker/users?fields=users.count,users.count_seleccion_paises,users.last_name&f[users.age]=NOT+NULL&f[users.created_date]=7+years&f[users.filtro_paises_seleccionados]=Belgium%2CAustralia%2CColombia&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A12%2C%22rows_font_size%22%3A12%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22users.age%22%3A%5B%7B%22type%22%3A%22%21null%22%2C%22values%22%3A%5B%7B%7D%2C%7B%7D%5D%2C%22id%22%3A10%7D%5D%2C%22users.created_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%227%22%2C%22unit%22%3A%22yr%22%7D%2C%7B%7D%5D%2C%22id%22%3A11%7D%5D%2C%22users.filtro_paises_seleccionados%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Belgium%2CAustralia%2CColombia%22%7D%2C%7B%7D%5D%2C%22id%22%3A12%7D%5D%7D&origin=share-expanded",
+        "url": "/explore/carlos-training-looker/users?fields=users.count,users.count_seleccion_paises,users.last_name&f[users.age]=NOT+NULL&f[users.created_date]=7+years&f[users.filtro_paises_seleccionados]=Belgium%2CAustralia%2CColombia&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A12%2C%22rows_font_size%22%3A12%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22users.age%22%3A%5B%7B%22type%22%3A%22%21null%22%2C%22values%22%3A%5B%7B%7D%2C%7B%7D%5D%2C%22id%22%3A10%7D%5D%2C%22users.created_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%227%22%2C%22unit%22%3A%22yr%22%7D%2C%7B%7D%5D%2C%22id%22%3A11%7D%5D%2C%22users.filtro_paises_seleccionados%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Belgium%2CAustralia%2CColombia%22%7D%2C%7B%7D%5D%2C%22id%22%3A12%7D%5D%7D",
+        "has_table_calculations": false,
+        "id": "hNyqRjcTYdgXJncBSZFC68bgsJDCVSMm",
+        "model": "carlos-training-looker",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "3091",
+      "subtitle_text": null,
+      "title": "New Tile",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "hNyqRjcTYdgXJncBSZFC68bgsJDCVSMm",
+      "result_maker": {
+        "id": "3091",
+        "dynamic_fields": null,
+        "sorts": [
+
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "users",
+          "fields": [
+            "users.count",
+            "users.count_seleccion_paises",
+            "users.last_name"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": {
+            "users.age": "NOT NULL",
+            "users.created_date": "7 years",
+            "users.filtro_paises_seleccionados": "Belgium,Australia,Colombia"
+          },
+          "filter_expression": null,
+          "sorts": [
+
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "show_view_names": false,
+            "show_row_numbers": true,
+            "transpose": false,
+            "truncate_text": true,
+            "hide_totals": false,
+            "hide_row_totals": false,
+            "size_to_fit": true,
+            "table_theme": "white",
+            "limit_displayed_rows": false,
+            "enable_conditional_formatting": false,
+            "header_text_alignment": "left",
+            "header_font_size": 12,
+            "rows_font_size": 12,
+            "conditional_formatting_include_totals": false,
+            "conditional_formatting_include_nulls": false,
+            "type": "looker_grid",
+            "defaults_version": 1
+          },
+          "filter_config": {
+            "users.age": [
+              {
+                "type": "!null",
+                "values": [
+                  {
+                  },
+                  {
+                  }
+                ],
+                "id": 10
+              }
+            ],
+            "users.created_date": [
+              {
+                "type": "past",
+                "values": [
+                  {
+                    "constant": "7",
+                    "unit": "yr"
+                  },
+                  {
+                  }
+                ],
+                "id": 11
+              }
+            ],
+            "users.filtro_paises_seleccionados": [
+              {
+                "type": "=",
+                "values": [
+                  {
+                    "constant": "Belgium,Australia,Colombia"
+                  },
+                  {
+                  }
+                ],
+                "id": 12
+              }
+            ]
+          },
+          "visible_ui_sections": null,
+          "slug": "hNyqRjcTYdgXJncBSZFC68bgsJDCVSMm",
+          "client_id": "UAV4uvAov5QEfGgeVviAGV",
+          "share_url": "https://nubalia.cloud.looker.com/x/UAV4uvAov5QEfGgeVviAGV",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/carlos-training-looker/users?fields=users.count,users.count_seleccion_paises,users.last_name&f[users.age]=NOT+NULL&f[users.created_date]=7+years&f[users.filtro_paises_seleccionados]=Belgium%2CAustralia%2CColombia&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A12%2C%22rows_font_size%22%3A12%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22users.age%22%3A%5B%7B%22type%22%3A%22%21null%22%2C%22values%22%3A%5B%7B%7D%2C%7B%7D%5D%2C%22id%22%3A10%7D%5D%2C%22users.created_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%227%22%2C%22unit%22%3A%22yr%22%7D%2C%7B%7D%5D%2C%22id%22%3A11%7D%5D%2C%22users.filtro_paises_seleccionados%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Belgium%2CAustralia%2CColombia%22%7D%2C%7B%7D%5D%2C%22id%22%3A12%7D%5D%7D&origin=share-expanded",
+          "url": "/explore/carlos-training-looker/users?fields=users.count,users.count_seleccion_paises,users.last_name&f[users.age]=NOT+NULL&f[users.created_date]=7+years&f[users.filtro_paises_seleccionados]=Belgium%2CAustralia%2CColombia&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A12%2C%22rows_font_size%22%3A12%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22users.age%22%3A%5B%7B%22type%22%3A%22%21null%22%2C%22values%22%3A%5B%7B%7D%2C%7B%7D%5D%2C%22id%22%3A10%7D%5D%2C%22users.created_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%227%22%2C%22unit%22%3A%22yr%22%7D%2C%7B%7D%5D%2C%22id%22%3A11%7D%5D%2C%22users.filtro_paises_seleccionados%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Belgium%2CAustralia%2CColombia%22%7D%2C%7B%7D%5D%2C%22id%22%3A12%7D%5D%7D",
+          "has_table_calculations": false,
+          "id": "hNyqRjcTYdgXJncBSZFC68bgsJDCVSMm",
+          "model": "carlos-training-looker",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "show_view_names": false,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": true,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "white",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": 12,
+          "rows_font_size": 12,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "type": "looker_grid",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "carlos-training-looker",
+            "view": "users",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Paises a Comparar (Filtro)",
+                "field": "users.filtro_paises_seleccionados"
+              }
+            ]
+          }
+        ],
+        "query_id": "hNyqRjcTYdgXJncBSZFC68bgsJDCVSMm"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "355",
+      "dashboard_layout_id": null,
+      "edit_uri": null,
+      "id": "1268",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "view": "users",
+        "fields": [
+          "users.count",
+          "users.latitude",
+          "users.country"
+        ],
+        "pivots": null,
+        "fill_fields": null,
+        "filters": {
+          "users.age": "20"
+        },
+        "filter_expression": null,
+        "sorts": [
+          "users.count desc 0"
+        ],
+        "total": null,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "show_view_names": false,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": true,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "white",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": 12,
+          "rows_font_size": 12,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "series_types": {
+          },
+          "type": "looker_grid",
+          "defaults_version": 1
+        },
+        "filter_config": {
+          "users.age": [
+            {
+              "type": "=",
+              "values": [
+                {
+                  "constant": "20"
+                },
+                {
+                }
+              ],
+              "id": 13,
+              "error": false
+            }
+          ]
+        },
+        "visible_ui_sections": null,
+        "slug": "kZNxxBcMcHGSc2NVC7hxCn4JxjtT25HJ",
+        "client_id": "q9bPoQd9ePDbSBBU5YtSNv",
+        "share_url": "https://nubalia.cloud.looker.com/x/q9bPoQd9ePDbSBBU5YtSNv",
+        "expanded_share_url": "https://nubalia.cloud.looker.com/explore/carlos-training-looker/users?fields=users.count,users.latitude,users.country&f[users.age]=20&sorts=users.count+desc+0&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A12%2C%22rows_font_size%22%3A12%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22users.age%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%2220%22%7D%2C%7B%7D%5D%2C%22id%22%3A13%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
+        "url": "/explore/carlos-training-looker/users?fields=users.count,users.latitude,users.country&f[users.age]=20&sorts=users.count+desc+0&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A12%2C%22rows_font_size%22%3A12%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22users.age%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%2220%22%7D%2C%7B%7D%5D%2C%22id%22%3A13%2C%22error%22%3Afalse%7D%5D%7D",
+        "has_table_calculations": false,
+        "id": "kZNxxBcMcHGSc2NVC7hxCn4JxjtT25HJ",
+        "model": "carlos-training-looker",
+        "limit": "500",
+        "column_limit": "50",
+        "dynamic_fields": null,
+        "query_timezone": null,
+        "quick_calcs": null,
+        "analysis_config": null,
+        "can": {
+          "can_clear_cache": true,
+          "cost_estimate": true,
+          "create": true,
+          "index": true,
+          "show": true,
+          "download": true,
+          "download_unlimited": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "explore": true,
+          "generate_drill_links": true,
+          "render": true,
+          "run": true,
+          "see_results": true,
+          "save": true,
+          "schedule": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_lookml": true,
+          "see_sql": true,
+          "use_custom_fields": true
+        }
+      },
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "3092",
+      "subtitle_text": null,
+      "title": "Untitled",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "aria_description": null,
+      "query_id": "kZNxxBcMcHGSc2NVC7hxCn4JxjtT25HJ",
+      "result_maker": {
+        "id": "3092",
+        "dynamic_fields": null,
+        "sorts": [
+          "users.count desc 0"
+        ],
+        "merge_result_id": null,
+        "total": false,
+        "sql_query_id": "",
+        "query": {
+          "view": "users",
+          "fields": [
+            "users.count",
+            "users.latitude",
+            "users.country"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": {
+            "users.age": "20"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "users.count desc 0"
+          ],
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "show_view_names": false,
+            "show_row_numbers": true,
+            "transpose": false,
+            "truncate_text": true,
+            "hide_totals": false,
+            "hide_row_totals": false,
+            "size_to_fit": true,
+            "table_theme": "white",
+            "limit_displayed_rows": false,
+            "enable_conditional_formatting": false,
+            "header_text_alignment": "left",
+            "header_font_size": 12,
+            "rows_font_size": 12,
+            "conditional_formatting_include_totals": false,
+            "conditional_formatting_include_nulls": false,
+            "series_types": {
+            },
+            "type": "looker_grid",
+            "defaults_version": 1
+          },
+          "filter_config": {
+            "users.age": [
+              {
+                "type": "=",
+                "values": [
+                  {
+                    "constant": "20"
+                  },
+                  {
+                  }
+                ],
+                "id": 13,
+                "error": false
+              }
+            ]
+          },
+          "visible_ui_sections": null,
+          "slug": "kZNxxBcMcHGSc2NVC7hxCn4JxjtT25HJ",
+          "client_id": "q9bPoQd9ePDbSBBU5YtSNv",
+          "share_url": "https://nubalia.cloud.looker.com/x/q9bPoQd9ePDbSBBU5YtSNv",
+          "expanded_share_url": "https://nubalia.cloud.looker.com/explore/carlos-training-looker/users?fields=users.count,users.latitude,users.country&f[users.age]=20&sorts=users.count+desc+0&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A12%2C%22rows_font_size%22%3A12%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22users.age%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%2220%22%7D%2C%7B%7D%5D%2C%22id%22%3A13%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
+          "url": "/explore/carlos-training-looker/users?fields=users.count,users.latitude,users.country&f[users.age]=20&sorts=users.count+desc+0&limit=500&column_limit=50&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22white%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A12%2C%22rows_font_size%22%3A12%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22looker_grid%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22users.age%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%2220%22%7D%2C%7B%7D%5D%2C%22id%22%3A13%2C%22error%22%3Afalse%7D%5D%7D",
+          "has_table_calculations": false,
+          "id": "kZNxxBcMcHGSc2NVC7hxCn4JxjtT25HJ",
+          "model": "carlos-training-looker",
+          "limit": "500",
+          "column_limit": "50",
+          "dynamic_fields": null,
+          "query_timezone": null,
+          "quick_calcs": null,
+          "analysis_config": null,
+          "can": {
+            "can_clear_cache": true,
+            "cost_estimate": true,
+            "create": true,
+            "index": true,
+            "show": true,
+            "download": true,
+            "download_unlimited": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "explore": true,
+            "generate_drill_links": true,
+            "render": true,
+            "run": true,
+            "see_results": true,
+            "save": true,
+            "schedule": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_lookml": true,
+            "see_sql": true,
+            "use_custom_fields": true
+          }
+        },
+        "vis_config": {
+          "show_view_names": false,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": true,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "white",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": 12,
+          "rows_font_size": 12,
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "series_types": {
+          },
+          "type": "looker_grid",
+          "defaults_version": 1
+        },
+        "filterables": [
+          {
+            "model": "carlos-training-looker",
+            "view": "users",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Paises a Comparar (Filtro)",
+                "field": "users.country"
+              }
+            ]
+          }
+        ],
+        "query_id": "kZNxxBcMcHGSc2NVC7hxCn4JxjtT25HJ"
+      },
+      "can": {
+        "can_clear_cache": true,
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "explore": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true,
+        "run": false,
+        "see_aggregate_table_lookml": true
+      },
+      "alerts": [
+
+      ]
+    }
+  ],
+  "dashboard_filters": [
+    {
+      "id": "445",
+      "dashboard_id": "355",
+      "name": "Paises a Comparar (Filtro)",
+      "title": "Paises a Comparar (Filtro)",
+      "type": "field_filter",
+      "explore": "users",
+      "dimension": "users.filtro_paises_seleccionados",
+      "row": 0,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "type": "tag_list",
+        "display": "popover"
+      },
+      "model": "carlos-training-looker",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "",
+      "field": null,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    }
+  ],
+  "dashboard_layouts": [
+    {
+      "id": "355",
+      "dashboard_id": "355",
+      "type": "newspaper",
+      "active": true,
+      "column_width": null,
+      "width": null,
+      "deleted": false,
+      "dashboard_title": "treter",
+      "dashboard_layout_components": [
+        {
+          "id": "1267",
+          "dashboard_layout_id": "355",
+          "dashboard_element_id": "1267",
+          "row": 0,
+          "column": 0,
+          "width": 11,
+          "height": 7,
+          "deleted": false,
+          "element_title": "New Tile",
+          "element_title_hidden": false,
+          "vis_type": "looker_grid",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1268",
+          "dashboard_layout_id": "355",
+          "dashboard_element_id": "1268",
+          "row": 0,
+          "column": 11,
+          "width": 13,
+          "height": 7,
+          "deleted": false,
+          "element_title": "Untitled",
+          "element_title_hidden": false,
+          "vis_type": "looker_grid",
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        }
+      ],
+      "label": null,
+      "description": null,
+      "order": -1,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "index": true,
+        "show": true
+      }
+    }
+  ],
+  "deleted_at": null,
+  "deleter_id": null,
+  "edit_uri": null,
+  "enable_viz_full_screen": true,
+  "favorite_count": 0,
+  "filters_bar_collapsed": false,
+  "filters_location_top": true,
+  "last_accessed_at": "2025-11-19 14:37:54 UTC",
+  "updated_at": "2025-11-19 12:10:44 UTC",
+  "last_updater_id": "53",
+  "load_configuration": "cache_run",
+  "lookml_link_id": null,
+  "show_filters_bar": null,
+  "show_title": null,
+  "text_tile_text_color": null,
+  "tile_background_color": null,
+  "tile_text_color": null,
+  "title_color": null,
+  "view_count": 4,
+  "url": "/dashboards/355",
+  "folder": {
+    "name": "Shared",
+    "parent_id": null,
+    "id": "1",
+    "content_metadata_id": "1",
+    "created_at": "2020-10-08 17:41:33 UTC",
+    "creator_id": null,
+    "external_id": "",
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": false,
+    "is_personal_descendant": false,
+    "is_shared_root": true,
+    "is_users_root": false,
+    "can": {
+      "browse_spaces_as_embed_user": false,
+      "create": true,
+      "destroy": false,
+      "edit_content": true,
+      "index": true,
+      "show": true,
+      "move_content": true,
+      "save_shared_space_as_embed_user": true,
+      "see_admin_spaces": true,
+      "update": false
+    }
+  },
+  "folder_id": "1",
+  "content_favorite_id": null,
+  "id": "355",
+  "model": null,
+  "certification_metadata": null,
+  "deleted": false,
+  "last_viewed_at": null,
+  "last_updater_name": "carlos avendaño",
+  "user_name": "carlos avendaño",
+  "appearance": null,
+  "theme_name": "",
+  "can": {
+    "certify": true,
+    "copy": true,
+    "index": true,
+    "show": true,
+    "create": true,
+    "destroy": true,
+    "move": true,
+    "recover": true,
+    "update": true,
+    "download": true,
+    "render": true,
+    "run": true,
+    "schedule": true,
+    "see_aggregate_table_lookml": true,
+    "see_lookml": true
+  }
+}

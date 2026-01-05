@@ -1,0 +1,29 @@
+{
+  "name": "prueba con rol",
+  "parent_id": "1",
+  "id": "58",
+  "content_metadata_id": "297",
+  "created_at": "2023-07-19 14:20:09 UTC",
+  "creator_id": "54",
+  "external_id": "",
+  "is_embed": false,
+  "is_embed_shared_root": false,
+  "is_embed_users_root": false,
+  "is_personal": false,
+  "is_personal_descendant": false,
+  "is_shared_root": false,
+  "is_users_root": false,
+  "child_count": 1,
+  "can": {
+    "browse_spaces_as_embed_user": false,
+    "create": true,
+    "destroy": true,
+    "edit_content": true,
+    "index": true,
+    "show": true,
+    "move_content": true,
+    "save_shared_space_as_embed_user": true,
+    "see_admin_spaces": true,
+    "update": true
+  }
+}
