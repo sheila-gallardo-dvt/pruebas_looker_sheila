@@ -9,11 +9,11 @@
   "description": "",
   "favorite_count": 0,
   "is_run_on_load": true,
-  "last_accessed_at": "2026-01-02 12:18:24 UTC",
+  "last_accessed_at": "2026-01-12 13:00:26 UTC",
   "last_updater_id": "166",
   "short_url": "/looks/85",
   "updated_at": "2025-08-12 08:52:43 UTC",
-  "view_count": 14,
+  "view_count": 15,
   "query": {
     "view": "games_post_wide",
     "fields": [
@@ -182,7 +182,7 @@
   "excel_file_url": "https://nubalia.cloud.looker.com/looks/ZNqKhnsCnNBMrHdZ2GkKPs82n3rVVPxD.iqy?apply_formatting=true&apply_vis=true&filename=prueba+embebido+publico",
   "google_spreadsheet_formula": "=ImportXML(\"https://nubalia.cloud.looker.com/looks/ZNqKhnsCnNBMrHdZ2GkKPs82n3rVVPxD.gsxml?apply_formatting=true&apply_vis=true\", \"//row\")",
   "image_embed_url": "https://nubalia.cloud.looker.com/looks/ZNqKhnsCnNBMrHdZ2GkKPs82n3rVVPxD.png",
-  "last_viewed_at": "2026-01-02 12:19:26 UTC",
+  "last_viewed_at": "2026-01-12 13:00:34 UTC",
   "model": {
     "id": "public_data",
     "label": "Public Data"
