@@ -265,6 +265,7 @@
       "see_derived_table_lookml": true,
       "see_lookml": true,
       "see_sql": true,
+      "send_all_results": true,
       "use_custom_fields": true
     }
   },
@@ -333,6 +334,7 @@
     "render": true,
     "run": true,
     "schedule": true,
+    "send_all_results": true,
     "update_publicity": true
   }
 }
