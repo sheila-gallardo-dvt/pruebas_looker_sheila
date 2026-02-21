@@ -2064,6 +2064,7 @@
   "user_name": "Sheila Gallardo Redondo",
   "appearance": null,
   "theme_name": null,
+  "download_settings": null,
   "can": {
     "certify": true,
     "copy": true,
