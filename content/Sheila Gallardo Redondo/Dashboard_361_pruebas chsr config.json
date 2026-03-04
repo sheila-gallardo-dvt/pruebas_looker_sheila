@@ -88,8 +88,8 @@
       "index": true,
       "show": true,
       "move_content": true,
-      "save_shared_space_as_embed_user": true,
-      "see_admin_spaces": true,
+      "save_shared_space_as_embed_user": false,
+      "see_admin_spaces": false,
       "update": false
     }
   },
@@ -106,7 +106,7 @@
   "theme_name": null,
   "download_settings": null,
   "can": {
-    "certify": true,
+    "certify": false,
     "copy": true,
     "index": true,
     "show": true,
