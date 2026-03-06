@@ -22,8 +22,8 @@
     "index": true,
     "show": true,
     "move_content": true,
-    "save_shared_space_as_embed_user": false,
-    "see_admin_spaces": false,
+    "save_shared_space_as_embed_user": true,
+    "see_admin_spaces": true,
     "update": false
   }
 }
