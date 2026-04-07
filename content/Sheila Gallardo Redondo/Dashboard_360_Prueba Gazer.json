@@ -975,8 +975,11 @@
   "last_updater_name": "Sheila Gallardo Redondo",
   "user_name": "Sheila Gallardo Redondo",
   "appearance": null,
+  "usage_count": null,
+  "is_owner_disabled": false,
   "theme_name": null,
   "download_settings": null,
+  "unused_content_schedule": null,
   "can": {
     "certify": true,
     "copy": true,

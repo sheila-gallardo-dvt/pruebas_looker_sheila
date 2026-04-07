@@ -193,6 +193,9 @@
   "public_url": "https://nubalia.cloud.looker.com/looks/ZNqKhnsCnNBMrHdZ2GkKPs82n3rVVPxD.txt?apply_formatting=true&apply_vis=true",
   "query_id": "QPwWWjdp6HQGNc2Dg3J5MCYw6pSrKShS",
   "user_name": "Sheila Gallardo Redondo",
+  "usage_count": null,
+  "is_owner_disabled": false,
+  "unused_content_schedule": null,
   "can": {
     "certify": true,
     "copy": true,
