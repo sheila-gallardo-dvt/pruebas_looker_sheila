@@ -17,31 +17,6 @@
   "dashboard_filters": [
 
   ],
-  "dashboard_layouts": [
-    {
-      "id": "361",
-      "dashboard_id": "361",
-      "type": "newspaper",
-      "active": true,
-      "column_width": null,
-      "width": null,
-      "deleted": false,
-      "dashboard_title": "pruebas chsr config",
-      "dashboard_layout_components": [
-
-      ],
-      "label": null,
-      "description": null,
-      "order": -1,
-      "can": {
-        "create": true,
-        "destroy": true,
-        "update": true,
-        "index": true,
-        "show": true
-      }
-    }
-  ],
   "deleted_at": null,
   "deleter_id": null,
   "edit_uri": null,
@@ -97,6 +72,31 @@
   "certification_metadata": null,
   "dashboard_elements": [
 
+  ],
+  "dashboard_layouts": [
+    {
+      "id": "361",
+      "dashboard_id": "361",
+      "type": "newspaper",
+      "active": true,
+      "column_width": null,
+      "width": null,
+      "deleted": false,
+      "dashboard_title": "pruebas chsr config",
+      "dashboard_layout_components": [
+
+      ],
+      "label": null,
+      "description": null,
+      "order": -1,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "index": true,
+        "show": true
+      }
+    }
   ],
   "deleted": false,
   "last_viewed_at": "2026-01-02 13:59:45 +0000",

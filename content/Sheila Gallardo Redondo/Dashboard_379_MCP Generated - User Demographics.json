@@ -219,126 +219,6 @@
       }
     }
   ],
-  "dashboard_layouts": [
-    {
-      "id": "380",
-      "dashboard_id": "379",
-      "type": "newspaper",
-      "active": true,
-      "column_width": null,
-      "width": null,
-      "deleted": false,
-      "dashboard_title": "MCP Generated - User Demographics",
-      "dashboard_layout_components": [
-        {
-          "id": "1327",
-          "dashboard_layout_id": "380",
-          "dashboard_element_id": "1327",
-          "row": null,
-          "column": null,
-          "width": null,
-          "height": null,
-          "deleted": false,
-          "element_title": "Total Registered Users",
-          "element_title_hidden": false,
-          "vis_type": "single_value",
-          "granular_row": null,
-          "granular_column": null,
-          "granular_width": null,
-          "granular_height": null,
-          "can": {
-            "create": true,
-            "destroy": true,
-            "update": true,
-            "index": true,
-            "show": true
-          }
-        },
-        {
-          "id": "1328",
-          "dashboard_layout_id": "380",
-          "dashboard_element_id": "1328",
-          "row": null,
-          "column": null,
-          "width": null,
-          "height": null,
-          "deleted": false,
-          "element_title": "Users by Age Tier",
-          "element_title_hidden": false,
-          "vis_type": "looker_column",
-          "granular_row": null,
-          "granular_column": null,
-          "granular_width": null,
-          "granular_height": null,
-          "can": {
-            "create": true,
-            "destroy": true,
-            "update": true,
-            "index": true,
-            "show": true
-          }
-        },
-        {
-          "id": "1329",
-          "dashboard_layout_id": "380",
-          "dashboard_element_id": "1329",
-          "row": null,
-          "column": null,
-          "width": null,
-          "height": null,
-          "deleted": false,
-          "element_title": "Gender Split",
-          "element_title_hidden": false,
-          "vis_type": "looker_pie",
-          "granular_row": null,
-          "granular_column": null,
-          "granular_width": null,
-          "granular_height": null,
-          "can": {
-            "create": true,
-            "destroy": true,
-            "update": true,
-            "index": true,
-            "show": true
-          }
-        },
-        {
-          "id": "1330",
-          "dashboard_layout_id": "380",
-          "dashboard_element_id": "1330",
-          "row": null,
-          "column": null,
-          "width": null,
-          "height": null,
-          "deleted": false,
-          "element_title": "Top 10 Cities",
-          "element_title_hidden": false,
-          "vis_type": "looker_grid",
-          "granular_row": null,
-          "granular_column": null,
-          "granular_width": null,
-          "granular_height": null,
-          "can": {
-            "create": true,
-            "destroy": true,
-            "update": true,
-            "index": true,
-            "show": true
-          }
-        }
-      ],
-      "label": null,
-      "description": null,
-      "order": -1,
-      "can": {
-        "create": true,
-        "destroy": true,
-        "update": true,
-        "index": true,
-        "show": true
-      }
-    }
-  ],
   "deleted_at": null,
   "deleter_id": null,
   "edit_uri": null,
@@ -1190,6 +1070,126 @@
       "alerts": [
 
       ]
+    }
+  ],
+  "dashboard_layouts": [
+    {
+      "id": "380",
+      "dashboard_id": "379",
+      "type": "newspaper",
+      "active": true,
+      "column_width": null,
+      "width": null,
+      "deleted": false,
+      "dashboard_title": "MCP Generated - User Demographics",
+      "dashboard_layout_components": [
+        {
+          "id": "1327",
+          "dashboard_layout_id": "380",
+          "dashboard_element_id": "1327",
+          "row": null,
+          "column": null,
+          "width": null,
+          "height": null,
+          "deleted": false,
+          "element_title": "Total Registered Users",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "granular_row": null,
+          "granular_column": null,
+          "granular_width": null,
+          "granular_height": null,
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1328",
+          "dashboard_layout_id": "380",
+          "dashboard_element_id": "1328",
+          "row": null,
+          "column": null,
+          "width": null,
+          "height": null,
+          "deleted": false,
+          "element_title": "Users by Age Tier",
+          "element_title_hidden": false,
+          "vis_type": "looker_column",
+          "granular_row": null,
+          "granular_column": null,
+          "granular_width": null,
+          "granular_height": null,
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1329",
+          "dashboard_layout_id": "380",
+          "dashboard_element_id": "1329",
+          "row": null,
+          "column": null,
+          "width": null,
+          "height": null,
+          "deleted": false,
+          "element_title": "Gender Split",
+          "element_title_hidden": false,
+          "vis_type": "looker_pie",
+          "granular_row": null,
+          "granular_column": null,
+          "granular_width": null,
+          "granular_height": null,
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1330",
+          "dashboard_layout_id": "380",
+          "dashboard_element_id": "1330",
+          "row": null,
+          "column": null,
+          "width": null,
+          "height": null,
+          "deleted": false,
+          "element_title": "Top 10 Cities",
+          "element_title_hidden": false,
+          "vis_type": "looker_grid",
+          "granular_row": null,
+          "granular_column": null,
+          "granular_width": null,
+          "granular_height": null,
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        }
+      ],
+      "label": null,
+      "description": null,
+      "order": -1,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "index": true,
+        "show": true
+      }
     }
   ],
   "deleted": false,

@@ -180,78 +180,6 @@
       }
     }
   ],
-  "dashboard_layouts": [
-    {
-      "id": "270",
-      "dashboard_id": "270",
-      "type": "newspaper",
-      "active": true,
-      "column_width": null,
-      "width": null,
-      "deleted": false,
-      "dashboard_title": "Prueba Looker",
-      "dashboard_layout_components": [
-        {
-          "id": "896",
-          "dashboard_layout_id": "270",
-          "dashboard_element_id": "896",
-          "row": 0,
-          "column": 0,
-          "width": 24,
-          "height": 9,
-          "deleted": false,
-          "element_title": "Untitled",
-          "element_title_hidden": false,
-          "vis_type": "looker_line",
-          "granular_row": null,
-          "granular_column": null,
-          "granular_width": null,
-          "granular_height": null,
-          "can": {
-            "create": true,
-            "destroy": true,
-            "update": true,
-            "index": true,
-            "show": true
-          }
-        },
-        {
-          "id": "897",
-          "dashboard_layout_id": "270",
-          "dashboard_element_id": "897",
-          "row": 9,
-          "column": 0,
-          "width": 16,
-          "height": 6,
-          "deleted": false,
-          "element_title": "Untitled",
-          "element_title_hidden": false,
-          "vis_type": "looker_column",
-          "granular_row": null,
-          "granular_column": null,
-          "granular_width": null,
-          "granular_height": null,
-          "can": {
-            "create": true,
-            "destroy": true,
-            "update": true,
-            "index": true,
-            "show": true
-          }
-        }
-      ],
-      "label": null,
-      "description": null,
-      "order": -1,
-      "can": {
-        "create": true,
-        "destroy": true,
-        "update": true,
-        "index": true,
-        "show": true
-      }
-    }
-  ],
   "deleted_at": null,
   "deleter_id": null,
   "edit_uri": null,
@@ -968,6 +896,78 @@
       "alerts": [
 
       ]
+    }
+  ],
+  "dashboard_layouts": [
+    {
+      "id": "270",
+      "dashboard_id": "270",
+      "type": "newspaper",
+      "active": true,
+      "column_width": null,
+      "width": null,
+      "deleted": false,
+      "dashboard_title": "Prueba Looker",
+      "dashboard_layout_components": [
+        {
+          "id": "896",
+          "dashboard_layout_id": "270",
+          "dashboard_element_id": "896",
+          "row": 0,
+          "column": 0,
+          "width": 24,
+          "height": 9,
+          "deleted": false,
+          "element_title": "Untitled",
+          "element_title_hidden": false,
+          "vis_type": "looker_line",
+          "granular_row": null,
+          "granular_column": null,
+          "granular_width": null,
+          "granular_height": null,
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "897",
+          "dashboard_layout_id": "270",
+          "dashboard_element_id": "897",
+          "row": 9,
+          "column": 0,
+          "width": 16,
+          "height": 6,
+          "deleted": false,
+          "element_title": "Untitled",
+          "element_title_hidden": false,
+          "vis_type": "looker_column",
+          "granular_row": null,
+          "granular_column": null,
+          "granular_width": null,
+          "granular_height": null,
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        }
+      ],
+      "label": null,
+      "description": null,
+      "order": -1,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "index": true,
+        "show": true
+      }
     }
   ],
   "deleted": false,

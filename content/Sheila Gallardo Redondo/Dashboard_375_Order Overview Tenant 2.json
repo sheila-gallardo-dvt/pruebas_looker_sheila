@@ -217,174 +217,6 @@
       }
     }
   ],
-  "dashboard_layouts": [
-    {
-      "id": "376",
-      "dashboard_id": "375",
-      "type": "newspaper",
-      "active": true,
-      "column_width": null,
-      "width": null,
-      "deleted": false,
-      "dashboard_title": "Order Overview Tenant 2",
-      "dashboard_layout_components": [
-        {
-          "id": "1314",
-          "dashboard_layout_id": "376",
-          "dashboard_element_id": "1314",
-          "row": 0,
-          "column": 0,
-          "width": 6,
-          "height": 12,
-          "deleted": false,
-          "element_title": "Total Revenue",
-          "element_title_hidden": false,
-          "vis_type": "single_value",
-          "granular_row": null,
-          "granular_column": null,
-          "granular_width": null,
-          "granular_height": null,
-          "can": {
-            "create": true,
-            "destroy": true,
-            "update": true,
-            "index": true,
-            "show": true
-          }
-        },
-        {
-          "id": "1315",
-          "dashboard_layout_id": "376",
-          "dashboard_element_id": "1315",
-          "row": 0,
-          "column": 6,
-          "width": 6,
-          "height": 12,
-          "deleted": false,
-          "element_title": "Total Orders - Tenant 2",
-          "element_title_hidden": false,
-          "vis_type": "single_value",
-          "granular_row": null,
-          "granular_column": null,
-          "granular_width": null,
-          "granular_height": null,
-          "can": {
-            "create": true,
-            "destroy": true,
-            "update": true,
-            "index": true,
-            "show": true
-          }
-        },
-        {
-          "id": "1316",
-          "dashboard_layout_id": "376",
-          "dashboard_element_id": "1316",
-          "row": 0,
-          "column": 12,
-          "width": 6,
-          "height": 4,
-          "deleted": false,
-          "element_title": "Average Sale Price",
-          "element_title_hidden": false,
-          "vis_type": "single_value",
-          "granular_row": null,
-          "granular_column": null,
-          "granular_width": null,
-          "granular_height": null,
-          "can": {
-            "create": true,
-            "destroy": true,
-            "update": true,
-            "index": true,
-            "show": true
-          }
-        },
-        {
-          "id": "1317",
-          "dashboard_layout_id": "376",
-          "dashboard_element_id": "1317",
-          "row": 0,
-          "column": 18,
-          "width": 6,
-          "height": 4,
-          "deleted": false,
-          "element_title": "Completed Orders",
-          "element_title_hidden": false,
-          "vis_type": "single_value",
-          "granular_row": null,
-          "granular_column": null,
-          "granular_width": null,
-          "granular_height": null,
-          "can": {
-            "create": true,
-            "destroy": true,
-            "update": true,
-            "index": true,
-            "show": true
-          }
-        },
-        {
-          "id": "1319",
-          "dashboard_layout_id": "376",
-          "dashboard_element_id": "1319",
-          "row": 4,
-          "column": 12,
-          "width": 12,
-          "height": 8,
-          "deleted": false,
-          "element_title": "Orders Over Time",
-          "element_title_hidden": false,
-          "vis_type": "looker_line",
-          "granular_row": null,
-          "granular_column": null,
-          "granular_width": null,
-          "granular_height": null,
-          "can": {
-            "create": true,
-            "destroy": true,
-            "update": true,
-            "index": true,
-            "show": true
-          }
-        },
-        {
-          "id": "1320",
-          "dashboard_layout_id": "376",
-          "dashboard_element_id": "1320",
-          "row": 12,
-          "column": 0,
-          "width": 24,
-          "height": 8,
-          "deleted": false,
-          "element_title": "Top Products by Revenue",
-          "element_title_hidden": false,
-          "vis_type": "looker_grid",
-          "granular_row": null,
-          "granular_column": null,
-          "granular_width": null,
-          "granular_height": null,
-          "can": {
-            "create": true,
-            "destroy": true,
-            "update": true,
-            "index": true,
-            "show": true
-          }
-        }
-      ],
-      "label": null,
-      "description": "Dashboard resumen de pedidos",
-      "order": null,
-      "can": {
-        "create": true,
-        "destroy": true,
-        "update": true,
-        "index": true,
-        "show": true
-      }
-    }
-  ],
   "deleted_at": null,
   "deleter_id": null,
   "edit_uri": null,
@@ -1482,6 +1314,174 @@
       "alerts": [
 
       ]
+    }
+  ],
+  "dashboard_layouts": [
+    {
+      "id": "376",
+      "dashboard_id": "375",
+      "type": "newspaper",
+      "active": true,
+      "column_width": null,
+      "width": null,
+      "deleted": false,
+      "dashboard_title": "Order Overview Tenant 2",
+      "dashboard_layout_components": [
+        {
+          "id": "1314",
+          "dashboard_layout_id": "376",
+          "dashboard_element_id": "1314",
+          "row": 0,
+          "column": 0,
+          "width": 6,
+          "height": 12,
+          "deleted": false,
+          "element_title": "Total Revenue",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "granular_row": null,
+          "granular_column": null,
+          "granular_width": null,
+          "granular_height": null,
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1315",
+          "dashboard_layout_id": "376",
+          "dashboard_element_id": "1315",
+          "row": 0,
+          "column": 6,
+          "width": 6,
+          "height": 12,
+          "deleted": false,
+          "element_title": "Total Orders - Tenant 2",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "granular_row": null,
+          "granular_column": null,
+          "granular_width": null,
+          "granular_height": null,
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1316",
+          "dashboard_layout_id": "376",
+          "dashboard_element_id": "1316",
+          "row": 0,
+          "column": 12,
+          "width": 6,
+          "height": 4,
+          "deleted": false,
+          "element_title": "Average Sale Price",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "granular_row": null,
+          "granular_column": null,
+          "granular_width": null,
+          "granular_height": null,
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1317",
+          "dashboard_layout_id": "376",
+          "dashboard_element_id": "1317",
+          "row": 0,
+          "column": 18,
+          "width": 6,
+          "height": 4,
+          "deleted": false,
+          "element_title": "Completed Orders",
+          "element_title_hidden": false,
+          "vis_type": "single_value",
+          "granular_row": null,
+          "granular_column": null,
+          "granular_width": null,
+          "granular_height": null,
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1319",
+          "dashboard_layout_id": "376",
+          "dashboard_element_id": "1319",
+          "row": 4,
+          "column": 12,
+          "width": 12,
+          "height": 8,
+          "deleted": false,
+          "element_title": "Orders Over Time",
+          "element_title_hidden": false,
+          "vis_type": "looker_line",
+          "granular_row": null,
+          "granular_column": null,
+          "granular_width": null,
+          "granular_height": null,
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        },
+        {
+          "id": "1320",
+          "dashboard_layout_id": "376",
+          "dashboard_element_id": "1320",
+          "row": 12,
+          "column": 0,
+          "width": 24,
+          "height": 8,
+          "deleted": false,
+          "element_title": "Top Products by Revenue",
+          "element_title_hidden": false,
+          "vis_type": "looker_grid",
+          "granular_row": null,
+          "granular_column": null,
+          "granular_width": null,
+          "granular_height": null,
+          "can": {
+            "create": true,
+            "destroy": true,
+            "update": true,
+            "index": true,
+            "show": true
+          }
+        }
+      ],
+      "label": null,
+      "description": "Dashboard resumen de pedidos",
+      "order": null,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "index": true,
+        "show": true
+      }
     }
   ],
   "deleted": false,
