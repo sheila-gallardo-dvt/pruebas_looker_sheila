@@ -89,6 +89,7 @@
       "label": null,
       "description": null,
       "order": -1,
+      "lookml_link_id": "",
       "can": {
         "create": true,
         "destroy": true,
@@ -106,6 +107,7 @@
   "usage_count": null,
   "is_owner_disabled": false,
   "theme_name": null,
+  "layout_granularity": null,
   "download_settings": null,
   "unused_content_schedule": null,
   "can": {

@@ -87,6 +87,7 @@
       "note_text": null,
       "note_text_as_html": null,
       "query": null,
+      "filter_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
       "result_maker_id": null,
@@ -161,6 +162,7 @@
       "label": null,
       "description": null,
       "order": -1,
+      "lookml_link_id": "",
       "can": {
         "create": true,
         "destroy": true,
@@ -178,6 +180,7 @@
   "usage_count": null,
   "is_owner_disabled": false,
   "theme_name": "",
+  "layout_granularity": null,
   "download_settings": null,
   "unused_content_schedule": null,
   "can": {

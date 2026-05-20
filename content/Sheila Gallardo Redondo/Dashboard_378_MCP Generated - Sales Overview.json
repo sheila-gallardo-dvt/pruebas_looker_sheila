@@ -34,6 +34,7 @@
       "default_value": "",
       "field": {
         "align": "left",
+        "available_custom_timeframes": null,
         "can_filter": true,
         "category": "dimension",
         "default_filter_value": null,
@@ -270,6 +271,7 @@
           "use_custom_fields": true
         }
       },
+      "filter_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
       "result_maker_id": "3157",
@@ -469,6 +471,7 @@
           "use_custom_fields": true
         }
       },
+      "filter_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
       "result_maker_id": "3158",
@@ -670,6 +673,7 @@
           "use_custom_fields": true
         }
       },
+      "filter_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
       "result_maker_id": "3159",
@@ -872,6 +876,7 @@
           "use_custom_fields": true
         }
       },
+      "filter_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
       "result_maker_id": "3160",
@@ -1106,6 +1111,7 @@
       "label": null,
       "description": null,
       "order": -1,
+      "lookml_link_id": "",
       "can": {
         "create": true,
         "destroy": true,
@@ -1123,6 +1129,7 @@
   "usage_count": null,
   "is_owner_disabled": false,
   "theme_name": null,
+  "layout_granularity": null,
   "download_settings": null,
   "unused_content_schedule": null,
   "can": {

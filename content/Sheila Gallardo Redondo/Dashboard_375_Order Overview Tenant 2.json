@@ -37,6 +37,7 @@
       "default_value": "",
       "field": {
         "align": "left",
+        "available_custom_timeframes": null,
         "can_filter": true,
         "category": "dimension",
         "default_filter_value": null,
@@ -136,6 +137,7 @@
       "default_value": "12 months",
       "field": {
         "align": "left",
+        "available_custom_timeframes": null,
         "can_filter": true,
         "category": "dimension",
         "default_filter_value": null,
@@ -287,6 +289,7 @@
       "note_text": null,
       "note_text_as_html": null,
       "query": null,
+      "filter_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
       "result_maker_id": "3120",
@@ -508,6 +511,7 @@
           "use_custom_fields": true
         }
       },
+      "filter_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
       "result_maker_id": "3154",
@@ -661,6 +665,7 @@
       "note_text": null,
       "note_text_as_html": null,
       "query": null,
+      "filter_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
       "result_maker_id": "3122",
@@ -813,6 +818,7 @@
       "note_text": null,
       "note_text_as_html": null,
       "query": null,
+      "filter_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
       "result_maker_id": "3123",
@@ -965,6 +971,7 @@
       "note_text": null,
       "note_text_as_html": null,
       "query": null,
+      "filter_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
       "result_maker_id": "3125",
@@ -1156,6 +1163,7 @@
       "note_text": null,
       "note_text_as_html": null,
       "query": null,
+      "filter_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
       "result_maker_id": "3126",
@@ -1475,6 +1483,7 @@
       "label": null,
       "description": "Dashboard resumen de pedidos",
       "order": null,
+      "lookml_link_id": "base_project::order_overview",
       "can": {
         "create": true,
         "destroy": true,
@@ -1492,6 +1501,7 @@
   "usage_count": null,
   "is_owner_disabled": false,
   "theme_name": "",
+  "layout_granularity": null,
   "download_settings": null,
   "unused_content_schedule": null,
   "can": {
