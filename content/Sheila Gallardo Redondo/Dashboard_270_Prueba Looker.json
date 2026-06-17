@@ -234,6 +234,7 @@
   "id": "270",
   "model": null,
   "certification_metadata": null,
+  "chat_enabled": true,
   "dashboard_elements": [
     {
       "body_text": null,
