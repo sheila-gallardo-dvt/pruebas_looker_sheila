@@ -380,6 +380,7 @@
         "query_id": "NK5ZmbXtZD545HtvFDZjt4gQX3RbtNRq"
       },
       "certification_metadata": null,
+      "image_id": null,
       "can": {
         "can_clear_cache": true,
         "create": true,
@@ -580,6 +581,7 @@
         "query_id": "bKJ3bgHvSY23dwcgjgVPt8b4d8sj5RSS"
       },
       "certification_metadata": null,
+      "image_id": null,
       "can": {
         "can_clear_cache": true,
         "create": true,
@@ -785,6 +787,7 @@
         "query_id": "bbhyKjJKmkY5dH3VtpQjT5QcNcJ7yzVF"
       },
       "certification_metadata": null,
+      "image_id": null,
       "can": {
         "can_clear_cache": true,
         "create": true,
@@ -984,6 +987,7 @@
         "query_id": "4nPJtpwgj8ZyKFWG8VS8MtK6Hk6NFkDV"
       },
       "certification_metadata": null,
+      "image_id": null,
       "can": {
         "can_clear_cache": true,
         "create": true,
@@ -1132,6 +1136,8 @@
   "is_owner_disabled": false,
   "theme_name": null,
   "layout_granularity": null,
+  "preserve_desktop_layout": false,
+  "tile_filter_information": "",
   "download_settings": null,
   "unused_content_schedule": null,
   "can": {

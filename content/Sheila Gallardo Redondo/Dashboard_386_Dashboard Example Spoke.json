@@ -106,6 +106,7 @@
       "query_id": null,
       "result_maker": null,
       "certification_metadata": null,
+      "image_id": null,
       "can": {
         "can_clear_cache": false,
         "create": true,
@@ -182,6 +183,8 @@
   "is_owner_disabled": false,
   "theme_name": "",
   "layout_granularity": null,
+  "preserve_desktop_layout": false,
+  "tile_filter_information": "",
   "download_settings": null,
   "unused_content_schedule": null,
   "can": {

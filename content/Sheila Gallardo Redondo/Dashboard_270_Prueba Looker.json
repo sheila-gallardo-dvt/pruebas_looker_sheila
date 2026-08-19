@@ -535,6 +535,7 @@
         "query_id": "pRwxZCztSGd7rV9DKzZx7Mkfb9WwDXXB"
       },
       "certification_metadata": null,
+      "image_id": null,
       "can": {
         "can_clear_cache": true,
         "create": true,
@@ -885,6 +886,7 @@
         "query_id": "MNB42hysyYdHZw7B6k2PJx2WDqDqNbhy"
       },
       "certification_metadata": null,
+      "image_id": null,
       "can": {
         "can_clear_cache": true,
         "create": true,
@@ -985,6 +987,8 @@
   "is_owner_disabled": false,
   "theme_name": null,
   "layout_granularity": null,
+  "preserve_desktop_layout": false,
+  "tile_filter_information": "",
   "download_settings": null,
   "unused_content_schedule": null,
   "can": {
