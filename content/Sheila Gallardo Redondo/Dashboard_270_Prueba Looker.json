@@ -14,174 +14,6 @@
   "background_color": null,
   "created_at": "2025-01-16 09:10:50 +0000",
   "crossfilter_enabled": false,
-  "dashboard_filters": [
-    {
-      "id": "290",
-      "dashboard_id": "270",
-      "name": "Date Filter Type",
-      "title": "Date Filter Type",
-      "type": "field_filter",
-      "explore": "order_items",
-      "dimension": "order_items.date_filter_type",
-      "row": 0,
-      "allow_multiple_values": true,
-      "required": true,
-      "ui_config": {
-        "type": "dropdown_menu",
-        "display": "inline"
-      },
-      "model": "thelook_partner",
-      "listens_to_filters": [
-
-      ],
-      "default_value": "mensual",
-      "field": null,
-      "can": {
-        "create": true,
-        "destroy": true,
-        "update": true,
-        "find_and_replace": true,
-        "show_errors": true,
-        "index": true,
-        "show": true
-      }
-    },
-    {
-      "id": "292",
-      "dashboard_id": "270",
-      "name": "Fecha",
-      "title": "Fecha",
-      "type": "field_filter",
-      "explore": "order_items",
-      "dimension": "order_items.date_param",
-      "row": 1,
-      "allow_multiple_values": true,
-      "required": false,
-      "ui_config": {
-        "type": "advanced",
-        "display": "popover",
-        "options": [
-
-        ]
-      },
-      "model": "thelook_partner",
-      "listens_to_filters": [
-
-      ],
-      "default_value": "2025/01/16",
-      "field": null,
-      "can": {
-        "create": true,
-        "destroy": true,
-        "update": true,
-        "find_and_replace": true,
-        "show_errors": true,
-        "index": true,
-        "show": true
-      }
-    },
-    {
-      "id": "293",
-      "dashboard_id": "270",
-      "name": "Status",
-      "title": "Status",
-      "type": "field_filter",
-      "explore": "order_items",
-      "dimension": "order_items.status",
-      "row": 2,
-      "allow_multiple_values": true,
-      "required": false,
-      "ui_config": {
-        "type": "checkboxes",
-        "display": "popover"
-      },
-      "model": "thelook_partner",
-      "listens_to_filters": [
-
-      ],
-      "default_value": "",
-      "field": {
-        "align": "left",
-        "available_custom_timeframes": null,
-        "can_filter": true,
-        "category": "dimension",
-        "default_filter_value": null,
-        "description": "",
-        "enumerations": null,
-        "field_group_label": null,
-        "fill_style": null,
-        "fiscal_month_offset": 0,
-        "has_allowed_values": false,
-        "hidden": false,
-        "is_filter": false,
-        "is_numeric": false,
-        "label": "Order Items Status",
-        "label_from_parameter": null,
-        "label_short": "Status",
-        "map_layer": null,
-        "name": "order_items.status",
-        "strict_value_format": false,
-        "requires_refresh_on_sort": false,
-        "sortable": true,
-        "suggestions": null,
-        "synonyms": [
-
-        ],
-        "tags": [
-
-        ],
-        "type": "string",
-        "user_attribute_filter_types": [
-          "string",
-          "advanced_filter_string"
-        ],
-        "value_format": null,
-        "value_format_name": null,
-        "view": "order_items",
-        "view_label": "Order Items",
-        "dynamic": false,
-        "week_start_day": "monday",
-        "original_view": "order_items",
-        "datatype": "TIMESTAMP",
-        "convert_tz": true,
-        "dimension_group": null,
-        "error": null,
-        "field_group_variant": "Status",
-        "measure": false,
-        "parameter": false,
-        "primary_key": false,
-        "project_name": "looker_partner_demo",
-        "scope": "order_items",
-        "suggest_dimension": "order_items.status",
-        "suggest_explore": "order_items",
-        "suggestable": true,
-        "liquid_expression": null,
-        "lookml_expression": null,
-        "is_fiscal": false,
-        "is_timeframe": false,
-        "can_time_filter": false,
-        "time_interval": null,
-        "lookml_link": "/projects/looker_partner_demo/files/views%2F01_order_items.view.lkml?line=217",
-        "period_over_period_params": null,
-        "permanent": null,
-        "source_file": "views/01_order_items.view.lkml",
-        "source_file_path": "looker_partner_demo/views/01_order_items.view.lkml",
-        "sql": "${TABLE}.status ",
-        "sql_case": null,
-        "filters": null,
-        "times_used": 0
-      },
-      "can": {
-        "create": true,
-        "destroy": true,
-        "update": true,
-        "find_and_replace": true,
-        "show_errors": true,
-        "index": true,
-        "show": true
-      }
-    }
-  ],
   "deleted_at": null,
   "deleter_id": null,
   "edit_uri": null,
@@ -905,6 +737,174 @@
       ]
     }
   ],
+  "dashboard_filters": [
+    {
+      "id": "290",
+      "dashboard_id": "270",
+      "name": "Date Filter Type",
+      "title": "Date Filter Type",
+      "type": "field_filter",
+      "explore": "order_items",
+      "dimension": "order_items.date_filter_type",
+      "row": 0,
+      "allow_multiple_values": true,
+      "required": true,
+      "ui_config": {
+        "type": "dropdown_menu",
+        "display": "inline"
+      },
+      "model": "thelook_partner",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "mensual",
+      "field": null,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    },
+    {
+      "id": "292",
+      "dashboard_id": "270",
+      "name": "Fecha",
+      "title": "Fecha",
+      "type": "field_filter",
+      "explore": "order_items",
+      "dimension": "order_items.date_param",
+      "row": 1,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "type": "advanced",
+        "display": "popover",
+        "options": [
+
+        ]
+      },
+      "model": "thelook_partner",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "2025/01/16",
+      "field": null,
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    },
+    {
+      "id": "293",
+      "dashboard_id": "270",
+      "name": "Status",
+      "title": "Status",
+      "type": "field_filter",
+      "explore": "order_items",
+      "dimension": "order_items.status",
+      "row": 2,
+      "allow_multiple_values": true,
+      "required": false,
+      "ui_config": {
+        "type": "checkboxes",
+        "display": "popover"
+      },
+      "model": "thelook_partner",
+      "listens_to_filters": [
+
+      ],
+      "default_value": "",
+      "field": {
+        "align": "left",
+        "available_custom_timeframes": null,
+        "can_filter": true,
+        "category": "dimension",
+        "default_filter_value": null,
+        "description": "",
+        "enumerations": null,
+        "field_group_label": null,
+        "fill_style": null,
+        "fiscal_month_offset": 0,
+        "has_allowed_values": false,
+        "hidden": false,
+        "is_filter": false,
+        "is_numeric": false,
+        "label": "Order Items Status",
+        "label_from_parameter": null,
+        "label_short": "Status",
+        "map_layer": null,
+        "name": "order_items.status",
+        "strict_value_format": false,
+        "requires_refresh_on_sort": false,
+        "sortable": true,
+        "suggestions": null,
+        "synonyms": [
+
+        ],
+        "tags": [
+
+        ],
+        "type": "string",
+        "user_attribute_filter_types": [
+          "string",
+          "advanced_filter_string"
+        ],
+        "value_format": null,
+        "value_format_name": null,
+        "view": "order_items",
+        "view_label": "Order Items",
+        "dynamic": false,
+        "week_start_day": "monday",
+        "original_view": "order_items",
+        "datatype": "TIMESTAMP",
+        "convert_tz": true,
+        "dimension_group": null,
+        "error": null,
+        "field_group_variant": "Status",
+        "measure": false,
+        "parameter": false,
+        "primary_key": false,
+        "project_name": "looker_partner_demo",
+        "scope": "order_items",
+        "suggest_dimension": "order_items.status",
+        "suggest_explore": "order_items",
+        "suggestable": true,
+        "liquid_expression": null,
+        "lookml_expression": null,
+        "is_fiscal": false,
+        "is_timeframe": false,
+        "can_time_filter": false,
+        "time_interval": null,
+        "lookml_link": "/projects/looker_partner_demo/files/views%2F01_order_items.view.lkml?line=217",
+        "period_over_period_params": null,
+        "permanent": null,
+        "source_file": "views/01_order_items.view.lkml",
+        "source_file_path": "looker_partner_demo/views/01_order_items.view.lkml",
+        "sql": "${TABLE}.status ",
+        "sql_case": null,
+        "filters": null,
+        "times_used": 0
+      },
+      "can": {
+        "create": true,
+        "destroy": true,
+        "update": true,
+        "find_and_replace": true,
+        "show_errors": true,
+        "index": true,
+        "show": true
+      }
+    }
+  ],
   "dashboard_layouts": [
     {
       "id": "270",
@@ -915,23 +915,27 @@
       "width": null,
       "deleted": false,
       "dashboard_title": "Prueba Looker",
+      "label": null,
+      "description": null,
+      "order": -1,
+      "lookml_link_id": "",
       "dashboard_layout_components": [
         {
           "id": "896",
           "dashboard_layout_id": "270",
           "dashboard_element_id": "896",
-          "row": 0,
-          "column": 0,
           "width": 24,
           "height": 9,
           "deleted": false,
           "element_title": "Untitled",
           "element_title_hidden": false,
           "vis_type": "looker_line",
-          "granular_row": null,
-          "granular_column": null,
           "granular_width": null,
           "granular_height": null,
+          "row": 0,
+          "column": 0,
+          "granular_row": null,
+          "granular_column": null,
           "can": {
             "create": true,
             "destroy": true,
@@ -944,18 +948,18 @@
           "id": "897",
           "dashboard_layout_id": "270",
           "dashboard_element_id": "897",
-          "row": 9,
-          "column": 0,
           "width": 16,
           "height": 6,
           "deleted": false,
           "element_title": "Untitled",
           "element_title_hidden": false,
           "vis_type": "looker_column",
-          "granular_row": null,
-          "granular_column": null,
           "granular_width": null,
           "granular_height": null,
+          "row": 9,
+          "column": 0,
+          "granular_row": null,
+          "granular_column": null,
           "can": {
             "create": true,
             "destroy": true,
@@ -965,10 +969,6 @@
           }
         }
       ],
-      "label": null,
-      "description": null,
-      "order": -1,
-      "lookml_link_id": "",
       "can": {
         "create": true,
         "destroy": true,

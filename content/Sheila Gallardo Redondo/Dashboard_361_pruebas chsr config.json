@@ -14,9 +14,6 @@
   "background_color": null,
   "created_at": "2026-01-02 13:58:50 +0000",
   "crossfilter_enabled": false,
-  "dashboard_filters": [
-
-  ],
   "deleted_at": null,
   "deleter_id": null,
   "edit_uri": null,
@@ -74,6 +71,9 @@
   "dashboard_elements": [
 
   ],
+  "dashboard_filters": [
+
+  ],
   "dashboard_layouts": [
     {
       "id": "361",
@@ -84,13 +84,13 @@
       "width": null,
       "deleted": false,
       "dashboard_title": "pruebas chsr config",
-      "dashboard_layout_components": [
-
-      ],
       "label": null,
       "description": null,
       "order": -1,
       "lookml_link_id": "",
+      "dashboard_layout_components": [
+
+      ],
       "can": {
         "create": true,
         "destroy": true,

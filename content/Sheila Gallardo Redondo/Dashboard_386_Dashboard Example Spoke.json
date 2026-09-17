@@ -14,9 +14,6 @@
   "background_color": null,
   "created_at": "2026-03-11 17:29:16 +0000",
   "crossfilter_enabled": false,
-  "dashboard_filters": [
-
-  ],
   "deleted_at": null,
   "deleter_id": null,
   "edit_uri": null,
@@ -125,6 +122,9 @@
       ]
     }
   ],
+  "dashboard_filters": [
+
+  ],
   "dashboard_layouts": [
     {
       "id": "387",
@@ -135,23 +135,27 @@
       "width": null,
       "deleted": false,
       "dashboard_title": "Dashboard Example Spoke",
+      "label": null,
+      "description": null,
+      "order": -1,
+      "lookml_link_id": "",
       "dashboard_layout_components": [
         {
           "id": "1344",
           "dashboard_layout_id": "387",
           "dashboard_element_id": "1344",
-          "row": 0,
-          "column": 0,
           "width": 8,
           "height": 6,
           "deleted": false,
           "element_title": "Prueba",
           "element_title_hidden": false,
           "vis_type": "text",
-          "granular_row": null,
-          "granular_column": null,
           "granular_width": null,
           "granular_height": null,
+          "row": 0,
+          "column": 0,
+          "granular_row": null,
+          "granular_column": null,
           "can": {
             "create": true,
             "destroy": true,
@@ -161,10 +165,6 @@
           }
         }
       ],
-      "label": null,
-      "description": null,
-      "order": -1,
-      "lookml_link_id": "",
       "can": {
         "create": true,
         "destroy": true,
