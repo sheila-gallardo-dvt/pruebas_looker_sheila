@@ -104,6 +104,9 @@
       "result_maker": null,
       "certification_metadata": null,
       "image_id": null,
+      "images": [
+
+      ],
       "can": {
         "can_clear_cache": false,
         "create": true,
